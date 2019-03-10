@@ -1,4 +1,5 @@
-node_modules
-yarn.lock
 yarn-error.log
-temp
+node_modules
+package-lock.json
+dist
+downloads

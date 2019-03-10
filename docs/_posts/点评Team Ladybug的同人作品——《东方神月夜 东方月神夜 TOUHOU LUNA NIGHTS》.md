@@ -1,6 +1,6 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/01/title-2.jpg'
-postedOn: '2019-01-05T02:47:58+00:00'
+createTime: '2019-01-05T02:47:58+00:00'
 author: 幽紫kk
 tags:
   - 同人游戏
@@ -19,4 +19,3 @@ tags:
 # 点评Team Ladybug的同人作品——《东方神月夜/东方月神夜 TOUHOU LUNA NIGHTS》
 
 		[[nav]]
-	

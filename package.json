@@ -6,14 +6,10 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "fs-extra": "^7.0.1",
-    "js-yaml": "^3.12.2",
-    "node-fetch": "^2.3.0",
-    "vuepress": "1.0.0-alpha.40",
-    "vuepress-theme-meteorlxy": "^1.0.0-alpha.18",
-    "vuepress-plugin-pangu": "^1.0.0",
-    "xml2js": "^0.4.19"
+  "devDependencies": {
+    "vuepress": "1.0.0-alpha.42",
+    "vuepress-plugin-mathjax": "^1.2.0",
+    "vuepress-plugin-migrate": "^1.0.0",
+    "vuepress-plugin-pangu": "^1.0.0"
   }
 }
