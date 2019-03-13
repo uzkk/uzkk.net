@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "serve": "vuepress serve docs",
+    "migrate": "vuepress migrate docs"
   },
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.43",
-    "vuepress-plugin-mathjax": "^1.2.0",
+    "vuepress": "^1.0.0-alpha.44",
+    "vuepress-theme-uzkk": "^1.0.0-alpha.0",
     "vuepress-plugin-migrate": "^1.0.0",
-    "vuepress-plugin-pangu": "^1.0.0"
+    "vuepress-plugin-serve": "^1.0.0",
+    "vuepress-plugin-ssr-mismatch-workaround": "^1.0.1"
   }
 }

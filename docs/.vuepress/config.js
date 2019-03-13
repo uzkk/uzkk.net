@@ -1,7 +1,11 @@
 module.exports = ({ isProd }) => ({
-  plugins: {
-    migrate: require('./migrate'),
-  },
+  theme: 'uzkk',
+
+  plugins: [
+    'serve',
+    'ssr-mismatch-workaround',
+    ['migrate', require('./migrate')],
+  ],
   
   evergreen: !isProd,
 })
