@@ -6,6 +6,8 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "serve": "vuepress serve docs",
+    "convert": "vuepress convert docs -f",
+    "download": "vuepress download docs",
     "migrate": "vuepress migrate docs"
   },
   "devDependencies": {
