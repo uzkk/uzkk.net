@@ -21,7 +21,7 @@ tags:
 
 他最大的特色在于创造了“肥燐”这一脍炙人口又贱萌到出血的二创形象。肥燐的原型即是地灵殿5面的火焰猫燐，但是与原版阿燐稳重和典雅完全不同，是一只集合了各种懒惰属性的肥猫！故被大家爱称为肥燐。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard01-1.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard01-1.png)
 
 这只喵的魅力到底有多大？我们就来一睹ロドニィ先生在搞笑方面的逆天才华…
 
@@ -39,7 +39,7 @@ tags:
 
 嵌字：lukamiku HGS大绅士（好人）月亮的老湿（id禁止说）月亮
 
-ps：由于他的作品现在（2015.9.24）已经品切，所以先贴上他新作偶像大师系列的购买链接了 [null|https://www.melonbooks.co.jp/circle/index.php?circle_id=16181]
+ps：由于他的作品现在（2015.9.24）已经品切，所以先贴上他新作偶像大师系列的购买链接了 [传送隙间在此](https://www.melonbooks.co.jp/circle/index.php?circle_id=16181)
 
 同时感谢很多人对这个系列汉化的支持，人数太多实在不能贴出来非常抱歉。
 
@@ -81,52 +81,52 @@ ps：转载请注明作者和汉化人员。
 
 ---
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/010-1.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/020-1.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/039.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/040.jpg)简直就是表情包大合集… 
+![](http://www.uzkk.net/wp-content/uploads/2018/11/010-1.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/020-1.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/039.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/040.jpg)简直就是表情包大合集… 
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/041.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/042.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/043.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/044.jpg)这个钢铁肥燐有手办吗？！我买爆！！！！！
+![](http://www.uzkk.net/wp-content/uploads/2018/11/041.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/042.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/043.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/044.jpg)这个钢铁肥燐有手办吗？！我买爆！！！！！
 
- ![image](http://www.uzkk.net/wp-content/uploads/2018/11/045.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/046.jpg)
+ ![](http://www.uzkk.net/wp-content/uploads/2018/11/045.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/046.jpg)
 
 一定是跟武天老师学的
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/047.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/048.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/047.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/048.jpg)
 
 柱妈居然很认真的在想礼物…！
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/049.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/049.jpg)
 
 女王威严翻车现场…
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/050.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/060.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/061.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/062.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/050.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/060.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/061.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/062.jpg)
 
 蕾米太可怜了1
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/063.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/063.jpg)
 
 蕾米太可怜了2
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/064.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/064.jpg)
 
 蕾米太可怜了3
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/065.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/066.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/067.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/068.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/070.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/071.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/065.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/066.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/067.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/068.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/070.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/071.jpg)
 
 耳朵上挂两个手电筒简直可爱死了…
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/072.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/073.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/074.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/072.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/073.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/074.jpg)
 
 妹红这应该是1200年以来第一次动了杀意
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/076.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/077.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/078.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/079.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/080.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/081.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/082.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/083.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/084.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/085.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/086.jpg)去吧！小拳石！
+![](http://www.uzkk.net/wp-content/uploads/2018/11/076.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/077.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/078.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/079.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/080.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/081.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/082.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/083.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/084.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/085.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/086.jpg)去吧！小拳石！
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/087.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/088.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/089.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/090.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/091.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/092.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/093.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/087.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/088.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/089.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/090.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/091.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/092.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/093.jpg)
 
 西瓜太可怜了
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/094.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/094.jpg)
 
 灵梦饿的脸都凹下去了哈哈哈哈哈
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/095.jpg) ![image](http://www.uzkk.net/wp-content/uploads/2018/11/096.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/095.jpg) ![](http://www.uzkk.net/wp-content/uploads/2018/11/096.jpg)
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/copyright.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/copyright.jpg)

@@ -10,11 +10,11 @@ tags:
 
 # ぢせ老师也开了自己的FANBOX援助计划
 
-		ぢせ老师([null|https://twitter.com/psychoron])昨天在自己的推特上面公布了Pixiv的FANBOX计划。
+		ぢせ老师([推@psychoron](https://twitter.com/psychoron))昨天在自己的推特上面公布了Pixiv的FANBOX计划。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/Clipboard02.gif)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/Clipboard02.gif)
 
-[null|https://www.pixiv.net/fanbox/creator/4790]，还不知道了解ぢせ老师的小伙伴，[null|http://www.uzkk.net/?p=809]
+[详细的援助地址请戳这里](https://www.pixiv.net/fanbox/creator/4790)，还不知道了解ぢせ老师的小伙伴，[也可以点击这里观看关于他的介绍](http://www.uzkk.net/?p=809)
 
 所谓FANBOX计划，简单来说就是P站画师的粉丝援助计划，粉丝用资金援助自己喜欢的作者，来让作者获得更多的自由时间创作自己喜欢、粉丝也喜欢的东西。毕竟，生活很艰难，我们看到的那些优秀的作者，实际工作中也是被甲方虐待的死去活来，反复的改稿，画些自己不喜欢的小黄图等。FANBOX就是多多少少帮助他们缓解这一点的援助计划。
 

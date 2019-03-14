@@ -26,7 +26,7 @@ tags:
 
 ——ZUN
 
-[null|http://<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=22636709&auto=1&height=66"></iframe>]
+[[[iframe]]](http://<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=22636709&auto=1&height=66"></iframe>)
 
 「幽雅に咲かせ、墨染の桜　～ Border of Life」（下简称“墨染樱”）正式问世于TH06《东方妖妖梦》之中。其时ZUN刚刚意识到小号的美妙之处。因此墨染樱这首曲子，可以算作ZUN与小号进入蜜月期的前兆。后来的回忆中ZUN曾提起，在创作妖妖梦之前就已经决定了这一作一定是和风的风格、随后又确定了这一作的六面BOSS应当是一位死者（出自《东方外来韦编》）。在那之后，才有了妖妖梦的故事与角色的设计——也就是所谓的“自上而下的设计”。由此看来，ZUN对于这一作的六面应该投入了极大的精力。而一向注重音乐效果的他，自然也在这一首曲子内贯彻了自己的风格。
 

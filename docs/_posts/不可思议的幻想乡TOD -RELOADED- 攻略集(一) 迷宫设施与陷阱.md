@@ -21,7 +21,7 @@ tags:
 
 ##设施图鉴
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard45.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard45.png)
 
 ######神龛
 
@@ -29,7 +29,7 @@ tags:
 
 你的伙伴挂了，踩上去，伙伴会复活
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard51.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard51.png)
 
 ######入道云山
 
@@ -37,7 +37,7 @@ tags:
 
 踩上去会随机强化武器或盾牌，如果你要指定强化武器或指定强化盾牌，那么把东西朝它丢过去就行。这种状态的升1级
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard52.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard52.png)
 
 ######金属入道云山
 
@@ -45,7 +45,7 @@ tags:
 
 效果同上，可以升2级以上
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard48.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard48.png)
 
 ######小竹笋
 
@@ -53,7 +53,7 @@ tags:
 
 砍了可以得到小竹笋，是以后的合成素材
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard49.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard49.png)
 
 ######大竹笋
 
@@ -61,7 +61,7 @@ tags:
 
 小竹笋经过一定回合后长大，砍了可以得到大竹笋，是以后的合成素材
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard50.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard50.png)
 
 ######靑竹
 
@@ -69,7 +69,7 @@ tags:
 
 竹笋的完全体，砍了不会得到任何东西，变成了完全的路障
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard56.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard56.png)
 
 ######蘑菇
 
@@ -77,7 +77,7 @@ tags:
 
 小蘑菇，砍了可以得到小蘑菇，是以后的合成素材
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard57.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard57.png)
 
 ######形状难以吐槽的大蘑菇
 
@@ -85,7 +85,7 @@ tags:
 
 小蘑菇经过一定回合数的完全体，有路障效果，砍了可以得到大蘑菇
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard35.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard35.png)
 
 ######毒沼
 
@@ -93,7 +93,7 @@ tags:
 
 踩上去力量会减少，力量和攻击力有关，需要喝解毒药或用八意敷布解除
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard47.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard47.png)
 
 ######发光的地板
 
@@ -101,7 +101,7 @@ tags:
 
 对着它攻击，会出现道具
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard53.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard53.png)
 
 ######普通箱子
 
@@ -109,7 +109,7 @@ tags:
 
 出一般道具
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard54.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard54.png)
 
 ######金箱子
 
@@ -117,7 +117,7 @@ tags:
 
 出极品道具
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard32.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard32.png)
 
 ######乱气流
 
@@ -125,7 +125,7 @@ tags:
 
 走路不受影响，如果是浮空状态下会被吹飞
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard33.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard33.png)
 
 ######上升气流
 
@@ -133,7 +133,7 @@ tags:
 
 可以获得一定时间的浮空状态
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard36.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard36.png)
 
 ######冰墙
 
@@ -141,7 +141,7 @@ tags:
 
 路障，可以破坏，过一段时间会变成水滩
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard37.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard37.png)
 
 ######水滩
 
@@ -149,7 +149,7 @@ tags:
 
 把食物放在上面一段时间会腐败，有蕾蒂在场进行吹雪的话会变成冰墙
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard38.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard38.png)
 
 ######毒雾
 
@@ -157,7 +157,7 @@ tags:
 
 陷入数回合的猛毒状态，如果将食物投入会腐败1级
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard39.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard39.png)
 
 ######冷气团
 
@@ -165,7 +165,7 @@ tags:
 
 踩上的话身上道具会随机冻结，对其丢道具，该道具会被冻结
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard44.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard44.png)
 
 ######厄运气团
 
@@ -173,7 +173,7 @@ tags:
 
 踩上的话身上1-3个道具会被诅咒，敌人碰上也会中debuff，冲着它丢道具，该道具会被诅咒(一些需要诅咒条件才能合成的道具，可以利用它来使道具进入诅咒状态)
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard58.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard58.png)
 
 ######花圃
 
@@ -183,7 +183,7 @@ tags:
 
 ##迷宫图鉴
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard18.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard18.png)
 
 ######小伞
 
@@ -191,7 +191,7 @@ tags:
 
 把你身上的道具随机抛到地上，如果道具中有隙间，那么有概率会摔碎，如果你在的地方正好有沼泽、毒沼，道具会消失，是最恶的陷阱
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard20.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard20.png)
 
 ######雏
 
@@ -199,7 +199,7 @@ tags:
 
 诅咒身上的装备，身上的装备如果有“咒”印可以防御
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard08.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard08.png)
 
 ######爱丽丝
 
@@ -207,7 +207,7 @@ tags:
 
 强行卸除装备，有时如果你身上有诅咒的装备卸不下，也可以利用它强行卸除。身上的装备如果有“脱”印可以防御
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard13.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard13.png)
 
 ######霖之助
 
@@ -215,7 +215,7 @@ tags:
 
 强行将身上的道具变卖成现金。身上装备如果有“盗”印可以防御
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard01.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard01.png)
 
 ######幽幽子
 
@@ -223,7 +223,7 @@ tags:
 
 减少满幅度10-50点
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard02.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard02.png)
 
 ######铃仙
 
@@ -231,7 +231,7 @@ tags:
 
 将眼前的事物变成油库里，分不清现实，几回合后恢复
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard17.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard17.png)
 
 ######慧音
 
@@ -239,7 +239,7 @@ tags:
 
 将已经鉴定的道具名字忘记。身上的装备如果有“记”印可以防御
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard09.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard09.png)
 
 ######神奈子
 
@@ -247,7 +247,7 @@ tags:
 
 劣化身上的装备。身上的装备如果有“劣”印可以防御
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard28.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard28.png)
 
 ######帕秋莉
 
@@ -255,7 +255,7 @@ tags:
 
 发生大爆炸，血量剧减，周围的墙壁、物品全部消灭。身上的装备如果有“爆”印可以减少伤害
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard05.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard05.png)
 
 ######红美铃
 
@@ -263,7 +263,7 @@ tags:
 
 强行击退。身上的装备如果有“重”印可以防御
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard22.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard22.png)
 
 ######琪露诺
 
@@ -271,7 +271,7 @@ tags:
 
 冻结身上数个道具，到下一层之前无法解除，或者有燃烧符札放一个火堆，烤一下才能解除
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard03.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard03.png)
 
 ######咲夜
 
@@ -279,7 +279,7 @@ tags:
 
 变成减速状态，数回合后恢复
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard14.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard14.png)
 
 ######妹红
 
@@ -287,7 +287,7 @@ tags:
 
 身上的符札会被烧掉减少次数，饼会被烤，正常饼变成烤饼，烤饼变成焦黑饼
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard10.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard10.png)
 
 ######小町
 
@@ -295,7 +295,7 @@ tags:
 
 随机召唤本层等级的怪物到身边
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard29-1.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard29-1.png)
 
 ######梅蒂欣
 
@@ -303,7 +303,7 @@ tags:
 
 减少力量，喝解毒药或用八意敷布可解除
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard16.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard16.png)
 
 ######文文
 
@@ -311,7 +311,7 @@ tags:
 
 随机移动到其他场所
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard11.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard11.png)
 
 ######小桶
 
@@ -319,7 +319,7 @@ tags:
 
 造成5-10点伤害
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard26.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard26.png)
 
 ######小缶
 
@@ -327,7 +327,7 @@ tags:
 
 造成150点左右的伤害
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard27.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard27.png)
 
 ######小卵
 
@@ -335,7 +335,7 @@ tags:
 
 造成自身剩余HP 99%的伤害
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard23.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard23.png)
 
 ######阿空
 
@@ -343,7 +343,7 @@ tags:
 
 核爆，范围3×3，超级危险，本体直接扣血成1点，周围东西烟消云散
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard25.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard25.png)
 
 ######华扇
 
@@ -351,7 +351,7 @@ tags:
 
 进行试炼，50%概率力量上升3，等级也上升；50%概率血量和满腹度变成1
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard12.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard12.png)
 
 ######萃香
 
@@ -359,7 +359,7 @@ tags:
 
 陷入醉酒状态，命中率下降，暴击率变成100%，这个陷阱发动的画面很糟糕
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard19.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard19.png)
 
 ######依姬
 
@@ -367,7 +367,7 @@ tags:
 
 一段时间不能移动
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard24.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard24.png)
 
 ######帝
 
@@ -375,7 +375,7 @@ tags:
 
 迷宫陷阱大幅度增加
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard07.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard07.png)
 
 ######紫
 
@@ -383,7 +383,7 @@ tags:
 
 直接掉落到下一层
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard06.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard06.png)
 
 ######诹访子
 
@@ -391,7 +391,7 @@ tags:
 
 间隙以外的食物全部下降一个等级
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard21.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard21.png)
 
 ######莉莉白
 
@@ -399,7 +399,7 @@ tags:
 
 陷入沉睡状态数个回合，无法被打断
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard15.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/11/Clipboard15.png)
 
 ######间隙
 

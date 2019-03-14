@@ -21,12 +21,21 @@ tags:
 
 OK，上面只是抬眼一看就有这么多问题，这其实足以判这个游戏死刑。现在我们再来细数一下它还有哪些龌龊之处。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/01.jpg)
-下面的地图可以看出，这不是幻想乡，而是其他游戏的地图，换了东方立绘皮肤就来圈钱了。这是典型的“换皮游戏”，而制作换皮游戏的公司，就是手游业界的毒瘤，专门圈钱把人当傻子的公司。
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/02.jpg)
-灵宠什么鬼？无影打击又是什么鬼？还有升星又是什么鬼？这全是垃圾手游的套路，东方的灵魂战斗模式是符卡，也就是Spell Card，策划完全不了解东方，只是知道换个东方皮好骗钱而已。
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/03.jpg)
-背后充满日本青春校园风的4月开满樱花的开学季是什么意思？东方系列官方就一个学校，叫寺子屋，是一个穷和简朴到令人心疼的地方。这是把什么东西跟东方生搬硬套在一起了？
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/01.jpg" alt=""/>
+  <figcaption>下面的地图可以看出，这不是幻想乡，而是其他游戏的地图，换了东方立绘皮肤就来圈钱了。这是典型的“换皮游戏”，而制作换皮游戏的公司，就是手游业界的毒瘤，专门圈钱把人当傻子的公司。</figcaption>
+</figure>
+
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/02.jpg" alt=""/>
+  <figcaption>灵宠什么鬼？无影打击又是什么鬼？还有升星又是什么鬼？这全是垃圾手游的套路，东方的灵魂战斗模式是符卡，也就是Spell Card，策划完全不了解东方，只是知道换个东方皮好骗钱而已。</figcaption>
+</figure>
+
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/03.jpg" alt=""/>
+  <figcaption>背后充满日本青春校园风的4月开满樱花的开学季是什么意思？东方系列官方就一个学校，叫寺子屋，是一个穷和简朴到令人心疼的地方。这是把什么东西跟东方生搬硬套在一起了？</figcaption>
+</figure>
+
 上面的图片资料是从官方微博取来，桩桩件件都非常让人反胃。就是一个明知违规，冲着割东方萌新粉丝韭菜来的游戏。他至少很清楚三件事：
 
 1. 反正游戏有东方皮一定有人玩，有人玩就有人充，来玩的反正是傻子；
@@ -35,15 +44,15 @@ OK，上面只是抬眼一看就有这么多问题，这其实足以判这个游
 
 我只是简单分析一下，也请大家有时间看看其他的扩展阅读：
 
-[null|https://www.zhihu.com/question/304305811]
+[知乎：如何评价游戏《飞天小魔女》 ?](https://www.zhihu.com/question/304305811)
 
-[null|https://www.bilibili.com/read/cv1645362]
+[小伙你摊上大事了…关于《飞天小魔女》侵权东方project的种种迹象](https://www.bilibili.com/read/cv1645362)
 
 然后问题来了，**我们能做什么**？
 
 **1、举报**，在一切能见得到的平台上进行举报
 
-用电脑的可以在这条地址里直接举报：[null|http://report.ccm.gov.cn/manager/wljb/viewJbinfo.action]
+用电脑的可以在这条地址里直接举报：[http://report.ccm.gov.cn/manager/wljb/viewJbinfo.action](http://report.ccm.gov.cn/manager/wljb/viewJbinfo.action)
 
 用手机的只要在任何应用商店里看到它，就立刻举报
 

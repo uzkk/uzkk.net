@@ -18,9 +18,9 @@ tags:
 
 # 那些东方音乐爱好者应该了解的歌姬 第二弹——Vocal的先驱者
 
-		原文由[null|https://space.bilibili.com/233591]授权转载
+		原文由[头铁的辉夜](https://space.bilibili.com/233591)授权转载
 
-原文地址：[null|https://www.bilibili.com/read/cv1715230]
+原文地址：[https://www.bilibili.com/read/cv1715230](https://www.bilibili.com/read/cv1715230)
 
 《东方Project》（日文：东方Project（とうほうプロジェクト，东方プロジェクト），英文：Tōhō Project或TouHou Project，简称东方）是日本同人游戏社团上海爱丽丝幻乐团所制作的一系列同人游戏、相关作品。
 
@@ -28,14 +28,20 @@ tags:
 
 音乐之路上总是充满了坎坷，谁又能保证10年后的今天还能如现在一样热爱东方呢？但总有一些十多年来一直伴随着东方Vocal成长的歌姬，十年如一日，依然为喜欢东方音乐的粉丝们带来自己的作品。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/1.jpg)
-转眼就是10年
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/1.jpg" alt=""/>
+  <figcaption>转眼就是10年</figcaption>
+</figure>
+
 今天为大家带来2位同样为东方Vocal献声很早，依然活跃，但在大陆知名度比较低的两位歌姬——**結月そら**，**遊女**
 
 ####**結月そら：**
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/2-1.png)
-結月そら
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/2-1.png" alt=""/>
+  <figcaption>結月そら</figcaption>
+</figure>
+
 可能有些人对**結月そら**很陌生，不过她跟3L，**美里**以及接下来介绍的**遊女**一样属于第一批与东方Vocal结下缘分的同人歌姬。**結月そら**不仅声音甜美，同时在作词方面也有不低的造诣，她演出的所有东方Vocal都由自己作词。早在2005年11月13日发布的**HAPPY NIGHT**中，一首**今宵、雪舞う月夜に**开始了她与东方的未解之缘。**結月そら**演出的东方Vocal大多与**SYNC.ART’S**有关，这也跟主催**五条下位**丰富的人脉关系有关。結月そら主要为同人游戏（包括GAL）演出OP以及ED，作词并演唱了同人游戏**寒蝉鸣泣之时解 祭囃し编**-也就是我们熟知的大结局篇-的ED,**結月そら**的作词能力在此也可见一斑。虽然东方Vocal只能算是副业，充当**GUEST**，但这一点都不影响她为东方Vocal带来高质量的作品。2010年11月因为声带受损，而且五条后来把工作重心放到商业作品，从而淡出了东方Vocal演出，不过在**C92**时隔7年之后她又重新开始在东方Vocal圈活跃起来，所以有很多刚接触东方Vocal的新人经常会把**結月そら**当成新人，这可是个大大的误会 -紫老adadadff并感-
 
 **代表作品：**
@@ -66,12 +72,18 @@ tags:
 
 ####**遊女：**
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/3.png)
-遊女
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/3.png" alt=""/>
+  <figcaption>遊女</figcaption>
+</figure>
+
 **遊女**跟**結月そら**一样，都是2005年起就开始为东方Vocal献声。**遊女**最早的一首东方Vocal可以追溯到2005年8月14日——C68上发布的一张专辑**ゆきうさぎ**上
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/4.jpg)
-ゆきうさぎ
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/4.jpg" alt=""/>
+  <figcaption>ゆきうさぎ</figcaption>
+</figure>
+
 **遊女**拥有非常有磁性的嗓音，唱法也非常有张力，近乎声嘶力竭的唱法带来的就是极强的感染力，如果说**結月そら**的Vocal是细语倾述的话，那么**遊女**的Vocal就是直接通过唱法以及音色直接影响你的情绪，相信你也会为遊女那动情的演绎所折服 -好孩子不要去去查日文遊女的意思哦-
 
 **代表作品：**

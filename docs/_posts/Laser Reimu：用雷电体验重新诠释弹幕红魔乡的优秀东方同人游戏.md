@@ -22,7 +22,7 @@ tags:
 
 《Laser Reimu》，雷电灵梦，所以这是东方x雷电风格的游戏。就是这样一款被埋没的优秀同人游戏。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/1-1.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/1-1.jpg)
 
 ---
 
@@ -32,7 +32,7 @@ tags:
 
 激光它可以为BOMB槽积累更多的能量，在打BOSS前，保持自己的BOMB槽有一定的量，是非常重要的一个条件。有时候，敌人的弹幕数量非常大而空间非常小，自机的判定点又比较大，即使可以躲过这一劫，但如果再碰到决死，BOMB槽则直接清空，此时如果没有足够的BOMB值的话就会被迫陷入窘境，而这时激光就体现了非常大的作用，虽然伤害不高，但是积累能量却是非常快的，平时用激光刷刷能量，关键时候就不会出现BOMB槽不够的情况。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/2.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/2.jpg)
 
 这是区别于传统的东方游戏的一个特色系统。传统的东方因为BOMB有限，所以玩家都尽可能的少用，而这款游戏则反其道而行之，要让玩家自己掌控住使用BOMB的节奏和方法，这一点是传统东方游戏中所没有的（想必作者之前玩传统作品时也被有限的BOMB逼疯过，毕竟有谁会拒绝这样一个可以一直爽下去的BOMB呢？）。
 
@@ -40,7 +40,7 @@ tags:
 
 而本作中的BOMB与原作不同，它可以一直被使用，直到BOMB槽能量用完为止。如果一直使用激光进行充能的话就可以连续的BOMB，真可谓是一时BOMB一时爽，一直BOMB一直爽了。并且游戏中如果快速击杀道中BOSS的话就会出现一段大波妖精冲锋的事件，如果此时使用BOMB开冲的话就可以有很长一段时间的64分奖励时间并可以额外获得一条命。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/3-1.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/3-1.jpg)
 
 ---
 
@@ -50,7 +50,7 @@ tags:
 
 本作使用了原作的STG玩法(弹幕射击游戏)，在原有的《红魔馆》故事背景基础下进行了二次创作，但是该作只能操作灵梦，不过游戏中却加入了两种不同的操作模式。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/4-1.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/4-1.jpg)
 
 这两种不同风格的操作模式对玩家的操作要求不同，蓝灵梦的操作模式比红灵梦更加灵活，但难度也更高，因为在第二种操作模式下自机的符卡受方向的控制，所以玩家除了要躲避弹幕外还要通过方向键消灭其他妖精，这就需要锻炼和磨合了。
 
@@ -64,11 +64,11 @@ tags:
 
 另外，玩家也可以通过S键来将火力集中，下图是正常的散射状态
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/5-1.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/5-1.jpg)
 
 **而按住S键的话**，会变成下图这样的集中射击模式
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/6.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/6.jpg)
 
 ####2.2 擦弹系统
 
@@ -84,19 +84,19 @@ tags:
 
 而且团子全收集也有对应的成就，所以小伙伴们就尽量的找吧~
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/8.png)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/8.png)
 
 ####3.2 成就系统
 
 本作比较意外的加入了一个丰富的成就系统，使本作增加了一些收集的乐趣。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/9.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/9.jpg)
 
 不过这些成就也并不是随随便便就可以达成的，因为这些成就在解锁前是没有没有一点提示的，凭借自己摸索，完全就是看脸。而且在这些成就中也夹杂着一些比较困难的成就，比如被第二关冰凌柱的激光打到居然也算一个成就！而被突然出现的冰柱撞上也算一个成就！…所以想要拿全部成就的话，游戏的各种体验都要尽可能试试，所以难度非常大。
 
 这个系统丰富了游戏的玩法以外，也提高了游戏的档次，最终就是游戏的耐玩性的提升。同时本作还加入了一些非常规的弹幕发射机关，比如第二关的冰锥和冰柱，第三关移动的书架，还有姆Q的高档装饰吊灯，尤其是这个冰锥，让笔者挣扎了好些时间才得以平安渡过。在此不得不佩服一下作者的脑洞，可以联想到如此有趣新奇的弹幕设计。这些都是原著中所没有的，令人感到非常的有意思。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/10.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/10.jpg)
 
 3.3 最终BOSS魔理沙
 
@@ -123,7 +123,7 @@ tags:
 
 总体来说的话，本作在同人游戏中可以算是一个创新性十足的游戏，不仅对玩法加入了新鲜元素，同时也根据作者的独特见解调整了一些BOSS的弹幕，使其更具有人物特色，例如⑨就加入了自己独特的弹幕。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/12.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/12.jpg)
 
 尽管本作多多少少也有些缺点，不过玩家通过对游戏的发掘和适应，也就能慢慢的体会到游戏中独有的乐趣了。笔者在查找关于本作资料时发现，本作有很多的地方都在玩CAVE梗，笔者此前并未接触过，所以知道尚少，姑且就直接把玩梗的资料放上来好了。
 
@@ -139,4 +139,4 @@ tags:
 
 完全用雷电来重新诠释了STG版的红魔乡，而且游戏**做完了**，有一套完整的体验流程和反复耐玩的机制设定。雷电和东方的元素各自结合的也很好，非常棒，非常优秀。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/02/14.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2019/02/14.jpg)

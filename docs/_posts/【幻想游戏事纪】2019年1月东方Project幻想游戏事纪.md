@@ -23,7 +23,7 @@ tags:
 
 以平成最后的stg音乐爱好者最高会议为口号的法米通音乐会将在2月21号召开。此次音乐会演出阵容相当庞大，邀请了ZUN（上海アリス幻樂団）、並木学（グリッド）、細江慎治（スーパースウィープ）、堀井直樹（M2）、松本大輔（ケイブ）、ヨコオタロウ（ブッコロ）等业界顶尖人物前来。包含了东方Project、怒首领蜂、虫姬、テラクレスタ、エスプガルーダ系列的游戏音乐。
 
-![image](https://i0.hdslb.com/bfs/article/0bf80e2233e6922a1ff0c484f4f0fa20189b53b1.png@786w_480h.webp)
+![](https://i0.hdslb.com/bfs/article/0bf80e2233e6922a1ff0c484f4f0fa20189b53b1.png@786w_480h.webp)
 
 **2019年1月5日**
 
@@ -33,37 +33,37 @@ tags:
 
 游戏以AVG电子小说式的方式进行，近二十名东方原作角色登场共演，在呈现精美的游戏画面、热血沸腾的战斗演出的同时，也不失扣人心弦的感动故事，同时随着玩家选择的不同，会有七种不同分支结局。
 
-![image](https://i0.hdslb.com/bfs/article/2d35ecff2e6714ae797c439cc9a63d4b8350ed99.png@1320w_1852h.webp)
+![](https://i0.hdslb.com/bfs/article/2d35ecff2e6714ae797c439cc9a63d4b8350ed99.png@1320w_1852h.webp)
 
 **2019年1月6日**
 
 東方ゲーム 秋姉妹RPG 是推特@nuu_echo的RPG新作，这部作品以秋姐妹为主角，从游戏公布的PV来看，这部作品会是一部飘荡着地瓜葡萄香气的作品。
 
-![image](https://i0.hdslb.com/bfs/article/61c14879e0ac4fa03ea3ce068e3c6fbf9e9ed5a5.png@1320w_920h.webp)
+![](https://i0.hdslb.com/bfs/article/61c14879e0ac4fa03ea3ce068e3c6fbf9e9ed5a5.png@1320w_920h.webp)
 
 **2019年1月12日**
 
 由あんかけスパ开发的ARPG游戏《东方红辉心》发布了简体中文版，顺便在Steam上打了一波折，这将会给之前在游戏剧情方面很郁闷的玩家带来福音。
 
-![image](https://i0.hdslb.com/bfs/article/dc5577a79f0737dc6b35ddfc78621dbd3918a3c2.png@1036w_582h.webp)
+![](https://i0.hdslb.com/bfs/article/dc5577a79f0737dc6b35ddfc78621dbd3918a3c2.png@1036w_582h.webp)
 
 **2019年1月13、14日**
 
 東方ゲーム 秋姉妹RPG制作者1月13日在推特上说，東方ゲーム 秋姉妹RPG基本上已经制作完成，并将于1月14日晚八点半发布作品。
 
-![image](https://i0.hdslb.com/bfs/article/4445182ecc99347e221486756149c1f328dee8f3.png@1076w_1116h.webp)
+![](https://i0.hdslb.com/bfs/article/4445182ecc99347e221486756149c1f328dee8f3.png@1076w_1116h.webp)
 
 **2019年1月15日**
 
 《東方翠神廻廊 ? Faith in the Goddess of Suwa.》出现在Steam页面上，解锁时间定为2月11日，游戏免费。据悉本作是原安卓平台上东方幻梦回录的续作，游戏机制类似于普通rpg，更新到天空璋后，人物会有160位左右，每位人物都有独特的技能和属性，同时游戏还有繁多的装备和饰品供玩家配合使用。
 
-![image](https://i0.hdslb.com/bfs/article/aab5af353e1038f4ed21f1ab01706a86a2da4d18.png@1320w_794h.webp)
+![](https://i0.hdslb.com/bfs/article/aab5af353e1038f4ed21f1ab01706a86a2da4d18.png@1320w_794h.webp)
 
 **2019年1月17日**
 
 莓坊主出品的RPG大作《东方幻想魔录W》2月7日在Nintendo Switch平台上架。该作在前作基础上进行了大量的战斗优化和机制创新，本作是一款较为硬派和传统向的RPG作品。
 
-![image](https://i0.hdslb.com/bfs/article/c250458619d7e7987d9a81354aca61c122e5396f.png@1320w_1320h.webp)
+![](https://i0.hdslb.com/bfs/article/c250458619d7e7987d9a81354aca61c122e5396f.png@1320w_1320h.webp)
 
 **2019年1月18日**
 
@@ -71,47 +71,47 @@ tags:
 
 按照作者的计划，这部作品将会分为三周目，一周目作者将向原作致敬，带大家重走红魔乡，了解红雾异变的故事背景；二周目作者将打开原创故事，在这个过程中作者会努力打造令玩家眼前一亮的故事；三周目作者则会为大家准备有关于“结局”的内容，力求为每个人物安排令人会心一笑的结局。
 
-![image](https://i0.hdslb.com/bfs/article/d6d9e0169adc3f7b27d985d1f107699d99131f27.png@1320w_740h.webp)
+![](https://i0.hdslb.com/bfs/article/d6d9e0169adc3f7b27d985d1f107699d99131f27.png@1320w_740h.webp)
 
 **2019年1月19日**
 
 推特@yoshi近日公布了其正在制作的东方3DACT游戏预览，从公布的视频中我们可以看到这部作品是一个类似马里奥64的游戏，目前素材还是用简单的模型，成品或许会替换成更合适的。
 
-![image](https://i0.hdslb.com/bfs/article/2306943b2316f4ea61778ceb094a3f3ce1f90413.png@1320w_638h.webp)
+![](https://i0.hdslb.com/bfs/article/2306943b2316f4ea61778ceb094a3f3ce1f90413.png@1320w_638h.webp)
 
 **2019年1月20日**
 
 小游戏《日陰サバイバン》上架dlsite。本作是仿逆转裁判的搞笑侦探解谜作品，目前售价1080日元，据说本作非常搞笑，请不要吃饭的时候游玩，美中不足是，这部作品目前并没有中文版。
 
-![image](https://i0.hdslb.com/bfs/article/980ecd7174cddd6b12bde8cc30762307951487ad.png@1320w_568h.webp)
+![](https://i0.hdslb.com/bfs/article/980ecd7174cddd6b12bde8cc30762307951487ad.png@1320w_568h.webp)
 
 今年是《東方幻想麻雀》系列十周年，1月20日举办了十周年纪念的麻将大赛。DNA和Ruw打去年年末就开始张罗，请了4代作品不少画师前来搓麻。该作作为市面上少有的神仙VS妖怪级别超能力麻将还是很容易做到超规格的神棍胡牌的，对战场面异常激烈 更值得一提的是DNA还宣布了新作《東方幻想麻雀·新章》的制作。
 
-![image](https://i0.hdslb.com/bfs/article/3e999b4119d372378140c67be2781b1508dfb337.png@1320w_990h.webp)
+![](https://i0.hdslb.com/bfs/article/3e999b4119d372378140c67be2781b1508dfb337.png@1320w_990h.webp)
 
-![image](https://i0.hdslb.com/bfs/article/84cb32494446993bdcad1e6985df7f6420285e7a.png@1320w_1760h.webp)
+![](https://i0.hdslb.com/bfs/article/84cb32494446993bdcad1e6985df7f6420285e7a.png@1320w_1760h.webp)
 
-![image](https://i0.hdslb.com/bfs/article/febed6d0e6e5bf3408bff336b79bf4074be19df0.png@1320w_742h.webp)
+![](https://i0.hdslb.com/bfs/article/febed6d0e6e5bf3408bff336b79bf4074be19df0.png@1320w_742h.webp)
 
 **2019年1月23日**
 
 东方同人RAC游戏 《幻走スカイドリフト》（幻走Skydrift）将要在今年春天登上NS/PS4/STEAM 平台。
 
-![image](https://i0.hdslb.com/bfs/article/a45d9777901783502af6d6c99413493dd78f31d4.jpg@1320w_742h.webp)
+![](https://i0.hdslb.com/bfs/article/a45d9777901783502af6d6c99413493dd78f31d4.jpg@1320w_742h.webp)
 
 **2019年1月24、25日**
 
 十周年纪念！成立于2009年的社团ZEWi决定将自己制作的游戏免费公开，“如果只是把拼命制作的游戏收进仓库会很寂寞，所以决定免费公开，即使是免费的，只要能让更多的人开心就有拼命做的价值。1月25日（星期五）22：00以后预定公开。如果想试着玩请一定要下载。”
 
-![image](https://i0.hdslb.com/bfs/article/113d79c8aa52e64920d0b83e5927610e8739bd2a.png@1036w_2072h.webp)
+![](https://i0.hdslb.com/bfs/article/113d79c8aa52e64920d0b83e5927610e8739bd2a.png@1036w_2072h.webp)
 
 **2019年1月26、27日**
 
 由Niconico、日本娱乐产业协会(JAIA)、日本e体育联盟(JeSU)共同举办的“JAEPO×斗会议2019×JeSU 2019”于1月26日、27日顺利举办，并在unties展台提供了不思议幻想乡-幻想乡迷宫和3rd eyes的试玩。
 
-![image](https://i0.hdslb.com/bfs/article/5f3fa29d527cfbc028e3ce7cec347662a21045d3.png@1036w_1382h.webp)
+![](https://i0.hdslb.com/bfs/article/5f3fa29d527cfbc028e3ce7cec347662a21045d3.png@1036w_1382h.webp)
 
-![image](https://i0.hdslb.com/bfs/article/9deb127316bdce10038092c5038d1ddf65d51e60.png@1036w_936h.webp)
+![](https://i0.hdslb.com/bfs/article/9deb127316bdce10038092c5038d1ddf65d51e60.png@1036w_936h.webp)
 
 第三届广州初物语漫展1月26日召开，展会设立了同人独立游戏试玩区，雪莲华、大战争、梦灵魂、夏夜祭、旅行恋恋、恋色绮梦谭等多款作品参与展出，很多预计今年将会发售的同人游戏也参与了游戏试玩活动。
 
@@ -121,10 +121,10 @@ tags:
 
 【评审意见】为贴合RPG战斗规则，符卡将不能使用的设定很有趣；可以在地图上看到两人的闲谈内容；用心打造装备就可以畅通无阻地进行游戏，不需要过多地考虑金钱的积攒；菜单的背景插画很丰富，令人不致看腻。
 
-【作者自评】这次我的东方二次创作免费游戏「東方異想符」能被授予niconico自制游戏节2019新人奖是相当令我开心的。 这是我们接触RPG制作大师后做出来的第一款作品：也并不是我一人所做，是各位同人社团的宝亲们一同努力的重要结果。所以我觉得这份奖并不是我一人的东西，而是颁给和我一同制作的各位社团宝亲们的大奖。![image](https://i0.hdslb.com/bfs/article/dc5ada6ef8c831090c75f57ed91f4a4789a169cf.png@794w_1838h.webp)
+【作者自评】这次我的东方二次创作免费游戏「東方異想符」能被授予niconico自制游戏节2019新人奖是相当令我开心的。 这是我们接触RPG制作大师后做出来的第一款作品：也并不是我一人所做，是各位同人社团的宝亲们一同努力的重要结果。所以我觉得这份奖并不是我一人的东西，而是颁给和我一同制作的各位社团宝亲们的大奖。![](https://i0.hdslb.com/bfs/article/dc5ada6ef8c831090c75f57ed91f4a4789a169cf.png@794w_1838h.webp)
 
 **2019年1月27、28日**
 
 STG作品东方真珠岛1月27日发布故事模式4——6面PV，游戏本体于1月28日公布。
 
-![image](https://i0.hdslb.com/bfs/article/930aaeb2c6c05b58aedad348c46258dac366e4e3.jpg@448w_448h.webp)
+![](https://i0.hdslb.com/bfs/article/930aaeb2c6c05b58aedad348c46258dac366e4e3.jpg@448w_448h.webp)

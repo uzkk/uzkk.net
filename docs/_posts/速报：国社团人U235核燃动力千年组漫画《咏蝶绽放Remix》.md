@@ -31,14 +31,14 @@ U235十一周年纪念本，全彩漫画——《咏蝶绽放Remix》，将于12
 
 **摊位号**：L81-L82
 
-**U235微博页**：[null|https://weibo.com/235u]
+**U235微博页**：[https://weibo.com/235u](https://weibo.com/235u)
 
-**CCP本子详情**：[null|http://www.allcpp.cn/d/161580.do]
+**CCP本子详情**：[http://www.allcpp.cn/d/161580.do](http://www.allcpp.cn/d/161580.do)
 
 **淘宝搜索关键字**：**咏蝶绽放Remix**
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/title-3.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/title-3.jpg)
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/0001.png) ![image](http://www.uzkk.net/wp-content/uploads/2018/12/0002.png) ![image](http://www.uzkk.net/wp-content/uploads/2018/12/003.png) ![image](http://www.uzkk.net/wp-content/uploads/2018/12/0004.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/0001.png) ![](http://www.uzkk.net/wp-content/uploads/2018/12/0002.png) ![](http://www.uzkk.net/wp-content/uploads/2018/12/003.png) ![](http://www.uzkk.net/wp-content/uploads/2018/12/0004.png)
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/list.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/list.jpg)

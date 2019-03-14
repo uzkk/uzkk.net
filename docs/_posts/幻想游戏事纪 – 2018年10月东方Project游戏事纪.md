@@ -13,7 +13,7 @@ tags:
 
 # 幻想游戏事纪 – 2018年10月东方Project游戏事纪
 
-		**【幻想游戏事纪】**系列是[null|https://space.bilibili.com/364812769?from=search&seid=9147751913259730328]推出的，旨在记录汇总东方同人游戏重要事件的事纪簿。这次带给大家的是2018年10月的重要事纪，如有缺漏及失误，还望各位读者补充指正，感谢大家的阅读和支持！
+		**【幻想游戏事纪】**系列是[东游鉴](https://space.bilibili.com/364812769?from=search&seid=9147751913259730328)推出的，旨在记录汇总东方同人游戏重要事件的事纪簿。这次带给大家的是2018年10月的重要事纪，如有缺漏及失误，还望各位读者补充指正，感谢大家的阅读和支持！
 
 本期文案编辑：花果子羽立
 
@@ -43,7 +43,7 @@ Quarto A宣布将会携作品参展2018年秋例大祭，而这款重量级的�
 
 雨夜枫雪制作组策划北欧晨风10月6日发布消息称，《东方雪莲华》体验版已经开始招募测试组并组织内测，之后将汇总反馈信息并对问题进行修复，体验版的筹备工作已经进入最后的攻坚阶段。继前座《东方夏夜祭》之后，这部作品采用了全新的引擎，并且在游戏画质上有了更大的提升，当然这也意味着对配置的要求会有所提高。与此同时，这部作品的弹幕难度会略有提升，不过将会有新创的游戏系统辅助玩家，较于前作，这部作品可能会登上一个新台阶。
 
-[null|https://www.bilibili.com/read/cv1318561?from=articleDetail]
+[![](http://www.uzkk.net/wp-content/uploads/2018/12/QQ20181212192108.png)](https://www.bilibili.com/read/cv1318561?from=articleDetail)
 
 ---
 
@@ -79,7 +79,7 @@ Quarto A宣布将会携作品参展2018年秋例大祭，而这款重量级的�
 
 将于10月14日举办的博丽神社秋例大祭，会前所未有地增加博丽电脑试玩会，会场将会开辟出专门的区域供玩家体验各款同人游戏，而玩家也可在试玩之后根据游戏体验来决定是否购买。本次试玩会将会有29个社团参与，时间为10月12日至15日，届时也将会开放网络试玩通道，据主办方讲，希望能够通过这种方式来解决同人游戏无法像音乐和漫画可试听可试看的问题。
 
-[null|https://www.bilibili.com/read/cv1476350?tdsourcetag=s_pcqq_aiomsg]
+[![](http://www.uzkk.net/wp-content/uploads/2018/12/QQ20181212192648.png)](https://www.bilibili.com/read/cv1476350?tdsourcetag=s_pcqq_aiomsg)
 
 ---
 
@@ -101,7 +101,7 @@ Quarto A宣布将会携作品参展2018年秋例大祭，而这款重量级的�
 
 [[iframe]]
 
-[null|https://www.bilibili.com/read/cv1328128?from=articleDetail]
+[![](http://www.uzkk.net/wp-content/uploads/2018/12/QQ20181212193115.png)](https://www.bilibili.com/read/cv1328128?from=articleDetail)
 
 ---
 
@@ -129,7 +129,7 @@ Quarto A宣布将会携作品参展2018年秋例大祭，而这款重量级的�
 
 前些日子《undertale》的作者Tobyfox，与Zun，还有独立游戏制作者木村详郎一起约了个饭，畅谈自己的游戏制作历程和游戏制作历程。2018年10月19日，他们三个人的对话记录公开了。
 
-[null|https://www.bilibili.com/read/cv1372245?from=articleDetail] [null|https://www.bilibili.com/read/cv1372284?from=articleDetail]
+[![](http://www.uzkk.net/wp-content/uploads/2018/12/QQ20181212193428.png)](https://www.bilibili.com/read/cv1372245?from=articleDetail) [![](http://www.uzkk.net/wp-content/uploads/2018/12/QQ20181212193441.png)](https://www.bilibili.com/read/cv1372284?from=articleDetail)
 
 ---
 
@@ -155,7 +155,7 @@ Quarto A宣布将会携作品参展2018年秋例大祭，而这款重量级的�
 
 THBWiki于2018年10月27日在非主页的网页中上线了万圣节活动——接听恋恋电话的轻量AVG，但玩家需登录账号才能进行游戏，同时游玩游戏还可获得限时成就。轻松活泼的故事情节和简单的游玩方式使得游戏趣味横生，如果玩家不幸掉入Bad End也不必担心无法再次进行游戏，只需要等待十分钟或者编辑THBWiki的词条就可以再次接听了。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/QQ20181212193952.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/QQ20181212193952.png)
 
 ---
 

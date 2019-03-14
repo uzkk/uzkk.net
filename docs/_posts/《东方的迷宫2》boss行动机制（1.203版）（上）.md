@@ -15,9 +15,9 @@ tags:
 
 # 《东方的迷宫2》boss行动机制（1.203版）（上）
 
-		**原****文发布于bilibili中国，原地址：[null|https://www.bilibili.com/read/cv1772275]****
+		**原****文发布于bilibili中国，原地址：[https://www.bilibili.com/read/cv1772275](https://www.bilibili.com/read/cv1772275)****
 
-****作者授权转载：[null|https://space.bilibili.com/17071013]**
+****作者授权转载：[幻想乡共和国](https://space.bilibili.com/17071013)**
 
 从国外一个论坛搞到了一份关于敌人行动机制的文件，这里将其中boss和FOE的部分贴出来供大家参考～
 
@@ -27,7 +27,7 @@ tags:
 
 建议配合怪物属性食用：
 
-[null|https://en.touhouwiki.net/wiki/Labyrinth_of_Touhou_2/Bestiary]
+[https://en.touhouwiki.net/wiki/Labyrinth_of_Touhou_2/Bestiary](https://en.touhouwiki.net/wiki/Labyrinth_of_Touhou_2/Bestiary)
 
 首先需要说明的是，敌人的技能是有模式的，每一种模式会给我方前排4人一个权重，按照权重来表达概率。例如：“Target A with L.1 Attack”意味着一个敌人按照A模式发动【普通攻击】这个单体技能（技能等级（L.=Level）：1级），此时我方在前排1、2、4号位上有人，那么敌人这个技能对我方前排4个位置的权重就为60，30，0，3。（3号位空，则权重为0）概率为：60/93，30/93，3/93。（93=60+30+0+3）
 
@@ -1361,10 +1361,10 @@ Target A with L.1 Attack
 
 参考网站：
 
-[null|https://www.shrinemaiden.org/forum/index.php/topic,21518.msg1406579.html#msg1406579]
+[https://www.shrinemaiden.org/forum/index.php/topic,21518.msg1406579.html#msg1406579](https://www.shrinemaiden.org/forum/index.php/topic,21518.msg1406579.html#msg1406579)
 
-[null|https://www54.atwiki.jp/thlabyroth2/pages/87.html]
+[https://www54.atwiki.jp/thlabyroth2/pages/87.html](https://www54.atwiki.jp/thlabyroth2/pages/87.html)
 
-[null|https://www54.atwiki.jp/thlabyroth2/pages/116.html]
+[https://www54.atwiki.jp/thlabyroth2/pages/116.html](https://www54.atwiki.jp/thlabyroth2/pages/116.html)
 
-[null|https://www54.atwiki.jp/thlabyroth2/pages/154.html]
+[https://www54.atwiki.jp/thlabyroth2/pages/154.html](https://www54.atwiki.jp/thlabyroth2/pages/154.html)

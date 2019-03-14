@@ -26,12 +26,18 @@ tags:
 
 **miko（藤咲かりん）：**
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/20190124131041.png)
-miko
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/20190124131041.png" alt=""/>
+  <figcaption>miko</figcaption>
+</figure>
+
 如果单单说到**miko**没什么印象，那如果告诉你**miko**演唱了**魔理沙は大変なものを盗んでいきました（魔理沙偷走了重要的东西），チルノのパーフェクトさんすう教室（琪露诺的完美算数教室）**。我想观看本文的各位东方爱好者应该没有没听过的，**miko**也是最早参与东方Vocal活动的歌姬之一，**miko**第一首东方Vocal是**SYNC.ART’S**在2006-05-21 （第三回 博麗神社例大祭）发布的专辑**REQUIEM** **～幻想に散る少女たち～**中的**心の在り処。**
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/20190124131408.png)
-REQUIEM ～幻想に散る少女たち～
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/20190124131408.png" alt=""/>
+  <figcaption>REQUIEM ～幻想に散る少女たち～</figcaption>
+</figure>
+
 随后的2006-08-13 （ComicMarket70），社团**IOSYS**发布的**東方乙女囃子**中**miko**演唱的**魔理沙は大変なものを盗んでいきました**一举出名，社团还特意制作了flash动画作为MV，**miko**也一举出名。
 
 有趣的是，**miko**开始的两首东方Vocal使用的原曲都是人**形裁判 ～ 人の形弄びし少女**。同样的原曲，同一个歌姬，带来的听觉感受却截然相反，这便是东方同人音乐的魅力。
@@ -40,8 +46,11 @@ REQUIEM ～幻想に散る少女たち～
 
 紧接着在2008-11-02 （東方紅楼夢4），**IOSYS**发布了**東方氷雪歌集**，チルノのパーフェクトさんすう教室以其惊人的洗脑性配合魔性的Flash动画爆红于网络，**IOSYS**也一举成为人气东方音乐社团。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/20190124131806.png)
-miko参与的社团列表
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/20190124131806.png" alt=""/>
+  <figcaption>miko参与的社团列表</figcaption>
+</figure>
+
 miko长期活跃在各个知名东方同人社团中，疯起来能电波卖萌，静下来也能动情演绎歌曲，是容易被记住的一位非常有特色的歌姬
 
 **代表作品：**
@@ -72,8 +81,11 @@ miko成名作，鬼畜电波卖萌一气呵成
 
 **小峠舞：**
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/20190124165015.png)
-小峠舞
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/20190124165015.png" alt=""/>
+  <figcaption>小峠舞</figcaption>
+</figure>
+
 无论你听过多少层出不穷的东方同人音乐，相信你听到某个拥有着成熟性感的实力派嗓音后一定会对她印象深刻，那个她就是小峠舞。
 
 舞姐是同人社团**C-CLAYS**及其姐妹社团**K2** **SOUND**的**前**御用歌手，也正是因为有了她这两个社团加速了推进知名度的步伐。她主要演唱**R&B、pop**以及舞曲类音乐。最初的她以“舞”作为艺名，C72发售专辑【**遥 ～HARUKA～**】中，她以“舞”的名义首次献声。其实在这之前她就曾经以“mai”的名义参与了专辑【**天奏月谭 ～TENSOU GETTAN～**】的演唱，不过并不为众人所知，当然也是在她以“舞”的名义进行演唱之后逐渐有人开始对她进行了解。在C75发售专辑【**神凪 -KAN-NAGI-**】以后，舞姐更名“**小峠舞**”，继续活跃在**C-CLAYS**和之后K2氏建立的社团**K2 SOUND**中。例6推出的专辑【**彩丽 -Xirai-**】中，一首“**Spring Shower**”使得舞姐和所属社团**C-CLAYS**的知名度迅速上升。随后的同人专辑里，舞姐献声的曲目大都能给听众不小的惊喜。舞姐的演唱风格也深受广大听众的喜爱。
@@ -86,8 +98,11 @@ miko成名作，鬼畜电波卖萌一气呵成
 
 近年来与中国东方音乐社团**Yonder Voice，bunny rhyTHm**联系密切，舞姐跟**缨缨Ei，琉芸Miruku**，**瑶山百靈**私下都是不错的朋友，相信去过上海THONLY的朋友一定对舞姐不陌生。
 
-![image](http://www.uzkk.net/wp-content/uploads/2019/01/20190124165600.png)
-小峠舞参与的社团列表
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2019/01/20190124165600.png" alt=""/>
+  <figcaption>小峠舞参与的社团列表</figcaption>
+</figure>
+
 **代表作品：**
 
 [[iframe]]

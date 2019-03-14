@@ -21,28 +21,40 @@ tags:
 
 		本文是电FamiNicoGamer刊载的**ZUN、Toby、木村祥朗**三人对谈。
 
-**原文**：[null|http://news.denfaminicogamer.jp/interview/181019]
+**原文**：[http://news.denfaminicogamer.jp/interview/181019](http://news.denfaminicogamer.jp/interview/181019)
 
 **翻译**：京都人形
 
-[null|https://space.bilibili.com/364812769?from=search&seid=7488258682728027544]授权转载
+[**东游鉴**](https://space.bilibili.com/364812769?from=search&seid=7488258682728027544)授权转载
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/b0738be5aee3ed5e804cb625e148ce8234542bd9.png@1320w_742h-1024x576.png)
-从左到右是木村祥朗、Toby Fox、ZUN
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/b0738be5aee3ed5e804cb625e148ce8234542bd9.png@1320w_742h-1024x576.png" alt=""/>
+  <figcaption>从左到右是木村祥朗、Toby Fox、ZUN</figcaption>
+</figure>
+
 **『UNDERTALE』Toby Fox×『东方』ZUN×Onion Games木村祥朗三方对谈──这是选择了能让自己幸福的道路的结果──畅谈同人游戏的灵魂与独立游戏的自由**
 
 自从2015年亮相以来，世界性的火爆难以停息的独立游戏『UNDERTALE』，直到今年2018年Nintendo Switch版在9月15日登场等等，迄今为止得以在大量的平台上发行，仍在为玩家带来震撼。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/792515929b54ab0b429dbc786126eca9ac7cc297.png@900w_506h.png)
-『UNDERTALE』
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/792515929b54ab0b429dbc786126eca9ac7cc297.png@900w_506h.png" alt=""/>
+  <figcaption>『UNDERTALE』</figcaption>
+</figure>
+
 这部作品中洋溢着可爱却又黑暗、日本的玩家有些似曾相识的口味。一个人着手制作了这部2D风格RPG的大部分内容的26岁年轻制作者**Toby Fox**，在圈子内是知名的『东方Project』（以下略称『东方』）忠实粉丝。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/e16bd8186aec4940a53d1bd28b465945ebcd1362.png@900w_676h.png)
-东方Project第8作『东方永夜抄』
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/e16bd8186aec4940a53d1bd28b465945ebcd1362.png@900w_676h.png" alt=""/>
+  <figcaption>东方Project第8作『东方永夜抄』</figcaption>
+</figure>
+
 将Toby和『东方』的生父**ZUN**联系到一起的，是Onion Games的**木村祥朗**。木村也是一位在当今独立游戏业界中大显身手的制作者，他着手制作的新作射击游戏『BLACK BIRD』（2018年10月18日在Nintendo Switch上发行／Steam版预定于近日发行），在2018年5月举办的独立游戏的祭典BitSummit Vol.6上获得了VERMILION GATE AWARD（类似于最佳作品奖）和EXELLENCE IN SOUND DESIGN AWARD（类似于最佳音效奖）两门奖项。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/734e2118d2a6451a0ea03477165ad0d39193b32b.png@900w_510h.png)
-『BLACK BIRD』
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/734e2118d2a6451a0ea03477165ad0d39193b32b.png@900w_510h.png" alt=""/>
+  <figcaption>『BLACK BIRD』</figcaption>
+</figure>
+
 以下所记载的，是在木村「想要以某种形式留下Toby和ZUN的对话」的思考下得以实现的三方对谈。住在美国的Toby如何得知日本的同人游戏『东方』，又从中受到了什么样的影响等等，充满了引人入胜的话题。
 
 话题从Toby和ZUN的惺惺相惜开始，逐渐开始讨论各自对于『UNDERTALE』和『东方』的感想以及所受的影响，到后半部分则话锋一转，提及**「一个人制作游戏的好处在于「不用命令别人」」「“让自己的内心自由就能制作出有趣的作品”这件事最为重要」**等等，以只有在最前线活跃的3个人才能拥有的诚恳的语气，讨论了在独立或者同人这种小规模的场所**「为了什么而制作游戏」**这种具有普遍性的话题。
@@ -61,8 +73,11 @@ tags:
 
 **Toby对于『东方』的热爱，有着来自ZUN的官方认证****干杯！**
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/c33aede5352b9aff81579065ea16ffccfa626c6e.jpg@600w_400h.jpg)
-从左到右是木村祥朗、Toby Fox、ZUN
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/c33aede5352b9aff81579065ea16ffccfa626c6e.jpg@600w_400h.jpg" alt=""/>
+  <figcaption>从左到右是木村祥朗、Toby Fox、ZUN</figcaption>
+</figure>
+
 **——前几天3个人也在一起吃饭了吧。**
 
 **ZUN**:是的。其实在2017年年末也有过一次见面的机会，我就在想「表示自己是『东方』爱好者的Toby先生，会跟我讲些什么事情呢？」，非常期待，但怎奈我抽不出时间，只能作罢。我就想「下次一定要见一面」，于是前几天终于实现了。
@@ -89,8 +104,11 @@ tags:
 
 **Toby**:作为**ZUN**先生的一个粉丝，我是如何了解并享受『东方』的。我想告诉他我为何会从『东方』中获得启发……此外，我也想给他看看我朋友Temmie（**Temmie Chang**）画的『东方』的画。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/43d4324f0f1995d4b7fba89ce0e6d331de6ebc6f.png@900w_1350h-683x1024.png)
-Toby Fox
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/43d4324f0f1995d4b7fba89ce0e6d331de6ebc6f.png@900w_1350h-683x1024.png" alt=""/>
+  <figcaption>Toby Fox</figcaption>
+</figure>
+
 **ZUN**:他给我看了。呼呼呼。
 
 ——**ZUN先生在亲眼见到Toby先生的热情之后有何作想？**
@@ -105,8 +123,11 @@ Toby Fox
 
 **Toby**:那个笔记的话，我带过来了（笑）。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/16700f71049deb8ae803e8407f8c57e6fa8d0789.jpg@600w_400h.jpg)
-展示写在手机上的笔记的Toby
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/16700f71049deb8ae803e8407f8c57e6fa8d0789.jpg@600w_400h.jpg" alt=""/>
+  <figcaption>展示写在手机上的笔记的Toby</figcaption>
+</figure>
+
 **——（看到笔记）哦哦哦，密密麻麻！**
 
 **ZUN**:是从**“我对『东方』开始熟悉”**开始的（笑）。总之，Toby先生比我想象中的还要是个『东方』宅（笑）。海外的东方爱好者增加，我一直以为是2000年代后半段才开始的，正好和日本一样……也就是说，Toby先生从日本的爱好者才刚刚增加起来的早期就开始玩了。我没想到海外会有这样的爱好者。
@@ -117,12 +138,18 @@ Toby Fox
 
 **ZUN**:不，是从**『妖妖梦』**（2003年）那段时间开始。而且更令我惊讶的是，当时的他还是个初中生（笑）。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/85cd10a12182a89ff6afda5254732a10eb18d74e.png@900w_710h.png)
-『东方妖妖梦』标题画面
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/85cd10a12182a89ff6afda5254732a10eb18d74e.png@900w_710h.png" alt=""/>
+  <figcaption>『东方妖妖梦』标题画面</figcaption>
+</figure>
+
 **Toby**:『东方』是我在10岁时从免费游戏的网站上得知的。因为是个非常有趣的游戏，那个网站推荐了『红魔乡』（2002年）和『妖妖梦』。游戏只能玩到第3面，后来才知道因为是体验版。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/65e837c5d47142eaed6a6d0910df2113989552e8.png@900w_710h.png)
-『东方红魔乡』3面BOSS、「红美铃」
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/65e837c5d47142eaed6a6d0910df2113989552e8.png@900w_710h.png" alt=""/>
+  <figcaption>『东方红魔乡』3面BOSS、「红美铃」</figcaption>
+</figure>
+
 **Toby** :即便如此，弹幕的样式以及音乐都充满了魅力，**我出生以来第一次喜欢上了射击游戏。**顺便，尽管我当时10岁，简单难度还是能勉强通关的（笑）。
 
 **——虽然那个网站在推荐，但在美国还是相当小众的吧？**
@@ -137,8 +164,11 @@ Toby Fox
 
 **Toby**:同时我自己听写了游戏原声集的谱子，自学了作曲。虽然是首很难的曲子，但我一直都想在钢琴上弹奏『妖妖梦』的**『Necro-Fantasia』**，从初中时就开始练习了。高中时代的夏令营我们有一次聚集在教会，**我在那里演奏了『Necro-Fantasia』，结果人生第一次大量的人对我起立鼓掌！**……ZUN先生，真是非常感谢。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/2f8c845f933b1ae440aca79f329a185077a05df3.png@600w_474h-300x237.png)
-『东方妖妖梦』Phantasm关卡BOSS「八云紫」的主题曲，「Necro-Fantasia」
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/2f8c845f933b1ae440aca79f329a185077a05df3.png@600w_474h-300x237.png" alt=""/>
+  <figcaption>『东方妖妖梦』Phantasm关卡BOSS「八云紫」的主题曲，「Necro-Fantasia」</figcaption>
+</figure>
+
 **ZUN**:不不。因为没有乐谱，所以是Toby先生的改编吧？真是太厉害了。不过『Necro-Fantasia』是指**“死者的乐园**”啊？这种曲子在教会里演奏真的没问题吗？（笑）
 
 **Toby**:（笑）
@@ -155,8 +185,11 @@ Toby Fox
 
 **木村**:……瞧，开始有种温馨的感觉了吧？没事，你们继续。我就在旁边以父亲一样的心情听着（笑）。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/ddb44c2e1cb0701d6e047af1a912b2f6d57e8f71.jpg@600w_400h-300x200.jpg)
-木村祥朗
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/ddb44c2e1cb0701d6e047af1a912b2f6d57e8f71.jpg@600w_400h-300x200.jpg" alt=""/>
+  <figcaption>木村祥朗</figcaption>
+</figure>
+
 **一同　**（笑）。
 
 **ZUN**:我觉得Toby先生真的是很厉害……我刚才也说了，我根本就不知道Toby先生开始玩的那段时期，海外会有玩『东方』的人存在。
@@ -165,8 +198,11 @@ Toby Fox
 
 **ZUN**:官方的流通开始是在2017年。『妖妖梦』已经是15年前的游戏了。不过，我当时在网上公布了免费的体验版，看来是从那里开始的。顺便，我会知道『UNDERTALE』，是因为『东方』爱好者们的推荐（笑）。有人跟我说「看来受到了『东方』很大的影响」。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/60e96f234108b2d57652398c84e56645f7fd9359.jpg@600w_338h-300x169.jpg)
-『UNDERTALE』战斗画面
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/60e96f234108b2d57652398c84e56645f7fd9359.jpg@600w_338h-300x169.jpg" alt=""/>
+  <figcaption>『UNDERTALE』战斗画面</figcaption>
+</figure>
+
 **——「我瞧瞧？」然后就去玩了。**
 
 **ZUN**:对。结果玩过之后觉得超级好玩。不过，好玩之处倒是和大家所推荐的方向不太一样（笑）。
@@ -175,8 +211,11 @@ Toby Fox
 
 **ZUN**:我想象中会有一个所谓的精致的剧情，或是漂亮的世界观，结果却是奇特的世界和奇特的系统。最初就有一种非常令人不安的气氛，直到最后也想象不出接下来会发生什么。我尽量不去看任何攻略，自己摸索着开始了游戏，**结果感觉所有登场人物都对我太好了，反倒感觉有些不安**……我觉得「这种感觉，是别的游戏没有的」。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/db03cdaf97077eaf8b9918d23289c2bbea2bde78.jpg@600w_338h-300x169.jpg)
-『UNDERTALE』游戏画面
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/db03cdaf97077eaf8b9918d23289c2bbea2bde78.jpg@600w_338h-300x169.jpg" alt=""/>
+  <figcaption>『UNDERTALE』游戏画面</figcaption>
+</figure>
+
 **Toby:ZUN**先生能够认识到这是个“奇特的世界”我就已经很高兴了。我**喜欢独立游戏，是因为比起完成度很高的作品，我能去制作有些奇特、能够彰显作家特点的游戏。**就好比ZUN先生的角色，都穿着别的游戏里见不到的服装，和有着奇特设计的帽子一样。
 
 **ZUN**:那可能是因为……我没有认真学习（笑）。
@@ -185,8 +224,11 @@ Toby Fox
 
 **ZUN**:（笑）。除此之外，对我而言没有什么太难的弹幕出现，也令我很不安（笑）。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/0d6c3e41c9eea7f81d04350bb92972f243f51880.jpg@600w_900h-200x300.jpg)
-ZUN
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/0d6c3e41c9eea7f81d04350bb92972f243f51880.jpg@600w_900h-200x300.jpg" alt=""/>
+  <figcaption>ZUN</figcaption>
+</figure>
+
 **Toby**:（笑）。『UNDERTALE』本来是我为朋友制作的游戏，所以我觉得未必需要难到能让玩『东方』Lunatic级别的人高兴的地步……就算不那么难，弹幕已经足够有趣了。
 
 **ZUN**:难度把握得相当好，我觉得是很不错的。
@@ -207,16 +249,22 @@ ZUN
 
 **——看一眼Toby先生的游戏履历，能看到『地球冒险』以及过去木村先生所属的LOVEdeLIC制作的『超级马力欧RPG』『moon』等作品。『UNDERTALE』的剧情和世界观，是来自于Toby先生的哪里呢？**
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/9997304889bcd8658f643e63a21b6c44e374ad3b.jpg@600w_338h-300x169.jpg)
-画像为超级马力欧RPG | Wii U | 任天堂
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/9997304889bcd8658f643e63a21b6c44e374ad3b.jpg@600w_338h-300x169.jpg" alt=""/>
+  <figcaption>画像为超级马力欧RPG | Wii U | 任天堂</figcaption>
+</figure>
+
 **Toby**:这个……**『超级马力欧RPG』**与敌人的战斗和一般的RPG不同，具有动作性等等，我觉得游戏系统很好。所以『UNDERTALE』的战斗，可以说是**『超级马力欧RPG』的『东方』版。**
 
 **——原来如此！**
 
 **Toby**:要说剧情上受到了影响的游戏，果然还是『地球冒险』系列。奇特性、幽默和感人的情节等等一应俱全，我心想我也想制作这样的剧情。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/ec5d21497c7cb0e953dd3c8c20dcdd16b63b4a0a.jpg@600w_338h-300x169.jpg)
-画像为地球冒险 | Wii U | 任天堂
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/ec5d21497c7cb0e953dd3c8c20dcdd16b63b4a0a.jpg@600w_338h-300x169.jpg" alt=""/>
+  <figcaption>画像为地球冒险 | Wii U | 任天堂</figcaption>
+</figure>
+
 **Toby**:由于『moon』只有日文版，所以除非我能更加擅长日语或是推出英文版，我就没法深入地去打这个游戏，但“**勇者是反派”**以及“**怪物未必是坏人**”这种游戏理念让我印象非常深刻。
 
 **——不过日本的游戏还真多。**
@@ -231,8 +279,11 @@ ZUN:啊，不过，我去美国时感受到的，是身体比我大两三圈的�
 
 **ZUN**:顺便Toby先生今天穿的这件T恤，我有完全同款。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/c0187dae7a82bb5727caaa75a4d1cd645e70f9e1.jpg@600w_400h-300x200.jpg)
-Toby的T恤
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/c0187dae7a82bb5727caaa75a4d1cd645e70f9e1.jpg@600w_400h-300x200.jpg" alt=""/>
+  <figcaption>Toby的T恤</figcaption>
+</figure>
+
 **Toby**:咦，真的吗？好高兴！
 
 **木村**:对吧？是因为审美相似吗（笑）。
@@ -243,7 +294,7 @@ Toby的T恤
 
 **ZUN**:啊。我想起『东方』明明没怎么使用英语，**到了美国所有东西都变成了英语**，吓了我一跳。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/99da65f9cc14c18431d183f00ff83cc87543b542.jpg@600w_900h-200x300.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/99da65f9cc14c18431d183f00ff83cc87543b542.jpg@600w_900h-200x300.jpg)
 
 ZUN:我在想这到底是谁制作的（笑）。有志愿者去做补丁，算是独立游戏或者说是同人的好处吧。同样的事情要是发生在普通的游戏公司上，事情就要闹大了……
 
@@ -253,7 +304,7 @@ ZUN:我在想这到底是谁制作的（笑）。有志愿者去做补丁，算�
 
 **Toby**:会的啊！……那，全作登陆Steam的打算有吗？
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/45aab5fcbae5c6951488d6c9a19221cdf2407cfc.jpg@600w_900h-200x300.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/45aab5fcbae5c6951488d6c9a19221cdf2407cfc.jpg@600w_900h-200x300.jpg)
 
 **ZUN**:那是有的。我想今后新作也会在海外发售。
 
@@ -269,13 +320,16 @@ ZUN:我在想这到底是谁制作的（笑）。有志愿者去做补丁，算�
 
 **Toby**:果然还是**八云紫！**不过11岁左右的时候，我更喜欢蓝（八云紫的式神，**八云蓝**）。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/2f8c845f933b1ae440aca79f329a185077a05df3-1.png@600w_474h-1-300x237.png)
-「八云紫」
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/2f8c845f933b1ae440aca79f329a185077a05df3-1.png@600w_474h-1-300x237.png" alt=""/>
+  <figcaption>「八云紫」</figcaption>
+</figure>
+
 **ZUN**:蓝？为什么？（笑）
 
 **Toby**:**超可爱……❤(ˉ﹃ˉ)**
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/afdb40138ca1635029bf1a159978603d650da874.png@600w_474h-300x237.png)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/afdb40138ca1635029bf1a159978603d650da874.png@600w_474h-300x237.png)
 
 **一同　**（笑）。
 
@@ -289,7 +343,7 @@ ZUN:我在想这到底是谁制作的（笑）。有志愿者去做补丁，算�
 
 **ZUN**:我当时心中已经决定好了从『红魔乡』起的三部作品该以什么样的阶段加入什么样的要素。因为是连续的作品，就想在第1作准备一个Extra，然后在第2作制作一个Extra的下一步（Phantasm），来出乎爱好者们的意料。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/d696a81a6dd3fc225fba35be4ca2ba69eb41789c.jpg@600w_900h-200x300.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/d696a81a6dd3fc225fba35be4ca2ba69eb41789c.jpg@600w_900h-200x300.jpg)
 
 **ZUN**:第3作（『东方永夜抄』）我则让各种角色登场，还决定加入**“符卡练习”**。不过，再继续下去就只会徒增游戏体积了，所以我就重置了一下，让游戏变得更加精简，一直持续到现在。
 
@@ -303,7 +357,7 @@ ZUN:我在想这到底是谁制作的（笑）。有志愿者去做补丁，算�
 
 **
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/2b9d4b32ab5bb00c3224d916d648f41f31789180.jpg@600w_400h-300x200.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/2b9d4b32ab5bb00c3224d916d648f41f31789180.jpg@600w_400h-300x200.jpg)
 
 **ZUN**:果然还是费了自己最大劲的弹幕，印象会更加深刻。比起喜欢，大家都会觉得讨厌吧？
 
@@ -335,8 +389,11 @@ ZUN:我在想这到底是谁制作的（笑）。有志愿者去做补丁，算�
 
 **Toby**:　除此之外，月都有一个名为克劳恩皮丝的角色，她不是披着星条旗拿着火炬吗？自由女神。在全面推崇东洋文化的『东方』中，为什么要特意加入美国的角色呢？
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/47ec1d4bb4970ebc57b89a1064897aa5172f1cf8.png@600w_462h-300x231.png)
-『东方绀珠传』5面BOSS、「克劳恩皮丝」
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/47ec1d4bb4970ebc57b89a1064897aa5172f1cf8.png@600w_462h-300x231.png" alt=""/>
+  <figcaption>『东方绀珠传』5面BOSS、「克劳恩皮丝」</figcaption>
+</figure>
+
 **ZUN**:在我的心中，故事发生的月都有着中国的印象。那么想了一下和这个月都交战的对手会是哪呢，就觉得，**「美国吧？」**……这种思考方式。
 
 一同　（笑）。
@@ -355,7 +412,7 @@ ZUN:我在想这到底是谁制作的（笑）。有志愿者去做补丁，算�
 
 **
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/3e130fc7aee08f58084c0a44969417d810502a93.jpg@600w_400h-300x200.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/3e130fc7aee08f58084c0a44969417d810502a93.jpg@600w_400h-300x200.jpg)
 
 Toby:曲子我都是在制作游戏之前完成的，所以也有**配合着曲子创作剧情**的特点。这一点和普通的游戏可能恰恰相反。
 
@@ -373,7 +430,7 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **ZUN**:这么说可能像是在说大话，但是在『东方』的弹幕中，失误是非常令人不快的。人们都不会玩令人不快的游戏吧？能与这种不快抗衡的，也只有快感了。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/05efde053ed535ff9ae7738d523a5980561e5649.jpg@600w_708h-254x300.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/05efde053ed535ff9ae7738d523a5980561e5649.jpg@600w_708h-254x300.jpg)
 
 **ZUN**:对我来说，**「越是困难的场景，就要用越好的曲子」**。因为，听着好的曲子的时候，不快会转化为快感。因此，我觉得越是到了游戏的后半部分，就越要创作更多好的曲子。如果能让玩家的各位达到一种**「为了听完曲子，努力存活下去」**的境界，作为游戏用曲的价值就可谓是相当高了。
 
@@ -389,7 +446,7 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **Toby**:太棒了！
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/14905653801113b2816dd8d9325d635738e6960b.jpg@600w_900h-200x300.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/14905653801113b2816dd8d9325d635738e6960b.jpg@600w_900h-200x300.jpg)
 
 **一同（笑）**。
 
@@ -415,7 +472,7 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **木村**:是吗，好羞耻……那不是我为了制作新游戏而挣扎的那段期间吗……而且，我用英文写的博客，基本上都非常气馁，都是些「我快死了」「要是我独立游戏制作失败，变得身无分文……」之类的。然而，读了这些文章的海外读者，如今就在眼前（笑）。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/57c9f712895a4afa2e6cef99f89653dacef9291b.jpg@600w_400h-300x200.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/57c9f712895a4afa2e6cef99f89653dacef9291b.jpg@600w_400h-300x200.jpg)
 
 **Toby**:我就觉得，「木村先生好可怜啊」……（笑）。
 
@@ -429,7 +486,7 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/413403f328bb9462eb63ecd8fca77cff507d0cb1.jpg@600w_900h-200x300.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/413403f328bb9462eb63ecd8fca77cff507d0cb1.jpg@600w_900h-200x300.jpg)
 
 **木村**:……不用再提我个人的事情了。连ZUN先生都这么说，我越发羞耻了（笑）。
 
@@ -441,8 +498,11 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 木村:然后我回到了日本，跟人说着「美国的独立游戏真的很厉害！」的过程中，通过朋友介绍等等，在我面前也开始逐渐出现日本的独立游戏的大腕。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/6dace660528e48270d454737c7611251a9882e3e.jpg@600w_412h-300x206.jpg)
-画像为洞窟物语（Cave Story）| PC游戏、PLAYISM上的独立游戏
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/6dace660528e48270d454737c7611251a9882e3e.jpg@600w_412h-300x206.jpg" alt=""/>
+  <figcaption>画像为洞窟物语（Cave Story）| PC游戏、PLAYISM上的独立游戏</figcaption>
+</figure>
+
 **木村**:最开始是制作了『洞窟物语』的天谷（Pixel 天谷大辅）。然后不久是ZUN先生。我会认识ZUN先生，是因为我所进行的直播节目『PoriPori☆Club』上的伙伴丹泽（丹泽悠一）问我「木村先生，你知道『东方』吗？」。
 
 **——啊，那还是相当最近的事情。**
@@ -455,7 +515,7 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/123d8726bdbe28abe895761c46de6f85cc726fcf.jpg@600w_400h-300x200.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/123d8726bdbe28abe895761c46de6f85cc726fcf.jpg@600w_400h-300x200.jpg)
 
 **木村**:不论是普通的游戏公司，还是独立，还是同人，持续每年出一部新作品是很难的。如今这种坚持开花结果，让人觉得「销量这么好嫉妒也没用」。所以我就想到，一定要下定决心，「不论卖得好不好，组建了小团队之后就绝对要一直做下去」。我从ZUN先生那里，收获了这种认真的能量。
 
@@ -463,7 +523,7 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **ZUN**:这是个非常长期的事情，途中我的思考方式发生过改变。首先，人称旧作的第1作到第5作，是我在大学的社团制作的。当时，我想着「能实现多少我想制作的东西」去制作。这些本身算是完结了，于是我做完第5作之后就说「这是最后了」，去就业了。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/7df06e8a7a0058d2a3847bba6b398298eb4efca0.jpg@600w_400h-300x200.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/7df06e8a7a0058d2a3847bba6b398298eb4efca0.jpg@600w_400h-300x200.jpg)
 
 **ZUN**:就业后继续开始制作游戏，我的制作方式也没有改变。不论是个人制作，还是为企业制作。但是，在企业，就算我提交自己想制作的东西的企划，也不会通过。明明我有「绝对能卖出去」的自信。……不过，现在想来，那也只不过是年轻气盛（笑）。当时我不懂这些道理，所以烦躁就逐渐累积。而且，就算努力制作，一旦卖不出去就会成为制作方的责任。我就感觉，「不是你命令我我才做的吗」……
 
@@ -471,7 +531,7 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **ZUN**:这时，我为了去看同人游戏，时隔4年左右去了CM。结果发现人比我宣布不干同人游戏那段时间还多。来买的人非常多，但是贩卖的数量却非常少，基本上每个社团都售罄了……在那时，我就想「我自己制作游戏绝对更有意思」，算是万恶的起源（笑）。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/4063620cc92c53689829545b8774ede00185a892.jpg@600w_400h-300x200.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/4063620cc92c53689829545b8774ede00185a892.jpg@600w_400h-300x200.jpg)
 
 **ZUN**:第二天，我就一口气开始为参展下一个CM而制作起了游戏。当时我制作出来的，**要说的话是全面发泄我的不满的游戏**。而那也算是我在Windows上制作游戏的习作，我就觉得，为了能完整地创作一个世界，让作品完成，「需要制作3部作品左右」。制作完那3部，系列也会干净利落地完结，我也应该会得到满足。然而，就当我推出了第3作（『东方永夜抄』）的时候，突然爱好者开始聚集起来了。也就是说，**这次我无法按照我的自由来制作游戏了**。这完全出乎我的意料……
 
@@ -479,13 +539,16 @@ ZUN:不那样的话就错开了（笑）。像音游一样，**配合着曲子�
 
 **ZUN**:是的。如果我想去制作射击游戏之外的作品，门槛就会变高，因为爱好者的第一印象会是，「啊，这是制作了『东方』的那个人的作品」。这样一来，比起着手其他体裁的作品，**我觉得像这样继续制作『东方』对自己会更有好处**。从而完成的作品就是2007年发售的『东方风神录』，自那时起思考方式就转变为了「不是去增加作品，更重要的是能继续下去」。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/78410459a7e2253936141c89eacde19db6623edf.png@600w_450h-300x225.png)
-东方Project第10作『东方风神录』
+<figure>
+  <img src="http://www.uzkk.net/wp-content/uploads/2018/12/78410459a7e2253936141c89eacde19db6623edf.png@600w_450h-300x225.png" alt=""/>
+  <figcaption>东方Project第10作『东方风神录』</figcaption>
+</figure>
+
 **——这个转折还真是关键。决定创作同一个系列之后，ZUN先生能够持续下去的诀窍是什么呢？**
 
 **ZUN**:我现在不怎么提了，但在过去我曾说过「『东方』不是一个系列」，而是一个“反系列”。这是因为，如果它是一个系列，最新作就必须要超越前作。这样一来我在制作第2部、第3部的过程中总有一天会走投无路，所以需要尽早避免这种事。我强烈地认为，「游戏不需要比前作更好玩，能持续下去就行」。为此，我开始思考「每年规模都不要弄得太大」「自己的游戏都用同样的规模制作」。
 
-![image](http://www.uzkk.net/wp-content/uploads/2018/12/84142003bef391f14f7161153d8436c6ff371fc4.jpg@600w_900h-200x300.jpg)
+![](http://www.uzkk.net/wp-content/uploads/2018/12/84142003bef391f14f7161153d8436c6ff371fc4.jpg@600w_900h-200x300.jpg)
 
 **Toby**:我感同身受。只要不去考虑超越前作，就能变得健康。我明明只创作了1部作品，就已经感受到强烈的压力了……
 
