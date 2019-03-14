@@ -12,7 +12,7 @@ tags:
 
 # 东方梦零魂 -Touhou Nil Soul- 的商店页面已经在steam公布
 
-		大家好，这篇是久违的更新，在steam的商店页面今早已经审核通过，我们终于进入了EA前最后的冲刺阶段。
+大家好，这篇是久违的更新，在steam的商店页面今早已经审核通过，我们终于进入了EA前最后的冲刺阶段。
 
 <figure>
   <img src="http://www.uzkk.net/wp-content/uploads/2019/01/20190121190533.png" alt=""/>

@@ -17,7 +17,7 @@ tags:
 
 # LION HEART – 天壤的暴风雨(天壤之岚、天壌のテンペスト)简单评测
 
-		本文作者：[@辛宪英](https://space.bilibili.com/10672427)
+本文作者：[@辛宪英](https://space.bilibili.com/10672427)
 
 [**东游鉴**](https://space.bilibili.com/364812769)授权转载
 

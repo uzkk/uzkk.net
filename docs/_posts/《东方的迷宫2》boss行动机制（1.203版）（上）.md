@@ -15,7 +15,7 @@ tags:
 
 # 《东方的迷宫2》boss行动机制（1.203版）（上）
 
-		**原****文发布于bilibili中国，原地址：[https://www.bilibili.com/read/cv1772275](https://www.bilibili.com/read/cv1772275)****
+**原****文发布于bilibili中国，原地址：[https://www.bilibili.com/read/cv1772275](https://www.bilibili.com/read/cv1772275)****
 
 ****作者授权转载：[幻想乡共和国](https://space.bilibili.com/17071013)**
 

@@ -16,7 +16,7 @@ tags:
 
 # Ghost Hunter Reimu 除灵师灵梦：一款被耽误了的东方同人ACT游戏
 
-		Ghost Hunter Reimu，可译为除灵师灵梦，是[BlueMica](http://www.blue-mica.com/)在C89上发布的一款动作类通关游戏。
+Ghost Hunter Reimu，可译为除灵师灵梦，是[BlueMica](http://www.blue-mica.com/)在C89上发布的一款动作类通关游戏。
 
 游戏的题材与玩法算不上新颖，甚至可能有人把它当做一款普通的小游戏看，但事实上，这是一款麻雀虽小五脏俱全的游戏，非常适合那些有耐心认真发掘游戏内容的玩家。
 

@@ -12,7 +12,7 @@ module.exports = {
     const title = article.find('header h1').text()
       .replace('[', '【')
       .replace(']', '】')
-    const content = render(article.find('.entry-content')[0])
+    const content = render(article.find('.entry-content')[0]).trim()
     const footer = article.find('footer')
     const createTime = footer.find('.posted-on time').attr('datetime')
     const author = footer.find('.author a').text()

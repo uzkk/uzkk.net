@@ -18,4 +18,4 @@ tags:
 
 # 点评Team Ladybug的同人作品——《东方神月夜/东方月神夜 TOUHOU LUNA NIGHTS》
 
-		[[nav]]
+[[nav]]

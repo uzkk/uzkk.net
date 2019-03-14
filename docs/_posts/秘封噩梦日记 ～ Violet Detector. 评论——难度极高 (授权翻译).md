@@ -14,7 +14,7 @@ tags:
 
 # 秘封噩梦日记 ～ Violet Detector. 评论——难度极高 (授权翻译)
 
-		**原文发布于IGN日本，原地址：**
+**原文发布于IGN日本，原地址：**
 
 [https://jp.ign.com/hifunightmare/28915/review/violet-detector](https://jp.ign.com/hifunightmare/28915/review/violet-detector)
 

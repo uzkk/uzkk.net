@@ -10,7 +10,7 @@ tags:
 
 # ぢせ老师也开了自己的FANBOX援助计划
 
-		ぢせ老师([推@psychoron](https://twitter.com/psychoron))昨天在自己的推特上面公布了Pixiv的FANBOX计划。
+ぢせ老师([推@psychoron](https://twitter.com/psychoron))昨天在自己的推特上面公布了Pixiv的FANBOX计划。
 
 ![](http://www.uzkk.net/wp-content/uploads/2018/12/Clipboard02.gif)
 

@@ -19,7 +19,7 @@ tags:
 
 # 独立游戏制作人对谈 – ZUN & Toby & 木村祥朗 中文翻译（上）- 东游鉴授权转载
 
-		本文是电FamiNicoGamer刊载的**ZUN、Toby、木村祥朗**三人对谈。
+本文是电FamiNicoGamer刊载的**ZUN、Toby、木村祥朗**三人对谈。
 
 **原文**：[http://news.denfaminicogamer.jp/interview/181019](http://news.denfaminicogamer.jp/interview/181019)
 

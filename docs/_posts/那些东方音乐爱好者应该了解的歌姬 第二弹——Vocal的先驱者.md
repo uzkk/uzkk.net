@@ -18,7 +18,7 @@ tags:
 
 # 那些东方音乐爱好者应该了解的歌姬 第二弹——Vocal的先驱者
 
-		原文由[头铁的辉夜](https://space.bilibili.com/233591)授权转载
+原文由[头铁的辉夜](https://space.bilibili.com/233591)授权转载
 
 原文地址：[https://www.bilibili.com/read/cv1715230](https://www.bilibili.com/read/cv1715230)
 
