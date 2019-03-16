@@ -6,7 +6,7 @@ module.exports = ({ isProd }) => ({
   theme: 'uzkk',
 
   plugins: [
-    'ssr-mismatch-workaround',
+    'dehydrate',
     ['migrate', require('../../build/migrate')],
   ],
 
