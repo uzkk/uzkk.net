@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/The-Enchant-Fire-825x506.png'
-createTime: '2018-11-15T10:46:39+00:00'
+createdAt: '2018-11-15T10:46:39+00:00'
 author: 幽紫kk
+category: Aqua Style同人游戏攻略不可思议的幻想乡
 tags:
   - 同人游戏
   - 东方同人游戏

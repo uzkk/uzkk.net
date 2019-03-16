@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-825x510.jpeg'
-createTime: '2018-12-02T06:56:53+00:00'
+createdAt: '2018-12-02T06:56:53+00:00'
 author: 幽紫kk
+category: 新闻速报
 tags:
   - 东方Project
   - 东方

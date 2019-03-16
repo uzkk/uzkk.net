@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/Ds4axUEU8AA7tWA-825x510.jpg'
-createTime: '2018-12-04T07:56:26+00:00'
+createdAt: '2018-12-04T07:56:26+00:00'
 author: 大乌冬
+category: 新闻速报
 tags:
   - 东方同人作者
   - 东方同人画师

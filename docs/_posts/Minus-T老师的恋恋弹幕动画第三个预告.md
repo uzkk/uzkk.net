@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-2-825x385.jpg'
-createTime: '2018-12-04T06:50:54+00:00'
+createdAt: '2018-12-04T06:50:54+00:00'
 author: 大乌冬
+category: MMD同人动画
 tags:
   - 东方Project
   - 东方

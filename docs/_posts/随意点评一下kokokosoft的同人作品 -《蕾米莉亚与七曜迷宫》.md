@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/10/封面-825x510.jpg'
-createTime: '2018-10-23T12:39:33+00:00'
+createdAt: '2018-10-23T12:39:33+00:00'
 author: 幽紫kk
+category: kokokosoft同人游戏点评
 tags:
   - 同人游戏
   - 东方同人游戏

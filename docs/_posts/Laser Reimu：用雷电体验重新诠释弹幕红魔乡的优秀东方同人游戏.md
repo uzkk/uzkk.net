@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/02/14.jpg'
-createTime: '2019-02-16T11:33:54+00:00'
+createdAt: '2019-02-16T11:33:54+00:00'
 author: 幽紫kk
+category: 同人游戏点评同人游戏
 tags:
   - 同人游戏
   - 东方同人游戏

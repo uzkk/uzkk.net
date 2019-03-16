@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/20181211204024.png'
-createTime: '2018-12-11T20:45:31+00:00'
+createdAt: '2018-12-11T20:45:31+00:00'
 author: Saigyouji kotori
+category: SYNC.ART'S
 tags:
   - 东方Project
   - 东方

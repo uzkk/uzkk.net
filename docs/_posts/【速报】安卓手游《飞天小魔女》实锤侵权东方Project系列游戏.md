@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-1-825x510.jpg'
-createTime: '2018-12-03T03:13:03+00:00'
+createdAt: '2018-12-03T03:13:03+00:00'
 author: 幽紫kk
+category: 新闻速报
 tags:
   - 盗版游戏
   - 盗版必须死

@@ -1,6 +1,7 @@
 ---
-createTime: '2018-10-23T13:51:46+00:00'
+createdAt: '2018-10-23T13:51:46+00:00'
 author: 幽紫kk
+category: Aqua Style同人游戏点评
 tags:
   - 同人游戏
   - 东方同人游戏

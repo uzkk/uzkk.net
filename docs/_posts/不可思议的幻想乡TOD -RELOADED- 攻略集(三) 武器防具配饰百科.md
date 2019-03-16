@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/Banner-guide3-825x510.png'
-createTime: '2018-11-16T16:54:54+00:00'
+createdAt: '2018-11-16T16:54:54+00:00'
 author: 幽紫kk
+category: Aqua Style同人游戏攻略不可思议的幻想乡
 tags:
   - 同人游戏
   - 东方同人游戏

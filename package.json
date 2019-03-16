@@ -11,10 +11,9 @@
     "migrate": "vuepress migrate docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-blog": "^1.0.0-alpha.44",
     "vuepress": "^1.0.0-alpha.44",
-    "vuepress-theme-uzkk": "^1.0.0-alpha.0",
-    "vuepress-plugin-migrate": "^1.0.0",
+    "vuepress-theme-uzkk": "^1.0.0-alpha.5",
+    "vuepress-plugin-migrate": "^1.0.3",
     "vuepress-plugin-dehydrate": "^1.0.0"
   }
 }

@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/jacket-825x510.jpg'
-createTime: '2018-12-07T02:00:18+00:00'
+createdAt: '2018-12-07T02:00:18+00:00'
 author: 幽紫kk
+category: PY宣传系列新闻速报
 tags:
   - 东方Project
   - 东方

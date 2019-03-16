@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-5-825x482.jpg'
-createTime: '2018-12-25T23:17:26+00:00'
+createdAt: '2018-12-25T23:17:26+00:00'
 author: 幽紫kk
+category: LION HEART东游鉴特稿同人游戏点评同人游戏
 tags:
   - 同人游戏
   - 东方同人游戏

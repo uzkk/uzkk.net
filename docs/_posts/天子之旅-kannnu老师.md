@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/26694224-825x510.png'
-createTime: '2018-11-25T02:29:42+00:00'
+createdAt: '2018-11-25T02:29:42+00:00'
 author: Echo
+category: 日本同人画师画师鉴赏
 tags:
   - 东方Project
   - 东方

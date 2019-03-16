@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/title-3.png'
-createTime: '2018-11-25T11:05:24+00:00'
+createdAt: '2018-11-25T11:05:24+00:00'
 author: 幽紫kk
+category: さんぼん堂同人游戏汉化幻想少女大战红同人游戏
 tags:
   - 同人游戏
   - 东方同人游戏

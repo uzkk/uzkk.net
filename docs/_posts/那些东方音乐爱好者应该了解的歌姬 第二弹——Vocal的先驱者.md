@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/01/title-825x510.jpg'
-createTime: '2019-01-11T22:01:18+00:00'
+createdAt: '2019-01-11T22:01:18+00:00'
 author: 神楽坂千秋
+category: SYNC.ART'S同人音乐
 tags:
   - 东方Project
   - 东方

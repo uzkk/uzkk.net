@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/01/20190124170109.png'
-createTime: '2019-03-01T09:27:15+00:00'
+createdAt: '2019-03-01T09:27:15+00:00'
 author: 栖瓜
+category: 音乐鉴赏
 tags:
   - 东方Project
   - 东方

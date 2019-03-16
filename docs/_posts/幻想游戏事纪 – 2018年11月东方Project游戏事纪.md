@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/2018-11-825x396.gif'
-createTime: '2018-12-12T19:46:32+00:00'
+createdAt: '2018-12-12T19:46:32+00:00'
 author: Saigyouji kotori
+category: 新闻速报东游鉴特稿同人游戏
 tags:
   - 同人游戏
   - 东方同人游戏

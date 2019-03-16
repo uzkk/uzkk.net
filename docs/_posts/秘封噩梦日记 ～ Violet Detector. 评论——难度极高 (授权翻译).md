@@ -1,8 +1,9 @@
 ---
 thumbnail: >-
   http://www.uzkk.net/wp-content/uploads/2018/12/7bb4faab04968c6b7f60c63e885c285e02ae86b0.jpg@1720w_963h-825x510.jpg
-createTime: '2018-12-03T09:30:53+00:00'
+createdAt: '2018-12-03T09:30:53+00:00'
 author: 神楽坂千秋
+category: 东游鉴特稿同人游戏点评
 tags:
   - 东方Project
   - 东方

@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-2-825x456.png'
-createTime: '2018-12-27T13:44:21+00:00'
+createdAt: '2018-12-27T13:44:21+00:00'
 author: 幽紫kk
+category: 同人周边
 tags:
   - 东方Project
   - 东方

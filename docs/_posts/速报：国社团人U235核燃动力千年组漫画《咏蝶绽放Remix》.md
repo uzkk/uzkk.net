@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/01-3-825x416.png'
-createTime: '2018-12-09T02:44:28+00:00'
+createdAt: '2018-12-09T02:44:28+00:00'
 author: 大乌冬
+category: 中国同人画师PY宣传系列
 tags:
   - 东方Project
   - 东方

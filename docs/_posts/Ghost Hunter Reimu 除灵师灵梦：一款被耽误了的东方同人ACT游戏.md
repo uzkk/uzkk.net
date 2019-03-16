@@ -1,8 +1,9 @@
 ---
 thumbnail: >-
   http://www.uzkk.net/wp-content/uploads/2019/01/ghost-hunter-reimu-title-825x510.png
-createTime: '2019-01-30T16:06:38+00:00'
+createdAt: '2019-01-30T16:06:38+00:00'
 author: 二色老咸鱼
+category: BlueMica同人游戏点评同人游戏
 tags:
   - 同人游戏
   - 东方同人游戏

@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/hq720-825x510.jpg'
-createTime: '2018-12-09T15:51:51+00:00'
+createdAt: '2018-12-09T15:51:51+00:00'
 author: Saigyouji kotori
+category: SYNC.ART'S同人音乐
 tags:
   - 东方Project
   - 东方

@@ -1,7 +1,8 @@
 ---
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/01/uzkktitle-825x386.jpg'
-createTime: '2019-01-21T19:43:36+00:00'
+createdAt: '2019-01-21T19:43:36+00:00'
 author: Saigyouji kotori
+category: 同人游戏情报同人游戏
 tags:
   - 东方同人游戏
   - 东方Project
