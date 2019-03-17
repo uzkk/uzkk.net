@@ -5,6 +5,15 @@ module.exports = ({ isProd }) => ({
 
   theme: 'uzkk',
 
+  head: [
+    ['link', { rel: 'icon', href: `/assets/logo/512x512.png` }],
+    ['meta', { name: 'theme-color', content: '#1e90ff' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/assets/logo/144x144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+  ],
+
   plugins: [
     'dehydrate',
     ['migrate', require('../../build/migrate')],
