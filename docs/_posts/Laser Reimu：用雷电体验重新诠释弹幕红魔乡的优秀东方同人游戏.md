@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/02/14.jpg'
 createdAt: '2019-02-16T11:33:54+00:00'
 author: 幽紫kk
+title: Laser Reimu：用雷电体验重新诠释弹幕红魔乡的优秀东方同人游戏
 category: 同人游戏点评同人游戏
 tags:
   - 同人游戏
@@ -14,8 +15,6 @@ tags:
   - STG
   - 像素游戏
 ---
-
-# Laser Reimu：用雷电体验重新诠释弹幕红魔乡的优秀东方同人游戏
 
 随着ZUN将东方同人游戏权在STEAM平台上开放，越来越多的同人作品如雨后春笋般，纷纷涌现，玩家也将注意力从盗版游戏转移到了正版游戏中来，同时也给制作同人游戏的社团提供了一个更为方便的传播平台。
 

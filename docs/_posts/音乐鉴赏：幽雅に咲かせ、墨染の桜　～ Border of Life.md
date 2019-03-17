@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/56608755_p0-825x510.jpg'
 createdAt: '2019-01-24T09:54:00+00:00'
 author: 栖瓜
+title: 音乐鉴赏：幽雅に咲かせ、墨染の桜　～ Border of Life
 category: 音乐鉴赏
 tags:
   - 东方Project
@@ -14,8 +15,6 @@ tags:
   - 幽雅に咲かせ
   - 墨染の桜　～ Border of Life
 ---
-
-# 音乐鉴赏：幽雅に咲かせ、墨染の桜　～ Border of Life
 
 “西行寺 幽幽子的主题曲。
 

@@ -3,6 +3,7 @@ thumbnail: >-
   http://www.uzkk.net/wp-content/uploads/2018/12/7bb4faab04968c6b7f60c63e885c285e02ae86b0.jpg@1720w_963h-825x510.jpg
 createdAt: '2018-12-03T09:30:53+00:00'
 author: 神楽坂千秋
+title: 秘封噩梦日记 ～ Violet Detector. 评论——难度极高 (授权翻译)
 category: 东游鉴特稿同人游戏点评
 tags:
   - 东方Project
@@ -12,8 +13,6 @@ tags:
   - 东方官方游戏
   - ZUN
 ---
-
-# 秘封噩梦日记 ～ Violet Detector. 评论——难度极高 (授权翻译)
 
 **原文发布于IGN日本，原地址：**
 

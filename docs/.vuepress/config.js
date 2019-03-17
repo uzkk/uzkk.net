@@ -18,10 +18,9 @@ module.exports = ({ isProd }) => ({
     
     personalInfo: {
       nickname: 'shigma',
-      description: 'Happy Coding<br/>Happy Life',
+      description: '北冥有鱼，其名为咸',
       email: '1700011071@pku.edu.cn',
       location: 'Peking, China',
-      organization: 'Peking University',
       avatar: '/assets/avatar/shigma.png',
 
       sns: {

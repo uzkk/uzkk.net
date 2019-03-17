@@ -2,14 +2,13 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/Ds4axUEU8AA7tWA-825x510.jpg'
 createdAt: '2018-12-04T07:56:26+00:00'
 author: 大乌冬
+title: ぢせ老师也开了自己的FANBOX援助计划
 category: 新闻速报
 tags:
   - 东方同人作者
   - 东方同人画师
   - ぢせ
 ---
-
-# ぢせ老师也开了自己的FANBOX援助计划
 
 ぢせ老师([推@psychoron](https://twitter.com/psychoron))昨天在自己的推特上面公布了Pixiv的FANBOX计划。
 

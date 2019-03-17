@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/01-3-825x416.png'
 createdAt: '2018-12-09T02:44:28+00:00'
 author: 大乌冬
+title: 速报：国社团人U235核燃动力千年组漫画《咏蝶绽放Remix》
 category: 中国同人画师PY宣传系列
 tags:
   - 东方Project
@@ -13,8 +14,6 @@ tags:
   - U235核燃动力
   - 雪樱樱
 ---
-
-# 速报：国社团人U235核燃动力千年组漫画《咏蝶绽放Remix》
 
 在东方Project的各种CP当中，千年组可谓是长盛不衰的一对组合。
 

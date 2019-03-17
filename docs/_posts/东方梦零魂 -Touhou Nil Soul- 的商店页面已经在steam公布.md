@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/01/uzkktitle-825x386.jpg'
 createdAt: '2019-01-21T19:43:36+00:00'
 author: Saigyouji kotori
+title: 东方梦零魂 -Touhou Nil Soul- 的商店页面已经在steam公布
 category: 同人游戏情报同人游戏
 tags:
   - 东方同人游戏
@@ -10,8 +11,6 @@ tags:
   - 东方同人
   - 东方梦零魂
 ---
-
-# 东方梦零魂 -Touhou Nil Soul- 的商店页面已经在steam公布
 
 大家好，这篇是久违的更新，在steam的商店页面今早已经审核通过，我们终于进入了EA前最后的冲刺阶段。
 

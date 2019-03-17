@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/2018-11-825x396.gif'
 createdAt: '2018-12-12T19:46:32+00:00'
 author: Saigyouji kotori
+title: 幻想游戏事纪 – 2018年11月东方Project游戏事纪
 category: 新闻速报东游鉴特稿同人游戏
 tags:
   - 同人游戏
@@ -12,8 +13,6 @@ tags:
   - 东游鉴
   - 东方同人作品
 ---
-
-# 幻想游戏事纪 – 2018年11月东方Project游戏事纪
 
 【幻想游戏事纪】系列是[东游鉴](https://space.bilibili.com/364812769?from=search&seid=9147751913259730328)推出的，旨在记录汇总东方同人游戏重要事件的事纪簿。这次带给大家的是2018年11月的重要事纪，如有缺漏及失误，还望各位读者补充指正，感谢大家的阅读和支持！
 

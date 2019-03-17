@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-5-825x482.jpg'
 createdAt: '2018-12-25T23:17:26+00:00'
 author: 幽紫kk
+title: LION HEART – 天壤的暴风雨(天壤之岚、天壌のテンペスト)简单评测
 category: LION HEART东游鉴特稿同人游戏点评同人游戏
 tags:
   - 同人游戏
@@ -15,8 +16,6 @@ tags:
   - 天壤的暴风雨
   - ACT游戏
 ---
-
-# LION HEART – 天壤的暴风雨(天壤之岚、天壌のテンペスト)简单评测
 
 本文作者：[@辛宪英](https://space.bilibili.com/10672427)
 

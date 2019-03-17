@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/The-Enchant-Fire-825x506.png'
 createdAt: '2018-11-15T10:46:39+00:00'
 author: 幽紫kk
+title: 不可思议的幻想乡TOD -RELOADED- 攻略集(一) 迷宫设施与陷阱
 category: Aqua Style同人游戏攻略不可思议的幻想乡
 tags:
   - 同人游戏
@@ -15,8 +16,6 @@ tags:
   - 同人游戏攻略
   - 不可思议的幻想乡攻略
 ---
-
-# 不可思议的幻想乡TOD -RELOADED- 攻略集(一) 迷宫设施与陷阱
 
 迷宫是本游戏的主要冒险机制，在迷宫中地图上出现的蓝色、红色点、+和X，分别代表道具、敌人、设施和陷阱。本文将特别将设施和陷阱的部分进行图鉴和解释，以便于大家解惑。
 

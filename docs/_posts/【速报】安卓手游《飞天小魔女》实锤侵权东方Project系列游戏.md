@@ -2,14 +2,13 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-1-825x510.jpg'
 createdAt: '2018-12-03T03:13:03+00:00'
 author: 幽紫kk
+title: 【速报】安卓手游《飞天小魔女》实锤侵权东方Project系列游戏
 category: 新闻速报
 tags:
   - 盗版游戏
   - 盗版必须死
   - 侵权游戏
 ---
-
-# 【速报】安卓手游《飞天小魔女》实锤侵权东方Project系列游戏
 
 昨天在QQ群里看到一部披着东方Project皮的安卓手游《飞天小魔女》，仔细一看，这不是东方Project的人物吗？！
 

@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-2-825x385.jpg'
 createdAt: '2018-12-04T06:50:54+00:00'
 author: 大乌冬
+title: Minus-T老师的恋恋弹幕动画第三个预告
 category: MMD同人动画
 tags:
   - 东方Project
@@ -12,8 +13,6 @@ tags:
   - 东方同人动画
   - Minus-T
 ---
-
-# Minus-T老师的恋恋弹幕动画第三个预告
 
 12月2日Minus-T老师在推特上公布了恋恋弹幕动画的第三回预告，仅41秒，但足以让人热血沸腾。
 

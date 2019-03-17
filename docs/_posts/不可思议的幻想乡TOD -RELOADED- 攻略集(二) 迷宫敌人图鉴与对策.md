@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/Banner-guide2-825x510.png'
 createdAt: '2018-11-15T14:46:49+00:00'
 author: 幽紫kk
+title: 不可思议的幻想乡TOD -RELOADED- 攻略集(二) 迷宫敌人图鉴与对策
 category: Aqua Style同人游戏攻略不可思议的幻想乡
 tags:
   - 同人游戏
@@ -16,8 +17,6 @@ tags:
   - Aqua Style
   - 同人游戏攻略标签 AquaStyle
 ---
-
-# 不可思议的幻想乡TOD -RELOADED- 攻略集(二) 迷宫敌人图鉴与对策
 
 游戏探险过程中，除了要对付种类繁多的陷阱，与敌人之间的战斗才是这个游戏最核心的乐趣所在。不可思议的幻想乡TODR根据原作人物的特点，设定了个性丰富、或有趣、或难搞、甚至可以加以利用的敌人，非常的有趣，这里简单写了一些敌人的能力、对策以及可利用的方案，希望对您有所帮助。 
 

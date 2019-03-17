@@ -3,6 +3,7 @@ thumbnail: >-
   http://www.uzkk.net/wp-content/uploads/2019/01/ghost-hunter-reimu-title-825x510.png
 createdAt: '2019-01-30T16:06:38+00:00'
 author: 二色老咸鱼
+title: Ghost Hunter Reimu 除灵师灵梦：一款被耽误了的东方同人ACT游戏
 category: BlueMica同人游戏点评同人游戏
 tags:
   - 同人游戏
@@ -14,8 +15,6 @@ tags:
   - 同人游戏评测
   - BlueMica
 ---
-
-# Ghost Hunter Reimu 除灵师灵梦：一款被耽误了的东方同人ACT游戏
 
 Ghost Hunter Reimu，可译为除灵师灵梦，是[BlueMica](http://www.blue-mica.com/)在C89上发布的一款动作类通关游戏。
 

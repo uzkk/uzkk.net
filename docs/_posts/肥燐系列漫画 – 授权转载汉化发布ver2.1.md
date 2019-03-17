@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/title-1-825x510.png'
 createdAt: '2018-11-19T03:37:44+00:00'
 author: 幽紫kk
+title: 肥燐系列漫画 – 授权转载汉化发布ver2.1
 category: 日本同人画师同人漫画
 tags:
   - 东方Project
@@ -15,8 +16,6 @@ tags:
   - 东方同人漫画
   - ロドニィ
 ---
-
-# 肥燐系列漫画 – 授权转载汉化发布ver2.1
 
 ロドニィ先生(P站id=74542)是早期非常钟情于东方Project的绘画作者之一。
 

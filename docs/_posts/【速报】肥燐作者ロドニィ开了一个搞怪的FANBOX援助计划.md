@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-825x510.jpeg'
 createdAt: '2018-12-02T06:56:53+00:00'
 author: 幽紫kk
+title: 【速报】肥燐作者ロドニィ开了一个搞怪的FANBOX援助计划
 category: 新闻速报
 tags:
   - 东方Project
@@ -14,8 +15,6 @@ tags:
   - 东方同人画师
   - ロドニィ
 ---
-
-# 【速报】肥燐作者ロドニィ开了一个搞怪的FANBOX援助计划
 
 肥燐的作者ロドニィ(官推：[@RDNY](https://twitter.com/RDNY))前日在推特上面公布了一个很搞怪的FANBOX援助计划，内容是可以以一定的资金支持获取包月服务，然后就可以观看一些他之前通过实体书发行、未公布的漫画稿件([还不知道ロドニィ老师以及肥燐的朋友可以先看这个](http://www.bilibili.com/read/cv1539990))。
 

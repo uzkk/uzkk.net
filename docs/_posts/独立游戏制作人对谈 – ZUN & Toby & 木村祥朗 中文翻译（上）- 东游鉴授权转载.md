@@ -3,6 +3,7 @@ thumbnail: >-
   http://www.uzkk.net/wp-content/uploads/2018/12/b0738be5aee3ed5e804cb625e148ce8234542bd9.png@1320w_742h-825x510.png
 createdAt: '2018-12-12T11:48:30+00:00'
 author: 幽紫kk
+title: 独立游戏制作人对谈 – ZUN & Toby & 木村祥朗 中文翻译（上）- 东游鉴授权转载
 category: 特别访谈新闻速报东游鉴特稿
 tags:
   - 东方同人游戏
@@ -17,8 +18,6 @@ tags:
   - 独立游戏访谈
   - 大咖秀
 ---
-
-# 独立游戏制作人对谈 – ZUN & Toby & 木村祥朗 中文翻译（上）- 东游鉴授权转载
 
 本文是电FamiNicoGamer刊载的**ZUN、Toby、木村祥朗**三人对谈。
 

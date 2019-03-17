@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/11/title-3.png'
 createdAt: '2018-11-25T11:05:24+00:00'
 author: 幽紫kk
+title: 真·有生之年 – 东方x机战同人游戏《幻想少女大战红》汉化公测版
 category: さんぼん堂同人游戏汉化幻想少女大战红同人游戏
 tags:
   - 同人游戏
@@ -15,8 +16,6 @@ tags:
   - 东方同人汉化
   - さんぼん堂
 ---
-
-# 真·有生之年 – 东方x机战同人游戏《幻想少女大战红》汉化公测版
 
 **前言**
 

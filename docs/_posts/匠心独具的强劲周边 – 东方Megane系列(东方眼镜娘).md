@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/title-2-825x456.png'
 createdAt: '2018-12-27T13:44:21+00:00'
 author: 幽紫kk
+title: 匠心独具的强劲周边 – 东方Megane系列(东方眼镜娘)
 category: 同人周边
 tags:
   - 东方Project
@@ -15,8 +16,6 @@ tags:
   - 锅岛老师
   - 东方奢侈品
 ---
-
-# 匠心独具的强劲周边 – 东方Megane系列(东方眼镜娘)
 
 东方眼镜娘系列源自于[锅岛老师](https://twitter.com/n_shima)最初的一个脑洞，这位钟情于安静少女与眼镜组合的插画大佬，在一次偶然的机会与[执事眼镜](https://eyemirror.jp/)店合作，开创了这个令人捶胸顿足原地去世的周边作品。
 

@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/01/20190124170109.png'
 createdAt: '2019-03-01T09:27:15+00:00'
 author: 栖瓜
+title: 音乐鉴赏：華胥の夢～Paradisiacal Daydream
 category: 音乐鉴赏
 tags:
   - 东方Project
@@ -14,8 +15,6 @@ tags:
   - 东方原作音乐
   - 華胥の夢
 ---
-
-# 音乐鉴赏：華胥の夢～Paradisiacal Daydream
 
 > （『梦违科学世纪』收录曲）
 

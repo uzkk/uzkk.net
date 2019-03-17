@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/12/20181211204024.png'
 createdAt: '2018-12-11T20:45:31+00:00'
 author: Saigyouji kotori
+title: 东方Project在B站的黎明 – 东方求闻观测
 category: SYNC.ART'S
 tags:
   - 东方Project
@@ -10,8 +11,6 @@ tags:
   - 东方考据
   - 东方娱乐科普
 ---
-
-# 东方Project在B站的黎明 – 东方求闻观测
 
 **前言**
 

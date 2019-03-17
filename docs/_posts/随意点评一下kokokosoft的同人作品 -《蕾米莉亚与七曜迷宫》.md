@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2018/10/封面-825x510.jpg'
 createdAt: '2018-10-23T12:39:33+00:00'
 author: 幽紫kk
+title: 随意点评一下kokokosoft的同人作品 -《蕾米莉亚与七曜迷宫》
 category: kokokosoft同人游戏点评
 tags:
   - 同人游戏
@@ -14,8 +15,6 @@ tags:
   - RPG
   - 粟米汤
 ---
-
-# 随意点评一下kokokosoft的同人作品 -《蕾米莉亚与七曜迷宫》
 
 2018这一年，由于东方同人游戏的steam解禁，让这一问题成为了历史。7月10日由kokokosoft发布的这款《Remyadry》(蕾米莉亚的七曜迷宫，以下简称“七曜”)，在发售之初便内置了简体中文，成为了日本游戏社团正式进入大陆市场的里程碑，也是今天我们要讲的主角。
 

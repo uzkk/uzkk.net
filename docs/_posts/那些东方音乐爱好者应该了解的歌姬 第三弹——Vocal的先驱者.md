@@ -2,6 +2,7 @@
 thumbnail: 'http://www.uzkk.net/wp-content/uploads/2019/01/20190124170109.png'
 createdAt: '2019-01-24T17:01:47+00:00'
 author: Saigyouji kotori
+title: 那些东方音乐爱好者应该了解的歌姬 第三弹——Vocal的先驱者
 category: SYNC.ART'S同人音乐
 tags:
   - 东方Project
@@ -16,8 +17,6 @@ tags:
   - miko
   - 藤咲かりん，小峠舞
 ---
-
-# 那些东方音乐爱好者应该了解的歌姬 第三弹——Vocal的先驱者
 
 《东方Project》（日文：东方Project（とうほうプロジェクト，东方プロジェクト），英文：Tōhō Project或TouHou Project，简称东方）是日本同人游戏社团上海爱丽丝幻乐团所制作的一系列同人游戏、相关作品。
 
