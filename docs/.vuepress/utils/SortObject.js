@@ -3,28 +3,28 @@ export default class SortObject {
     this.id = data[0]
     this.name = data[1]
     this.nick = data[2]
-    // ファイル名ソートしやすいように
+    // 为了方便文件名排序(?)
     this.img = 'c' + (this.id)
     this.ext = '.png'
   
-    // 上位関係と下位関係
+    // 上/下位关系（父子结点？）
     this.parent = null
-    this.isEven = false // 上位と引き分けているか？
+    this.isEven = false // 上位平局了？
     this.children = []
   }
 
   
   /**
-	* 画像パス取得
+	* 获得图片路径（。。。路径跟跳过日语居然一样）
 	*/
   getImagePath () {
     var strImageSrc = './char/'
-    // デフォルト以外はフォルダを掘る
+    // 没默认值时找文件夹(?)
     if (FacePattern != 0 && FacePattern != FacePatternDefault) {
       strImageSrc += 'f' + FacePattern + '/'
     }
     strImageSrc += this.img + this.ext
-    // 画像なし特殊設定
+    // 没图片时的特殊设定
     if (FacePattern == noFacePatternNo) {
       strImageSrc = './char/noImage.png'
     }
@@ -32,7 +32,7 @@ export default class SortObject {
   }
 
   /**
-	* 順位取得
+	* 获得排名
 	*/
   rank () {
     if (this.parent) {
@@ -42,7 +42,7 @@ export default class SortObject {
   }
 
   /**
-	* 深さ取得
+	* 获得深度（树的当前指向深度？）
 	*/
   level () {
     if (this.parent) {
@@ -52,17 +52,17 @@ export default class SortObject {
   }
 
   /**
-	* 子ノードに追加
+	* 追加子结点
 	*/
   add (child, doEvenAction) {
-    // まず子の関係性を断つ 1R-
+    // 首先断开child父结点与child的连接 1R-（这个1R-是个啥？？）
     if (child.parent) {
       child.parent.children.splice($.inArray(child, child.parent.children), 1)
     }
 
-    // 引き分け特有の処理をする。
+    // 特别处理平局情形
     if (doEvenAction) {
-      // 自分の子をすべて子に明け渡す 2A-, 3a+
+      // 把自己的子结点全部交出去 2A-, 3a+
       var copies = this.children.splice(0, this.children.length)
       for (var i = copies.length - 1; i >= 0; i--) {
         copies[i].parent = child
@@ -92,12 +92,12 @@ export default class SortObject {
   }
 
   /**
-	* 子ノードを絞込み
+	* 提取子结点
 	*/
   ask (question) {
-    // 質問するキャラクターの指定がある場合、キャラクターを検索
-    // 検索結果が両方とも存在した場合、その2キャラを返す。
-    // 存在しなければ通常通りにランダム検索したキャラを返す。
+    // 若指定了两边的角色，则搜索这俩
+    // 这俩角色都存在，则返回这俩角色
+    // 有不存在者，则按照后面的方式随机获取
     if (question) {
       var left = this.findSortObjectById(question[0])
       var right = this.findSortObjectById(question[1])
@@ -110,7 +110,7 @@ export default class SortObject {
       return false
     }
     if (this.children.length == 1) {
-      // 同じ順位のキャラがいなくなった＝順位が確定した
+      // 不存在相同排名的角色了 = 下一名确定
       var currentResultRank = this.level() + 1
       var captionText = '現在、' + currentResultRank + ' 位まで確定しています。'
       $('#caption').text(captionText)
@@ -130,7 +130,7 @@ export default class SortObject {
   }
 
   /**
-	* 削除
+	* 删除
 	*/
   remove () {
     while (this.children.length > 0) {
@@ -140,7 +140,7 @@ export default class SortObject {
   }
 
   /**
-	* ノード全体をリソースIDで検索して SortObject を返す。見つからなければ null を返す。
+	* 全体结点中搜索 resourceId 并返回 SortObject。没找到则返回 null。
 	*/
   findSortObjectById (resourceId) {
     if (this.id === resourceId) {
