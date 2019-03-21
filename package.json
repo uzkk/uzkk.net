@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "lint": "eslint . --fix",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "serve": "vuepress serve docs",
@@ -11,6 +12,13 @@
     "migrate": "vuepress migrate docs"
   },
   "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
     "vuepress": "^1.0.0-alpha.44",
     "vuepress-theme-uzkk": "^1.0.0-alpha.5",
     "vuepress-plugin-migrate": "^1.0.3",
