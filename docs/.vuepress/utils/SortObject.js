@@ -76,7 +76,7 @@ export default class SortObject {
   }
 
   /**
-	* 文字列表示
+	* 字符串表示
 	*/
   toString () {
     var str = '<li>' + this.name + '(' + this.rank() + ')'
