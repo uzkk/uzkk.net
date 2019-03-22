@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="back-btn-container">
+      <button class="back-btn" @click="backToSettings">返回主界面</button>
+    </div>
     <div class="hint tac">
       第 {{ questionCount }} 轮：请选择更喜欢的角色（点击图片或第一行按钮）
     </div>
@@ -22,7 +25,7 @@
       </tr>
       <tr>
         <td colspan="2">
-          <div class="opt-btn" data-toggle="tooltip" title="本题与接下来的问题将全部由系统随机选择" @click="random">不想做了，接下来随便选吧</div>
+          <div class="opt-btn" data-toggle="tooltip" title="将两边的角色从剩余问题的角色列表中剔除" @click="exclude(0, 1)">除外两边的角色</div>
         </td>
       </tr>
     </table>
@@ -61,6 +64,9 @@ export default {
   },
 
   methods: {
+    backToSettings () {
+      this.$emit('next', 'Settings')
+    },
     ask (node) {
       if (node.children.length == 0) {
         return false
@@ -88,27 +94,33 @@ export default {
       }
       return false
     },
-    selectChar (index) {
-      this.pair[index].add(this.pair[1 - index], false)
-      const { ranknum } = this
+    moveOn () {
+      const { ranknum, face } = this
       if (!this.nextPair()) {
         let ranking = []
         let node = this.rtNode
         for (let i = 0; i < ranknum; i++) {
           node = node.children[0]
+          if (!node) {
+            break
+          }
           ranking.push(node.name)
         }
-        this.$emit('next', 'Result', { ranknum, ranking })
+        this.$emit('next', 'Result', { ranking, face })
       }
+    },
+    selectChar (index) {
+      this.pair[index].add(this.pair[1 - index], false)
+      this.moveOn()
     },
     getImage (char) {
       return `${TH_CHAR_PATH}/${this.face}/${char.img}.png`
     },
-    exclude (char) {
-      // TODO: exclude character from list
-    },
-    random () {
-      // TODO: from now on all questions will be answered at random
+    exclude (...indices) {
+      for (let i of indices) {
+        this.pair[i].remove()
+      }
+      this.moveOn()
     }
   },
 }
@@ -139,6 +151,10 @@ td {
   padding-left: 0.5em;
   padding-right: 0.5em;
   padding-bottom: 0.3em;
+}
+
+.char-img {
+  cursor: pointer;
 }
 
 .opt-btn {
