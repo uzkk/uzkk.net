@@ -21,7 +21,7 @@
       </span>
     </div>
     <div class="tac">
-      <button class="start-btn" @click="$emit('next', 'Select', { gamelist, ranknum, face })">开始！</button>
+      <button class="start-btn" @click="$emit('next', 'Select', { gamelist, ranknum, face })" :disabled="gamelist.length === 0">开始！</button>
     </div>
   </div>
 </template>

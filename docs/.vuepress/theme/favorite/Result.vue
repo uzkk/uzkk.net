@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="back-btn-container">
+      <button class="back-btn" @click="backToSettings">返回主界面</button>
+    </div>
     <div class="tac">
       <h3>您的前 {{ ranking.length }} 位本命角色排行：</h3>
     </div>
@@ -14,11 +17,15 @@
 <script>
 export default {
   name: 'Result',
-  props: ['ranknum', 'ranking'],
+  props: ['ranking', 'face'],
   data () {
     return {}
   },
-  methods: {},
+  methods: {
+    backToSettings () {
+      this.$emit('next', 'Settings')
+    }
+  },
 }
 </script>
 
