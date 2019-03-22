@@ -89,7 +89,7 @@ export default {
         for (let i = 0; i < ranknum; i++) {
           ranking.push(node.children[0].name)
         }
-        $emit('next', 'Result', { ranknum, ranking })
+        this.$emit('next', 'Result', { ranknum, ranking })
       }
     },
     getImage (char) {
