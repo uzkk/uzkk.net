@@ -41,20 +41,25 @@
 import SortObject from '../../utils/SortObject.js'
 import characters from '../data/characters.json'
 
-let rtNode = new SortObject(["!root", , , , ])
-for (let char of characters) {
-  rtNode.add(new SortObject(char), false)
-}
-
 export default {
   name: 'Select',
-  data () {
-    return {
-      pair: this.ask(rtNode),
-      questionCount: 1,
-      currentRank: 0,
+
+  props: ['ranknum', 'face'],
+
+  data: () => ({
+    pair: [],
+    questionCount: 1,
+    currentRank: 0,
+  }),
+
+  created () {
+    this.rtNode = new SortObject(["!root", , , , ])
+    for (let char of characters) {
+      this.rtNode.add(new SortObject(char), false)
     }
+    this.pair = this.ask(this.rtNode)
   },
+
   methods: {
     ask (node) {
       if (node.children.length == 0) {
@@ -76,7 +81,7 @@ export default {
       return [node.children[both[0]], node.children[both[1]]]
     },
     nextPair () {
-      this.pair = this.ask(rtNode)
+      this.pair = this.ask(this.rtNode)
       if (this.pair) {
         this.questionCount += 1
         return this.pair[1].level() <= this.ranknum
@@ -88,7 +93,7 @@ export default {
       const { ranknum } = this
       if (!this.nextPair()) {
         let ranking = []
-        let node = rtNode
+        let node = this.rtNode
         for (let i = 0; i < ranknum; i++) {
           ranking.push(node.children[0].name)
         }
@@ -96,7 +101,7 @@ export default {
       }
     },
     getImage (char) {
-      // TODO: get character image
+      return `/.netlify/large-media/char-${this.face}/${char.img}.png`
     },
     exclude (char) {
       // TODO: exclude character from list
@@ -105,7 +110,6 @@ export default {
       // TODO: from now on all questions will be answered at random
     }
   },
-  props: ['ranknum']
 }
 </script>
 

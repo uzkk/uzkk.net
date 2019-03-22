@@ -14,11 +14,11 @@
 <script>
 export default {
   name: 'Result',
+  props: ['ranknum', 'ranking'],
   data () {
     return {}
   },
   methods: {},
-  props: ['ranknum', 'ranking']
 }
 </script>
 
