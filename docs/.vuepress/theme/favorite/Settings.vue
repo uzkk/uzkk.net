@@ -2,7 +2,7 @@
   <div>
     <div class="ranknum tac">
       选择排名数：
-      <span class="rank-item" v-for="num in ranks">
+      <span class="rank-item" v-for="(num, index) in ranks" :key="index">
         <input type="radio" :value="num" v-model="ranknum">
         <label>{{num}}</label>
       </span>

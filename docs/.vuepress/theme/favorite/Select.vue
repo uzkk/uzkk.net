@@ -84,7 +84,12 @@ export default {
     selectChar (index) {
       this.pair[index].add(this.pair[1 - index], false)
       if (!this.nextPair()) {
-        $emit('next', 'Result')
+        let ranking = []
+        let node = rtNode
+        for (let i = 0; i < ranknum; i++) {
+          ranking.push(node.children[0].name)
+        }
+        $emit('next', 'Result', { ranknum, ranking })
       }
     },
     getImage (char) {
