@@ -16,6 +16,7 @@ module.exports = (context) => ({
 
   plugins: [
     ['dehydrate'],
+    ['@uzkk/assets'],
     ['migrate', require('../../build/migrate')],
   ],
 

@@ -12,6 +12,7 @@
     "migrate": "vuepress migrate docs"
   },
   "devDependencies": {
+    "@uzkk/vuepress-plugin-assets": "^0.0.1",
     "@vue/babel-preset-jsx": "^1.0.0-beta.2",
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.44",
     "@vuepress/plugin-container": "^1.0.0-alpha.44",

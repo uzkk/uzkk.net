@@ -107,7 +107,7 @@ export default {
       }
     },
     getImage (char) {
-      return `/.netlify/large-media/char-${this.face}/${char.img}.png`
+      return `${TH_CHAR_PATH}/${this.face}/${char.img}.png`
     },
     exclude (char) {
       // TODO: exclude character from list
