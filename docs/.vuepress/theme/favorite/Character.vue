@@ -27,7 +27,7 @@ export default {
 .char-view
   position relative
   border 1px solid black
-  box-shadow 0 2px 2px 1px #0008
+  box-shadow 0 0 2px 1px #0008
 
   img
     display block
@@ -39,9 +39,11 @@ export default {
     width 100%
     transition 0.3s ease
     background #0008
-    color #fffb
+    color #fffc
     bottom 0
     line-height 1.6
+    padding 0.2em 0
+
     .name
       font-size 1.2em
 

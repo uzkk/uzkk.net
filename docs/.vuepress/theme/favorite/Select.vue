@@ -1,34 +1,54 @@
 <template>
   <div>
-    <div class="back-btn-container">
-      <button class="back-btn" @click="backToSettings">返回主界面</button>
-    </div>
-    <div class="rank-display tac" v-if="currentRank > 0">
-      排名第 {{ currentRank }} 的角色已经确定！
-    </div>
-    <div class="hint tac">
-      第 {{ questionCount }} 轮：请选择更喜欢的角色（点击图片或第一行按钮）
-    </div>
-    <table class="tac vam">
+    <h3 class="tac">
+      第 {{ questionCount }} 轮：请选择更喜欢的角色
+    </h3>
+    <h4 class="tac" v-if="currentRank > 0">
+      排名第 {{ currentRank }} 的角色已经确定
+    </h4>
+    <table class="tac">
+      <tr class="characters">
+        <td><Character :face="face" :node="pair[0]" @click="selectChar(0)"/></td>
+        <td><Character :face="face" :node="pair[1]" @click="selectChar(1)"/></td>
+      </tr>
       <tr>
         <td>
-          <Character :face="face" :node="pair[0]" @click="selectChar(0)"/>
+          <button
+            class="opt-btn"
+            title="将左边的角色从剩余问题的角色列表中剔除"
+            @click="exclude(0)"
+          >
+            不再出现左边的角色
+          </button>
         </td>
         <td>
-          <Character :face="face" :node="pair[1]" @click="selectChar(1)"/>
+          <button
+            class="opt-btn"
+            title="将右边的角色从剩余问题的角色列表中剔除"
+            @click="exclude(1)"
+          >
+            不再出现右边的角色
+          </button>
         </td>
       </tr>
       <tr>
         <td>
-          <div class="opt-btn" data-toggle="tooltip" title="将左边的角色从剩余问题的角色列表中剔除" @click="exclude(0)">除外左边的角色</div>
+          <button
+            class="opt-btn"
+            title="将两边的角色从剩余问题的角色列表中剔除"
+            @click="exclude(0, 1)"
+          >
+            不再出现这两个角色
+          </button>
         </td>
         <td>
-          <div class="opt-btn" data-toggle="tooltip" title="将右边的角色从剩余问题的角色列表中剔除" @click="exclude(1)">除外右边的角色</div>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <div class="opt-btn" data-toggle="tooltip" title="将两边的角色从剩余问题的角色列表中剔除" @click="exclude(0, 1)">除外两边的角色</div>
+          <button
+            class="opt-btn"
+            title="返回主界面"
+            @click="backToSettings"
+          >
+            返回主界面
+          </button>
         </td>
       </tr>
     </table>
@@ -36,6 +56,7 @@
 </template>
 
 <script>
+
 import SortObject from '../../utils/SortObject'
 import characters from '../data/characters'
 import Character from './Character.vue'
@@ -127,65 +148,53 @@ export default {
     }
   },
 }
+
 </script>
 
-<style scoped>
-.tac {
-  text-align: center !important;
-}
+<style lang="stylus" scoped>
 
-.vam {
-  vertical-align: middle !important;
-}
+.tac
+  text-align center
 
-.rank-display {
-  color: #0b0;
-  font-style: italic;
-}
+table
+  margin-left auto
+  margin-right auto
+  margin-bottom 2em
+  border-spacing 0.4em
+  border-collapse separate
+  vertical-align middle
 
-.hint {
-  font-size: 1.3em;
-}
+td
+  padding-left 0.5em
+  padding-right 0.5em
+  padding-bottom 0.3em
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
-  border-spacing: 0.4em;
-  border-collapse: separate;
-}
+  tr.characters > &
+    padding-bottom 0.8em
 
-td {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.3em;
-}
+.opt-btn
+  display block
+  width 100%
+  font-size 1em
+  line-height 2em
+  appearance none
+  user-select none
+  border none
+  border-radius 0.4em
+  background-color $accentColor
+  color #fff
+  border-radius 0.4em
+  cursor pointer
+  padding 0.2em 0.4em
+  transition 0.3s ease
 
-.char-img {
-  cursor: pointer;
-}
+  &:focus
+    outline 0
 
-.opt-btn {
-  user-select: none;
-  background-color: #ccf;
-  color: #000;
-  border-radius: 0.4em;
-  cursor: pointer;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  padding-left: 0.4em;
-  padding-right: 0.4em;
-}
+  &:hover
+    background-color lighten($accentColor, 30%)
 
-.opt-btn:hover {
-  background-color: #ddf;
-}
+  &:active
+    background-color darken($accentColor, 30%)
 
-.opt-btn:focus {
-  outline: 0 !important;
-}
-
-.opt-btn:active {
-  background-color: #aaf;
-}
 </style>
