@@ -1,10 +1,9 @@
 <template>
   <div>
-    <div class="title">本命测试</div>
     <span class="ranknum">
       <span class="rank-item" v-for="num in ranks">
-        <input type="radio" v-model="ranknum">
-        <label>{{num}}</label>
+        <input type="radio" :value="num" v-model="ranknum">
+        <label>{{ num }}</label>
       </span>
     </span>
   </div>
@@ -16,11 +15,11 @@ export default {
   data () {
     return {
       ranks: [1, 5, 7, 10, 20],
-      ranknum: 1
+      ranknum: 1,
     }
   },
   methods: {},
-  props: []
+  props: [],
 }
 </script>
 

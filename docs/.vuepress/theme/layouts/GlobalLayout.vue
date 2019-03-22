@@ -8,15 +8,15 @@
       </TransitionFadeSlide>
     </main>
 
-    <PageFooter v-if="$frontmatter.footer" />
+    <PageFooter />
   </div>
 </template>
 
 <script>
 
-import TransitionFadeSlide from '@theme/components/TransitionFadeSlide.vue'
-import PageHeader from '@theme/components/PageHeader.vue'
-import PageFooter from '@theme/components/PageFooter.vue'
+import TransitionFadeSlide from '../components/TransitionFadeSlide.vue'
+import PageHeader from '../components/PageHeader.vue'
+import PageFooter from '../components/PageFooter.vue'
 
 export default {
   components: {

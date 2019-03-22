@@ -17,9 +17,6 @@ module.exports = (context) => ({
   plugins: [
     ['dehydrate'],
     ['migrate', require('../../build/migrate')],
-    ['@vuepress/register-components', {
-      componentsDir: resolve(__dirname, 'layouts'),
-    }],
   ],
 
   themeConfig: {
