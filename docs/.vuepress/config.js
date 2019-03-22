@@ -5,8 +5,6 @@ module.exports = (context) => ({
 
   description: '东方 Project - 从入坑到入坟',
 
-  theme: 'uzkk',
-
   head: [
     ['link', { rel: 'icon', href: `/assets/logo/512x512.png` }],
     ['meta', { name: 'theme-color', content: '#1e90ff' }],

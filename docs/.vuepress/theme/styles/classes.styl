@@ -1,0 +1,29 @@
+@require 'variables'
+
+.main-div
+  padding 1.5rem
+  background-color #ffffff
+  border-radius 5px
+  overflow hidden
+  @media (max-width $MQMobile - 1px)
+    padding 1rem
+  &:not(:first-child)
+    margin-top 1rem
+  &:not(:last-child)
+    margin-bottom 1rem
+    @media (max-width $MQMobile - 1px)
+      margin-bottom 0.5rem
+  > :first-child
+    margin-top 0
+    > :first-child
+      margin-top 0
+  > :last-child
+    margin-bottom 0
+    > :last-child
+      margin-bottom 0
+
+.clearfix
+  &::after
+    display block
+    clear both
+    content ''
