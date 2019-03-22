@@ -44,7 +44,7 @@ import characters from '../data/characters.json'
 export default {
   name: 'Select',
 
-  props: ['ranknum', 'face'],
+  props: ['gamelist', 'ranknum', 'face'],
 
   data: () => ({
     pair: [],
@@ -55,7 +55,12 @@ export default {
   created () {
     this.rtNode = new SortObject(["!root", , , , ])
     for (let char of characters) {
-      this.rtNode.add(new SortObject(char), false)
+      for (let tag of char[4]) {
+        if (this.gamelist.includes(tag)) {
+          this.rtNode.add(new SortObject(char), false)
+          break
+        }
+      }
     }
     this.pair = this.ask(this.rtNode)
   },
@@ -95,7 +100,8 @@ export default {
         let ranking = []
         let node = this.rtNode
         for (let i = 0; i < ranknum; i++) {
-          ranking.push(node.children[0].name)
+          node = node.children[0]
+          ranking.push(node.name)
         }
         this.$emit('next', 'Result', { ranknum, ranking })
       }
