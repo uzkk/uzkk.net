@@ -9,7 +9,7 @@ EvenList = [];
 ElapsedTime = 0;
 TimeStarted = null;
 isFirstRemoveChoice = true;
-// 初期化
+// 初始化
 $(document).ready(function() {
 	$("#caption").hide();
 	$("#result").hide();
@@ -60,7 +60,7 @@ function restore() {
 	// 从ID树还原
 	Question = [QuestionBackup[0], QuestionBackup[1]];
 	QuestionBackup = null;
-	// 確定順位表示を一旦消す
+	// 暂时清除已确定的排名
 	$("#caption").hide();
 	SortTree = BackupTree.restoreCTree(BackupTree, null);
 }
@@ -76,7 +76,7 @@ function initRankNum() {
 		}
 	}
 }
-// 检查是否添加并显示结果信息
+// 检查是否有结果并显示
 function show_result_from_hash() {
 	if (location.search.length < 2) {
 		return false;
@@ -87,12 +87,12 @@ function show_result_from_hash() {
 	initRankNum();
 	
 	if( !RankNum ){
-		// 非対応ブラウザ。古いスマートフォン？
+		// 浏览器不对应。是用了较早型号的手机吗？
 		alert("動作非対応ブラウザをお使いのようです。オプション指定無しのまま実行します。");
 		RankNum = 10;
 		FacePattern = FacePatternDefault;
 	}
-	// 経過秒数が付いている場合、付与（cs ver1.16.0～）
+	// 若给出了经过的秒数（cs ver1.16.0～）
 	var lastQuery = strParams[strParams.length - 1];
 	if (lastQuery.charAt(0) == "t") { // face
 		strParams.pop();
@@ -102,7 +102,7 @@ function show_result_from_hash() {
 		}
 	}
 	
-	// フェースパターン指定が付いている場合、付与（cs ver1.8.0～）
+	// 若给定了角色表情（cs ver1.8.0～）
 	lastQuery = strParams[strParams.length - 1];
 	if (lastQuery.charAt(0) == "f") { // face
 		strParams.pop();
@@ -111,7 +111,7 @@ function show_result_from_hash() {
 			FacePattern = parseInt(lastQuery);
 		}
 	}
-	// 質問数が付いている場合、付与（cs ver1.7.0～）
+	// 若给定了问题数（cs ver1.7.0～）
 	lastQuery = strParams[strParams.length - 1];
 	if (lastQuery.charAt(0) == "q") { // question
 		strParams.pop();
@@ -141,7 +141,7 @@ function show_result_from_hash() {
 	show_result();
 	return true;
 }
-// 旧作とWin版の同名キャラを区別:幽香除く alt属性値でvalueを置き換える
+// 区分旧作与新作中的同名角色：除了幽香以外，替换alt属性对应的值
 function initOldVersionStyle() {
 	if ($("#enableOldVersionStyle").is(":checked")) {
 		$(":checkbox[alt].char").each(function(index) {
@@ -150,7 +150,7 @@ function initOldVersionStyle() {
 		});
 	}
 }
-// ソート開始
+// 开始排序
 function ask_start() {
 	QuestionBackup = null;
 	QuestionCount = 0;
@@ -158,7 +158,7 @@ function ask_start() {
 	SortTree = new SortObject(["!root", , , , ]);
 	initOldVersionStyle();
 	FacePattern = $("[name='facePattern']:checked").val();
-	// 選択キャラ構築（ユニーク）
+	// 构造已选择的角色（唯一）
 	selectedChars = [];
 	$(":checkbox.char").each(function(index) {
 		var v = $(this).attr("value");
@@ -166,19 +166,19 @@ function ask_start() {
 			selectedChars.push(v);
 		}
 	});
-	// そんな設定で大丈夫か？
+	// 这种设定没问题吗？
 	if( selectedChars.length >= 400){
-		if( confirm("ソートする対象が " + selectedChars.length + " 件あります。\n設問数が非常に多くなる事が想定されますが、覚悟はよろしいですか？") === false ){
+		if( confirm("共有 " + selectedChars.length + " 个待排序对象。\n预计问题数会非常多，确定做好觉悟了吗？") === false ){
 			return false;
 		}
 	}
 	if (selectedChars.length <= 1) {
-		alert("ソートするものがありません。");
+		alert("没有用于排序的对象。");
 		return false;
 	}
 	for (var i = 0; i < ResourceData.length; i++) {
 		var resourceId = ResourceData[i][0];
-		// ID で属性値検索してヒットしたらそのキャラは対象とする
+		// 若通过ID属性找到了角色，以其创建对象
 		if ($.inArray(resourceId, selectedChars) > -1) {
 			SortTree.add(new SortObject(ResourceData[i]), false);
 		}
@@ -186,7 +186,7 @@ function ask_start() {
 	$("div.caption").show();
 	TimeStarted = new Date();
 	ask_next();
-	// 復元準備
+	// 准备复原
 	BackupTree = new IDSortTree();
 	BackupTree.setupCTree();
 	BackupTree.initTree(SortTree, BackupTree);
@@ -194,7 +194,7 @@ function ask_start() {
 	$("#ui").fadeIn(1000);
 	$("#reset").show();
 }
-// 次の質問
+// 下一问
 function ask_next(isBacked) {
 	QuestionCount++;
 	hide_question();
@@ -202,11 +202,11 @@ function ask_next(isBacked) {
 	$("#count").text(QuestionCount);
 	$("#hold").css("visibility", "visible");
 	$("#back").css("visibility", "visible");
-	// 第1問は戻れないので消しとく
+	// 因为是第一问无法返回上一题，所以清除这个按钮
 	if (QuestionCount == 1) {
 		$("#back").css("visibility", "hidden");
 	}
-	// 「待った」の場合、質問を復元
+	// 选择「等下」时，回到上一题
 	if (isBacked === true) {
 		$("#back").css("visibility", "hidden");
 		Question = SortTree.ask(Question);
@@ -222,26 +222,26 @@ function ask_next(isBacked) {
 	}
 	return false;
 }
-// 待った！
+// 等下！
 function ask_back() {
-	// 復元して問い合わせ直す
+	// 复原，并再次询问
 	restore();
 	QuestionCount -= 2;
 	return ask_next(true);
 }
-// あとで
+// 跳过
 function ask_hold() {
-	// ここで元々設問数をカウントアップしていたが、よくよく考えたら後の選択で増えるのでやめた
+	// 本来在这里是想让问题数+1的，但仔细考虑一番觉得会导致后续选择变多所以不这样了
 	// QuestionCount++;
 	backup();
 	var currentQ = [Question[0].id, Question[1].id];
 	var isHoldedBefore = false;
-	// 前に同じ組み合わせでパスした事がある場合引き分けを確認する (同IDは居ないので単純な組み合わせ比較)
+	// 若这对组合之前也被跳过了，确认是否平局 (因为没有相同ID所以只是单纯的比较组合(?))
 	var len = EvenList.length;
 	for( var i = 0; i < len; i++ ){
 		if(EvenList[i][0] === currentQ[0] || EvenList[i][1] === currentQ[0]){
 			if(EvenList[i][1] === currentQ[1] || EvenList[i][1] === currentQ[1]){
-				if( confirm("前にもパスした選択です。\n引き分けにしますか？") ){
+				if( confirm("先前已经选择跳过了。\n要设为平局吗？") ){
 					return select_even();
 				} else {
 					isHoldedBefore = true;
@@ -250,7 +250,7 @@ function ask_hold() {
 			}
 		}
 	}
-	// 前にも同じ選択肢でパスしていなければ記録
+	// 若之前没跳过同样的组合，则记录
 	if( isHoldedBefore === false ){
 		EvenList.push(currentQ);
 	}

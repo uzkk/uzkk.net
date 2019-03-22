@@ -42,7 +42,7 @@ export default class SortObject {
   }
 
   /**
-	* 获得深度（树的当前指向深度？）
+	* 获得结点所在深度
 	*/
   level () {
     if (this.parent) {
