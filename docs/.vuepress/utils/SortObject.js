@@ -57,7 +57,7 @@ export default class SortObject {
   add (child, doEvenAction) {
     // 首先断开child父结点与child的连接 1R-（这个1R-是个啥？？）
     if (child.parent) {
-      child.parent.children.splice($.inArray(child, child.parent.children), 1)
+      child.parent.children.splice(child.parent.children.indexOf(child), 1)
     }
 
     // 特别处理平局情形
@@ -78,7 +78,7 @@ export default class SortObject {
   /**
 	* 字符串表示
 	*/
-  toString () {
+  /* toString () {
     var str = '<li>' + this.name + '(' + this.rank() + ')'
     if (this.children.length > 0) {
       str += '<ul>'
@@ -89,32 +89,23 @@ export default class SortObject {
     }
     str += '</li>'
     return str
-  }
+  } */
 
   /**
 	* 提取子结点
 	*/
-  ask (question) {
+  /* ask (showRank) {
     // 若指定了两边的角色，则搜索这俩
     // 这俩角色都存在，则返回这俩角色
     // 有不存在者，则按照后面的方式随机获取
-    if (question) {
-      var left = this.findSortObjectById(question[0])
-      var right = this.findSortObjectById(question[1])
-      if (left !== null && right !== null) {
-        return [left, right]
-      }
-    }
-    var isForceRandom = (arguments[0] == 'PASS')
+    // var isForceRandom = (arguments[0] == 'PASS')
     if (this.children.length == 0) {
       return false
     }
     if (this.children.length == 1) {
       // 不存在相同排名的角色了 = 下一名确定
-      var currentResultRank = this.level() + 1
-      var captionText = '現在、' + currentResultRank + ' 位まで確定しています。'
-      $('#caption').text(captionText)
-      $('#caption').show()
+      // var currentResultRank = this.level() + 1
+      // showRank(currentResultRank)
       return this.children[0].ask()
     }
     var both = [0, 0]
@@ -127,7 +118,7 @@ export default class SortObject {
       }
     }
     return [this.children[both[0]], this.children[both[1]]]
-  }
+  } */
 
   /**
 	* 删除
@@ -136,7 +127,7 @@ export default class SortObject {
     while (this.children.length > 0) {
       this.parent.add(this.children[0], false)
     }
-    this.parent.children.splice($.inArray(this, this.parent.children), 1)
+    this.parent.children.splice(this.parent.children.indexOf(this), 1)
   }
 
   /**
