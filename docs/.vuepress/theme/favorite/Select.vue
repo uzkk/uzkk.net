@@ -3,6 +3,9 @@
     <div class="back-btn-container">
       <button class="back-btn" @click="backToSettings">返回主界面</button>
     </div>
+    <div class="rank-display tac" v-if="currentRank > 0">
+      排名第 {{ currentRank }} 的角色已经确定！
+    </div>
     <div class="hint tac">
       第 {{ questionCount }} 轮：请选择更喜欢的角色（点击图片或第一行按钮）
     </div>
@@ -138,6 +141,11 @@ export default {
 
 .vam {
   vertical-align: middle !important;
+}
+
+.rank-display {
+  color: #0b0;
+  font-style: italic;
 }
 
 .hint {
