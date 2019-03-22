@@ -14,10 +14,17 @@ module.exports = (context) => ({
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ],
 
+  theme: 'uzkk',
+
   plugins: [
     ['dehydrate'],
     ['@uzkk/assets'],
     ['migrate', require('../../build/migrate')],
+    ['@vuepress/register-components', {
+      components: [
+        { name: 'Favorite', path: resolve(__dirname, 'favorite') },
+      ],
+    }],
   ],
 
   themeConfig: {
@@ -55,6 +62,7 @@ module.exports = (context) => ({
       permalink: '/favorite/',
       frontmatter: {
         layout: 'Favorite',
+        footer: false,
       },
     })
   },

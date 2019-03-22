@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import games from '../data/games.json'
+import games from '../data/games'
 
 const ranks = [1, 5, 7, 10, 20]
 

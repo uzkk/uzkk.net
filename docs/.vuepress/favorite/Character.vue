@@ -25,6 +25,7 @@ export default {
 <style lang="stylus" scoped>
 
 .char-view
+  user-select none
   position relative
   border 1px solid black
   box-shadow 0 0 2px 1px #0008

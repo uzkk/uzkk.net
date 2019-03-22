@@ -57,9 +57,9 @@
 
 <script>
 
-import SortObject from '../../utils/SortObject'
+import SortObject from '../utils/SortObject'
 import characters from '../data/characters'
-import Character from './Character.vue'
+import Character from './Character'
 
 export default {
   name: 'Select',

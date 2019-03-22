@@ -6,17 +6,16 @@ export default class SortObject {
     // 为了方便文件名排序(?)
     this.img = 'c' + (this.id)
     this.ext = '.png'
-  
+
     // 上/下位关系（父子结点？）
     this.parent = null
     this.isEven = false // 上位平局了？
     this.children = []
   }
 
-  
   /**
-	* 获得图片路径（。。。路径跟跳过日语居然一样）
-	*/
+  * 获得图片路径（。。。路径跟跳过日语居然一样）
+  */
   getImagePath () {
     var strImageSrc = './char/'
     // 没默认值时找文件夹(?)
@@ -32,8 +31,8 @@ export default class SortObject {
   }
 
   /**
-	* 获得排名
-	*/
+  * 获得排名
+  */
   rank () {
     if (this.parent) {
       return (this.isEven ? this.parent.rank() : this.level())
@@ -42,8 +41,8 @@ export default class SortObject {
   }
 
   /**
-	* 获得结点所在深度
-	*/
+  * 获得结点所在深度
+  */
   level () {
     if (this.parent) {
       return this.parent.level() + 1
@@ -52,8 +51,8 @@ export default class SortObject {
   }
 
   /**
-	* 追加子结点
-	*/
+  * 追加子结点
+  */
   add (child, doEvenAction) {
     // 首先断开child父结点与child的连接 1R-（这个1R-是个啥？？）
     if (child.parent) {
@@ -76,24 +75,8 @@ export default class SortObject {
   }
 
   /**
-	* 字符串表示
-	*/
-  /* toString () {
-    var str = '<li>' + this.name + '(' + this.rank() + ')'
-    if (this.children.length > 0) {
-      str += '<ul>'
-      for (var i = 0; i < this.children.length; i++) {
-        str += this.children[i].toString()
-      }
-      str += '</ul>'
-    }
-    str += '</li>'
-    return str
-  } */
-
-  /**
-	* 提取子结点
-	*/
+  * 提取子结点
+  */
   /* ask (showRank) {
     // 若指定了两边的角色，则搜索这俩
     // 这俩角色都存在，则返回这俩角色
@@ -121,8 +104,8 @@ export default class SortObject {
   } */
 
   /**
-	* 删除
-	*/
+  * 删除
+  */
   remove () {
     while (this.children.length > 0) {
       this.parent.add(this.children[0], false)
@@ -131,8 +114,8 @@ export default class SortObject {
   }
 
   /**
-	* 全体结点中搜索 resourceId 并返回 SortObject。没找到则返回 null。
-	*/
+  * 全体结点中搜索 resourceId 并返回 SortObject。没找到则返回 null。
+  */
   findSortObjectById (resourceId) {
     if (this.id === resourceId) {
       return this
