@@ -1,9 +1,12 @@
 <template>
   <div>
-    <h3 class="hint tac">
+    <h3 class="tac">
       第 {{ questionCount }} 轮：请选择更喜欢的角色
     </h3>
-    <table>
+    <h4 class="tac" v-if="currentRank > 0">
+      排名第 {{ currentRank }} 的角色已经确定
+    </h4>
+    <table class="tac">
       <tr class="characters">
         <td><Character :face="face" :node="pair[0]" @click="selectChar(0)"/></td>
         <td><Character :face="face" :node="pair[1]" @click="selectChar(1)"/></td>
@@ -150,8 +153,7 @@ export default {
 
 <style lang="stylus" scoped>
 
-.hint
-  font-size 1.3em
+.tac
   text-align center
 
 table
@@ -160,7 +162,6 @@ table
   margin-bottom 2em
   border-spacing 0.4em
   border-collapse separate
-  text-align center
   vertical-align middle
 
 td
