@@ -12,18 +12,10 @@
     <table class="tac vam">
       <tr>
         <td>
-          <img class="char-img" :src="getImage(pair[0])" :alt="pair[0].name" @click="selectChar(0)">
+          <Character :face="face" :node="pair[0]" @click="selectChar(0)"/>
         </td>
         <td>
-          <img class="char-img" :src="getImage(pair[1])" :alt="pair[1].name" @click="selectChar(1)">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="opt-btn" @click="selectChar(0)">选择左边的角色</div>
-        </td>
-        <td>
-          <div class="opt-btn" @click="selectChar(1)">选择右边的角色</div>
+          <Character :face="face" :node="pair[1]" @click="selectChar(1)"/>
         </td>
       </tr>
       <tr>
@@ -44,11 +36,14 @@
 </template>
 
 <script>
-import SortObject from '../../utils/SortObject.js'
-import characters from '../data/characters.json'
+import SortObject from '../../utils/SortObject'
+import characters from '../data/characters'
+import Character from './Character.vue'
 
 export default {
   name: 'Select',
+
+  components: { Character },
 
   props: ['gamelist', 'ranknum', 'face'],
 
