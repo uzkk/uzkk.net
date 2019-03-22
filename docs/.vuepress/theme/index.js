@@ -2,7 +2,7 @@ const { resolve } = require('path')
 const mergeable = require('vuepress-mergeable')
 
 module.exports = mergeable(({ lang }, context) => ({
-  name: 'vuepress-theme-meteorlxy',
+  name: 'vuepress-theme-zukk',
 
   plugins: [
     [require('./plugins/blog'), { lang }],

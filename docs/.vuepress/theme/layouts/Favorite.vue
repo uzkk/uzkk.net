@@ -1,6 +1,6 @@
 <template>
   <TransitionFadeSlide>
-    <component :is="phase" :key="phase"/>
+    <component :is="phase" :key="phase" @next="updatePhase" v-bind="state"/>
   </TransitionFadeSlide>
 </template>
 
@@ -20,6 +20,14 @@ export default {
 
   data: () => ({
     phase: 'Settings',
+    state: {},
   }),
+
+  methods: {
+    updatePhase (nextPhase, state) {
+      Object.assign(this.state, state)
+      this.phase = nextPhase
+    },
+  },
 }
 </script>
