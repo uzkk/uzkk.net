@@ -100,7 +100,7 @@ export default {
       return false
     },
     moveOn () {
-      const { ranknum } = this
+      const { ranknum, face } = this
       if (!this.nextPair()) {
         let ranking = []
         let node = this.rtNode
@@ -156,6 +156,10 @@ td {
   padding-left: 0.5em;
   padding-right: 0.5em;
   padding-bottom: 0.3em;
+}
+
+.char-img {
+  cursor: pointer;
 }
 
 .opt-btn {
