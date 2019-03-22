@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="hint tac">
-      请选择更喜欢的角色（点击图片或第一行按钮）
+      第 {{ questionCount }} 轮：请选择更喜欢的角色（点击图片或第一行按钮）
     </div>
     <table class="tac vam">
       <tr>
@@ -51,7 +51,8 @@ export default {
   data () {
     return {
       pair: this.ask(rtNode),
-      currentRank: 0
+      questionCount: 1,
+      currentRank: 0,
     }
   },
   methods: {
@@ -77,12 +78,14 @@ export default {
     nextPair () {
       this.pair = this.ask(rtNode)
       if (this.pair) {
+        this.questionCount += 1
         return this.pair[1].level() <= this.ranknum
       }
       return false
     },
     selectChar (index) {
       this.pair[index].add(this.pair[1 - index], false)
+      const { ranknum } = this
       if (!this.nextPair()) {
         let ranking = []
         let node = rtNode
@@ -134,6 +137,7 @@ td {
 }
 
 .opt-btn {
+  user-select: none;
   background-color: #ccf;
   color: #000;
   border-radius: 0.4em;
