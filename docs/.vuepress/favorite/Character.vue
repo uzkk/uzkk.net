@@ -1,6 +1,6 @@
 <template>
-  <div class="char-view">
-    <img :src="src" :alt="node.name" @click.stop="$emit('click')">
+  <div class="char-view" @click.stop="$emit('click')">
+    <img :src="src" :alt="node.name">
     <div class="info">
       <div class="name">{{ node.name }}</div>
       <div class="nick">{{ node.nick }}</div>
@@ -28,11 +28,11 @@ export default {
   user-select none
   position relative
   border 1px solid black
+  cursor pointer
   box-shadow 0 0 2px 1px #0008
 
   img
     display block
-    cursor pointer
 
   .info
     opacity 0

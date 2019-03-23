@@ -16,7 +16,7 @@
           <button
             class="btn opt-btn"
             title="将左边的角色从剩余问题的角色列表中剔除"
-            @click="exclude(0)"
+            @click.stop="exclude(0)"
           >
             不再出现左边的角色
           </button>
@@ -25,7 +25,7 @@
           <button
             class="btn opt-btn"
             title="将右边的角色从剩余问题的角色列表中剔除"
-            @click="exclude(1)"
+            @click.stop="exclude(1)"
           >
             不再出现右边的角色
           </button>
@@ -36,7 +36,7 @@
           <button
             class="btn opt-btn"
             title="将两边的角色从剩余问题的角色列表中剔除"
-            @click="exclude(0, 1)"
+            @click.stop="exclude(0, 1)"
           >
             不再出现这两个角色
           </button>
@@ -44,9 +44,9 @@
         <td>
           <button
             class="btn opt-btn"
-            title="重新作答上一题"
-            @click="previous"
-            :disabled="questionCount === 1 || isPrevious"
+            @click.stop="previous"
+            :title="revertable ? '重新作答上一题' : ''"
+            :disabled="!revertable"
           >
             等下，选错了……
           </button>
@@ -57,7 +57,7 @@
           <button
             class="btn back-btn"
             title="返回主界面"
-            @click="backToSettings"
+            @click.stop="backToSettings"
           >
             返回主界面
           </button>
@@ -86,13 +86,19 @@ export default {
     bkpPair: [],
     questionCount: 1,
     currentRank: 0,
-    isPrevious: false
+    isPrevious: false,
   }),
+
+  computed: {
+    revertable () {
+      return this.questionCount > 1 && !this.isPrevious
+    },
+  },
 
   created () {
     this.rtNode = new SortObject(["!root", , , , ])
-    for (let char of characters) {
-      for (let tag of char[4]) {
+    for (const char of characters) {
+      for (const tag of char[4]) {
         if (this.gamelist.includes(tag)) {
           this.rtNode.add(new SortObject(char), false)
           break
@@ -122,8 +128,8 @@ export default {
     },
     ask (node, pair) {
       if (pair) {
-        let left = node.findSortObjectById(pair[0].id)
-        let right = node.findSortObjectById(pair[1].id)
+        const left = node.findSortObjectById(pair[0].id)
+        const right = node.findSortObjectById(pair[1].id)
         if (left !== null && right !== null) {
           return [left, right]
         }
@@ -135,12 +141,12 @@ export default {
         this.currentRank = node.level() + 1
         return this.ask(node.children[0])
       }
-      var both = [0, 0]
+      const both = [0, 0]
       while (true) {
         if (both[0] != both[1]) {
           break
         }
-        for (var i in [0, 1]) {
+        for (const i of [0, 1]) {
           both[i] = Math.floor(Math.random() * node.children.length)
         }
       }
@@ -244,12 +250,10 @@ td
 
   &:disabled
     cursor default
+    background-color #777 !important
 
 active-bg-color(color)
   background-color color
-
-  &:disabled
-    background-color lighten(color, 40%)
 
   &:hover
     background-color lighten(color, 30%)
