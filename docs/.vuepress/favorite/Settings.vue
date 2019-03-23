@@ -3,18 +3,25 @@
     <div class="choice-container option-container">
       <div>
         <span class="choice-item game-item">
-          <input type="checkbox" v-on:click="selectAll" v-model="all">
-          <label>所有作品全选</label>
+          <Checkbox
+            v-model="allSelected"
+            label="所有作品全选"
+          />
         </span>
         <span class="choice-item game-item">
-          <input type="checkbox" v-on:click="selectAllStg" v-model="allStg">
-          <label>正作STG全选</label>
+          <Checkbox
+            v-model="allStgSelected"
+            label="正作 STG 全选"
+          />
         </span>
       </div>
       <div>
         <span class="choice-item game-item" v-for="(game, index) in games" :key="index">
-          <input type="checkbox" :value="game.tag" v-on:click="gameChecked(game.tag)" v-model="gamelist">
-          <label>{{ game.name }}</label>
+          <Checkbox
+            :value="gamelist.includes(game.tag)"
+            :label="game.name"
+            @update="toggleGame(game.tag)"
+          />
         </span>
       </div>
     </div>
@@ -38,7 +45,7 @@
       <Button
         class="start-btn"
         @click="$emit('next', 'Select', { gamelist, ranknum, face })"
-        :disabled="gamelist.length === 0"
+        :disabled="!gamelist.length"
       >
         开始！
       </Button>
@@ -47,8 +54,10 @@
 </template>
 
 <script>
+
 import games from '../data/games'
-import Button from './Button.vue'
+import Button from './Button'
+import Checkbox from './Checkbox'
 
 const ranks = [1, 5, 7, 10, 20]
 
@@ -58,84 +67,61 @@ const faces = {
 }
 
 export default {
-  name: 'Settings',
-  components: {
-    Button
-  },
+  components: { Button, Checkbox },
+
   data: () => ({
     ranknum: 1,
     face: 'default',
-    gamelist: [],
-    all: false,
-    allStg: false
+    gamelist: 'abcdefghijk',
   }),
+
   created () {
     this.faces = faces
     this.ranks = ranks
     this.games = games
-    this.selectAllStg()
-    this.allStg = true
   },
-  methods: {
-    selectAll () {
-      if (!this.all) {
-        this.allStg = true
-        this.gamelist = this.games.map(game => game.tag)
-      } else {
-        this.allStg = false
-        this.gamelist = []
-      }
-    },
-    selectAllStg () {
-      this.all = false
-      if (!this.allStg) {
-        this.gamelist = []
-        for (let game of this.games) {
-          if (game.tag >= 'a' && game.tag <= 'z') {
-            this.gamelist.push(game.tag)
-          }
-        }
-      } else {
-        let gl = this.gamelist.slice()
-        for (let game of gl) {
-          if (game >= 'a' && game <= 'z') {
-            let index = this.gamelist.indexOf(game)
-            this.gamelist.splice(index, 1)
-          }
-        }
-      }
-    },
-    gameChecked (tag) {
-      if (this.gamelist.indexOf(tag) > -1) {
-        this.all = false
-        if (tag >= 'a' && tag <= 'z') {
-          this.allStg = false
-        }
-      } else {
-        if (this.gamelist.length === this.games.length - 1) {
-          this.all = true
-        }
-        if (tag >= 'a' && tag <= 'z') {
-          let selectedLower = 0
-          for (let game of this.gamelist) {
-            if (game >= 'a' && game <= 'z') {
-              selectedLower += 1
-            }
-          }
-          let lower = 0
-          for (let game of this.games) {
-            if (game.tag >= 'a' && game.tag <= 'z') {
-              lower += 1
-            }
-          }
-          if (selectedLower === lower - 1) {
-            this.allStg = true
-          }
-        }
-      }
+
+  watch: {
+    gamelist(value) {
+      console.log(value)
     }
+  },
+
+  computed: {
+    allSelected: {
+      get () {
+        return this.gamelist.length === 'ABCDEFabcdefghijk'.length
+      },
+      set (value) {
+        this.gamelist = value ? 'ABCDEFabcdefghijk' : ''
+      },
+    },
+    allStgSelected: {
+      get () {
+        return this.gamelist.endsWith('abcdefghijk')
+      },
+      set (value) {
+        const noSTG = this.gamelist.match(/[A-Z]*/)[0]
+        this.gamelist = noSTG + (value ? 'abcdefghijk' : '')
+      },
+    },
+  },
+
+  methods: {
+    toggleGame (tag) {
+      const index = this.gamelist.indexOf(tag)
+      const chars = this.gamelist.split('')
+      if (index > -1) {
+        chars.splice(index, 1)
+        this.gamelist = chars.join('')
+      } else {
+        chars.push(tag)
+        this.gamelist = chars.sort().join('')
+      }
+    },
   }
 }
+
 </script>
 
 <style scoped>
