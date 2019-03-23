@@ -25,6 +25,8 @@ export default {
 <style lang="stylus" scoped>
 
 .char-view
+  width 100%
+  max-width 200px
   user-select none
   position relative
   border 1px solid black
@@ -32,6 +34,7 @@ export default {
   box-shadow 0 0 2px 1px #0008
 
   img
+    width 100%
     display block
 
   .info

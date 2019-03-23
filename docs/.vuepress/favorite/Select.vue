@@ -176,9 +176,6 @@ export default {
       this.isPrevious = false
       this.moveOn(false)
     },
-    getImage (char) {
-      return `${TH_CHAR_PATH}/${this.face}/${char.img}.png`
-    },
     exclude (...indices) {
       this.backup()
       for (let i of indices) {
@@ -212,6 +209,16 @@ table
   border-spacing 0.4em
   border-collapse separate
   vertical-align middle
+
+  @media (max-width 479px)
+    table-layout fixed
+    width 100%
+
+  @media (max-width 399px)
+    font-size 0.8rem
+
+  @media (max-width 479px) and (min-width 400px)
+    font-size 0.9rem
 
 td
   padding-left 0.5em
