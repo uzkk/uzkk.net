@@ -249,7 +249,7 @@ active-bg-color(color)
   background-color color
 
   &:disabled
-    background-color lighten(color, 40%)
+    background-color #ccc
 
   &:hover
     background-color lighten(color, 30%)
