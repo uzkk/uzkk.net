@@ -44,6 +44,17 @@
         <td>
           <button
             class="opt-btn"
+            title="重新作答上一题"
+            @click="previous"
+          >
+            等下，选错了……
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button
+            class="opt-btn"
             title="返回主界面"
             @click="backToSettings"
           >
@@ -58,6 +69,7 @@
 <script>
 
 import SortObject from '../utils/SortObject'
+import IDSortTree from '../utils/IDSortTree'
 import characters from '../data/characters'
 import Character from './Character'
 
@@ -70,6 +82,7 @@ export default {
 
   data: () => ({
     pair: [],
+    bkpPair: [],
     questionCount: 1,
     currentRank: 0,
   }),
@@ -85,13 +98,34 @@ export default {
       }
     }
     this.pair = this.ask(this.rtNode)
+    this.bkpRtNode = new IDSortTree()
+    this.bkpRtNode.setupCTree()
+    this.bkpRtNode.initTree(this.rtNode, this.bkpRtNode)
   },
 
   methods: {
     backToSettings () {
       this.$emit('next', 'Settings')
     },
-    ask (node) {
+    backup () {
+      this.bkpPair = [this.pair[0], this.pair[1]]
+      this.bkpRtNode.setupCTree()
+      this.bkpRtNode.initTree(this.rtNode, this.bkpRtNode)
+    },
+    restore () {
+      this.pair = [this.bkpPair[0], this.bkpPair[1]]
+      this.bkpPair = null
+      this.currentRank = 0
+      this.rtNode = this.bkpRtNode.restoreCTree(this.bkpRtNode, null)
+    },
+    ask (node, pair) {
+      if (pair) {
+        let left = node.findSortObjectById(pair[0].id)
+        let right = node.findSortObjectById(pair[1].id)
+        if (left !== null && right !== null) {
+          return [left, right]
+        }
+      }
       if (node.children.length == 0) {
         return false
       }
@@ -110,17 +144,21 @@ export default {
       }
       return [node.children[both[0]], node.children[both[1]]]
     },
-    nextPair () {
-      this.pair = this.ask(this.rtNode)
-      if (this.pair) {
+    nextPair (back) {
+      if (back) {
+        this.pair = this.ask(this.rtNode, this.pair)
+      } else {
+        this.pair = this.ask(this.rtNode)
+      }
+      if (this.pair && this.pair[1].level() <= this.ranknum) {
         this.questionCount += 1
-        return this.pair[1].level() <= this.ranknum
+        return true
       }
       return false
     },
-    moveOn () {
+    moveOn (back) {
       const { ranknum, face } = this
-      if (!this.nextPair()) {
+      if (!this.nextPair(back)) {
         let ranking = []
         let node = this.rtNode
         for (let i = 0; i < ranknum; i++) {
@@ -134,17 +172,24 @@ export default {
       }
     },
     selectChar (index) {
+      this.backup()
       this.pair[index].add(this.pair[1 - index], false)
-      this.moveOn()
+      this.moveOn(false)
     },
     getImage (char) {
       return `${TH_CHAR_PATH}/${this.face}/${char.img}.png`
     },
     exclude (...indices) {
+      this.backup()
       for (let i of indices) {
         this.pair[i].remove()
       }
-      this.moveOn()
+      this.moveOn(false)
+    },
+    previous () {
+      this.restore()
+      this.questionCount -= 2
+      this.moveOn(true)
     }
   },
 }

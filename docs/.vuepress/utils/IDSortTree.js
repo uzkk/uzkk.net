@@ -1,4 +1,5 @@
 import SortObject from './SortObject'
+import characters from '../data/characters'
 
 export default class IDSortTree {
   constructor () {
@@ -46,9 +47,9 @@ export default class IDSortTree {
       var nodeId = idTree.nodes[i].id
       var isEven = idTree.nodes[i].isEven
       var cItem = null
-      for (var j = 0; j < ResourceData.length; j++) {
-        if (nodeId == ResourceData[j][0]) {
-          cItem = new SortObject(ResourceData[j])
+      for (var j = 0; j < characters.length; j++) {
+        if (nodeId == characters[j][0]) {
+          cItem = new SortObject(characters[j])
           cItem.isEven = isEven
           break
         }
