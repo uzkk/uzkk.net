@@ -34,14 +34,21 @@
         </span>
       </div>
     </div>
-    <div class="tac">
-      <button class="start-btn" @click="$emit('next', 'Select', { gamelist, ranknum, face })" :disabled="gamelist.length === 0">开始！</button>
+    <div class="start-btn-container tac">
+      <Button
+        class="start-btn"
+        @click="$emit('next', 'Select', { gamelist, ranknum, face })"
+        :disabled="gamelist.length === 0"
+      >
+        开始！
+      </Button>
     </div>
   </div>
 </template>
 
 <script>
 import games from '../data/games'
+import Button from './Button.vue'
 
 const ranks = [1, 5, 7, 10, 20]
 
@@ -52,6 +59,9 @@ const faces = {
 
 export default {
   name: 'Settings',
+  components: {
+    Button
+  },
   data: () => ({
     ranknum: 1,
     face: 'default',
@@ -63,6 +73,8 @@ export default {
     this.faces = faces
     this.ranks = ranks
     this.games = games
+    this.selectAllStg()
+    this.allStg = true
   },
   methods: {
     selectAll () {
@@ -155,8 +167,16 @@ export default {
   width: 10em;
 }
 
-.start-btn {
-  margin-top: 1em;
+.start-btn-container {
+  margin-top: 1.3em;
   margin-bottom: 2em;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.start-btn {
+  width: 100%;
+  display: block;
 }
 </style>

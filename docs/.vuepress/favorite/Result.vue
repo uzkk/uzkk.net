@@ -1,10 +1,17 @@
 <template>
   <div>
-    <div class="back-btn-container">
-      <button class="back-btn" @click="backToSettings">返回主界面</button>
+    <div class="back-btn-container tac">
+      <Button
+        class="res-page-back-btn"
+        title="返回主界面"
+        type="warning"
+        @click="backToSettings"
+      >
+        返回主界面
+      </Button>
     </div>
     <div class="tac">
-      <h3>您的前 {{ ranking.length }} 位本命角色排行：</h3>
+      <h2>您的前 {{ ranking.length }} 位本命角色排行：</h2>
     </div>
     <div v-if="ranking.length >= 1">
       <table>
@@ -62,21 +69,35 @@
         </tr>
       </table>
     </div>
-    <ul v-if="ranking.length >= 21">
-      <li v-for="(char, index) in ranking.slice(20)" :key="index">
-        第 {{ index + 21 }} 位：{{ char.name }}
-      </li>
-    </ul>
+    <div v-if="ranking.length >= 21">
+      <ul>
+        <li v-for="(char, index) in ranking.slice(20)" :key="index">
+          第 {{ index + 21 }} 位：{{ char.name }}
+        </li>
+      </ul>
+    </div>
+    <div class="back-btn-container tac">
+      <Button
+        class="res-page-back-btn"
+        title="返回主界面"
+        type="warning"
+        @click="backToSettings"
+      >
+        返回主界面
+      </Button>
+    </div>
   </div>
 </template>
 
 <script>
 import ResultChar from './ResultChar'
+import Button from './Button'
 
 export default {
   name: 'Result',
   components: {
-    ResultChar
+    ResultChar,
+    Button
   },
   props: ['ranking', 'face'],
   data () {
@@ -95,10 +116,24 @@ export default {
   text-align: center !important;
 }
 
+.back-btn-container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.7em;
+  padding-bottom: 1.7em;
+}
+
+.res-page-back-btn {
+  width: 100%;
+  display: block;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
   text-align: center !important;
 }
 
