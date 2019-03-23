@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="tac">
-      第 {{ questionCount }} 轮：请选择更喜欢的角色
+      第 {{ questionCount }} 轮：请<span class="emphasize">点击图片</span>选择更喜欢的角色
     </h3>
     <h4 class="tac" v-if="currentRank > 0">
       排名第 {{ currentRank }} 的角色已经确定
@@ -14,7 +14,7 @@
       <tr>
         <td>
           <button
-            class="opt-btn"
+            class="btn opt-btn"
             title="将左边的角色从剩余问题的角色列表中剔除"
             @click="exclude(0)"
           >
@@ -23,7 +23,7 @@
         </td>
         <td>
           <button
-            class="opt-btn"
+            class="btn opt-btn"
             title="将右边的角色从剩余问题的角色列表中剔除"
             @click="exclude(1)"
           >
@@ -34,7 +34,7 @@
       <tr>
         <td>
           <button
-            class="opt-btn"
+            class="btn opt-btn"
             title="将两边的角色从剩余问题的角色列表中剔除"
             @click="exclude(0, 1)"
           >
@@ -43,7 +43,7 @@
         </td>
         <td>
           <button
-            class="opt-btn"
+            class="btn opt-btn"
             title="重新作答上一题"
             @click="previous"
           >
@@ -54,7 +54,7 @@
       <tr>
         <td colspan="2">
           <button
-            class="opt-btn"
+            class="btn back-btn"
             title="返回主界面"
             @click="backToSettings"
           >
@@ -201,6 +201,9 @@ export default {
 .tac
   text-align center
 
+.emphasize
+  color #d00
+
 table
   margin-left auto
   margin-right auto
@@ -217,7 +220,7 @@ td
   tr.characters > &
     padding-bottom 0.8em
 
-.opt-btn
+.btn
   display block
   width 100%
   font-size 1em
@@ -226,7 +229,6 @@ td
   user-select none
   border none
   border-radius 0.4em
-  background-color $accentColor
   color #fff
   border-radius 0.4em
   cursor pointer
@@ -236,10 +238,19 @@ td
   &:focus
     outline 0
 
+active-bg-color(color)
+  background-color color
+
   &:hover
-    background-color lighten($accentColor, 30%)
+    background-color lighten(color, 30%)
 
   &:active
-    background-color darken($accentColor, 30%)
+    background-color darken(color, 30%)
+
+.opt-btn
+  active-bg-color($accentColor)
+
+.back-btn
+  active-bg-color(#f33)
 
 </style>
