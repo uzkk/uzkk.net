@@ -1,15 +1,6 @@
 <template>
-  <div class="char-view">
-    <img
-      :src="src"
-      :alt="node.name"
-      :class="{
-        'char-lg': size === 'lg',
-        'char-md': size === 'md',
-        'char-sm': size === 'sm',
-        'char-xs': size === 'xs'
-      }"
-    >
+  <div class="char-view" :class="size">
+    <img :src="src" :alt="node.name">
     <div class="info">
       <div class="name">{{ node.name }}</div>
       <div class="nick">{{ node.nick }}</div>
@@ -36,44 +27,41 @@ export default {
 .char-view
   user-select none
   position relative
-  border 1px solid black
-  box-shadow 0 0 2px 1px #0008
+  max-width 100%
 
   img
+    width 100%
     display block
-
-  .char-lg
-    width 180px
-    max-width 100%
-
-  .char-md
-    width 155px
-    max-width 100%
-
-  .char-sm
-    width 125px
-    max-width 100%
-
-  .char-xs
-    width 100px
-    max-width 100%
+    border 1px solid black
+    box-shadow 0 0 2px 1px #0008
 
   .info
-    opacity 0
-    position absolute
     width 100%
-    transition 0.3s ease
-    background #0008
-    color #fffc
-    bottom 0
+    color $textColor
     line-height 1.6
     padding 0.2em 0
+    width max-content
+    transform translateX(-50%)
+    left 50%
+    position relative
 
     .name
       font-size 1.2em
 
-  &:hover
-    .info
-      opacity 1
+  &.lg
+    width 180px
+    font-size 1.1rem
+
+  &.md
+    width 150px
+    font-size 1rem
+
+  &.sm
+    width 126px
+    font-size 0.9rem
+
+  &.xs
+    width 100px
+    font-size 0.8rem
 
 </style>
