@@ -6,17 +6,92 @@
     <div class="tac">
       <h3>您的前 {{ ranking.length }} 位本命角色排行：</h3>
     </div>
-    <ul>
-      <li v-for="(char, index) in ranking" :key="index">
-        第 {{ index + 1 }} 名：{{ char }}
+    <div v-if="ranking.length === 1">
+      <table>
+        <tr>
+          <td>第 1 位</td>
+        </tr>
+        <tr class="character">
+          <td>
+            <ResultChar :node="ranking[0]" :face="face" :size="'lg'"></ResultChar>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div v-else-if="ranking.length >= 2">
+      <table>
+        <tr>
+          <td>第 1 位</td>
+          <td>第 2 位</td>
+        </tr>
+        <tr class="character">
+          <td>
+            <ResultChar :node="ranking[0]" :face="face" :size="'lg'"></ResultChar>
+          </td>
+          <td>
+            <ResultChar :node="ranking[1]" :face="face" :size="'lg'"></ResultChar>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div v-if="ranking.length >= 3">
+      <table>
+        <tr>
+          <td v-for="(_, index) in ranking.slice(2, 5)">
+            第 {{ index + 3 }} 位
+          </td>
+        </tr>
+        <tr class="character">
+          <td v-for="(char, index) in ranking.slice(2, 5)" :key="index">
+            <ResultChar :node="char" :face="face" :size="'md'"></ResultChar>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div v-if="ranking.length >= 6">
+      <table>
+        <tr>
+          <td v-for="(_, index) in ranking.slice(5, 10)">
+            第 {{ index + 6 }} 位
+          </td>
+        </tr>
+        <tr class="character">
+          <td v-for="(char, index) in ranking.slice(5, 10)" :key="index">
+            <ResultChar :node="char" :face="face" :size="'sm'"></ResultChar>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div v-if="ranking.length >= 11">
+      <table>
+        <tr>
+          <td v-for="(_, index) in ranking.slice(10, 20)">
+            第 {{ index + 11 }} 位
+          </td>
+        </tr>
+        <tr class="character">
+          <td v-for="(char, index) in ranking.slice(10, 20)" :key="index">
+            <ResultChar :node="char" :face="face" :size="'xs'"></ResultChar>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <ul v-if="ranking.length >= 21">
+      <li v-for="(char, index) in ranking.slice(20)" :key="index">
+        第 {{ index + 21 }} 位：{{ char.name }}
       </li>
     </ul>
   </div>
 </template>
 
 <script>
+import ResultChar from './ResultChar'
+
 export default {
   name: 'Result',
+  components: {
+    ResultChar
+  },
   props: ['ranking', 'face'],
   data () {
     return {}
@@ -32,5 +107,21 @@ export default {
 <style scoped>
 .tac {
   text-align: center !important;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+}
+
+td {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+}
+
+tr.character {
+  padding-bottom: 0.8em
 }
 </style>

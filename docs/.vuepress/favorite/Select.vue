@@ -166,7 +166,7 @@ export default {
           if (!node) {
             break
           }
-          ranking.push(node.name)
+          ranking.push(node)
         }
         this.$emit('next', 'Result', { ranking, face })
       }
