@@ -1,6 +1,15 @@
 <template>
   <div class="char-view">
-    <img :src="src" :alt="node.name" :class="'char-' + size">
+    <img
+      :src="src"
+      :alt="node.name"
+      :class="{
+        'char-lg': size === 'lg',
+        'char-md': size === 'md',
+        'char-sm': size === 'sm',
+        'char-xs': size === 'xs'
+      }"
+    >
     <div class="info">
       <div class="name">{{ node.name }}</div>
       <div class="nick">{{ node.nick }}</div>
@@ -32,6 +41,22 @@ export default {
 
   img
     display block
+
+  .char-lg
+    width 180px
+    max-width 100%
+
+  .char-md
+    width 155px
+    max-width 100%
+
+  .char-sm
+    width 125px
+    max-width 100%
+
+  .char-xs
+    width 100px
+    max-width 100%
 
   .info
     opacity 0
