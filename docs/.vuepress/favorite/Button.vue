@@ -37,14 +37,14 @@ active-bg-color(color)
 
 button
   font-size 1em
-  line-height 2em
+  line-height 1.2em
   appearance none
   user-select none
   border none
   border-radius 0.4em
   color #fff
   cursor pointer
-  padding 0.2em 0.4em
+  padding 0.6em 0.4em
   transition 0.3s ease
 
   &:focus
