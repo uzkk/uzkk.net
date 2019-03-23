@@ -40,7 +40,7 @@
         @click="$emit('next', 'Select', { gamelist, ranknum, face })"
         :disabled="gamelist.length === 0"
       >
-        开始！
+        开始
       </Button>
     </div>
   </div>
@@ -170,7 +170,7 @@ export default {
 .start-btn-container {
   margin-top: 1.3em;
   margin-bottom: 2em;
-  width: 25%;
+  width: 15%;
   margin-left: auto;
   margin-right: auto;
 }
