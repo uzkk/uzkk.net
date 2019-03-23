@@ -13,54 +13,50 @@
       </tr>
       <tr>
         <td>
-          <button
-            class="btn opt-btn"
+          <Button
             title="将左边的角色从剩余问题的角色列表中剔除"
-            @click.stop="exclude(0)"
+            @click="exclude(0)"
           >
             不再出现左边的角色
-          </button>
+          </Button>
         </td>
         <td>
-          <button
-            class="btn opt-btn"
+          <Button
             title="将右边的角色从剩余问题的角色列表中剔除"
-            @click.stop="exclude(1)"
+            @click="exclude(1)"
           >
             不再出现右边的角色
-          </button>
+          </Button>
         </td>
       </tr>
       <tr>
         <td>
-          <button
-            class="btn opt-btn"
+          <Button
             title="将两边的角色从剩余问题的角色列表中剔除"
-            @click.stop="exclude(0, 1)"
+            @click="exclude(0, 1)"
           >
             不再出现这两个角色
-          </button>
+          </Button>
         </td>
         <td>
-          <button
-            class="btn opt-btn"
-            @click.stop="previous"
-            :title="revertable ? '重新作答上一题' : ''"
-            :disabled="!revertable"
+          <Button
+            @click="previous"
+            title="重新作答上一题"
+            :disabled="questionCount === 1 || this.isPrevious"
           >
             等下，选错了……
-          </button>
+          </Button>
         </td>
       </tr>
       <tr>
         <td colspan="2">
-          <button
-            class="btn back-btn"
+          <Button
             title="返回主界面"
-            @click.stop="backToSettings"
+            type="warning"
+            @click="backToSettings"
           >
             返回主界面
-          </button>
+          </Button>
         </td>
       </tr>
     </table>
@@ -73,11 +69,12 @@ import SortObject from '../utils/SortObject'
 import IDSortTree from '../utils/IDSortTree'
 import characters from '../data/characters'
 import Character from './Character'
+import Button from './Button'
 
 export default {
   name: 'Select',
 
-  components: { Character },
+  components: { Character, Button },
 
   props: ['gamelist', 'ranknum', 'face'],
 
@@ -88,12 +85,6 @@ export default {
     currentRank: 0,
     isPrevious: false,
   }),
-
-  computed: {
-    revertable () {
-      return this.questionCount > 1 && !this.isPrevious
-    },
-  },
 
   created () {
     this.rtNode = new SortObject(["!root", , , , ])
@@ -230,41 +221,8 @@ td
   tr.characters > &
     padding-bottom 0.8em
 
-.btn
-  display block
-  width 100%
-  font-size 1em
-  line-height 2em
-  appearance none
-  user-select none
-  border none
-  border-radius 0.4em
-  color #fff
-  border-radius 0.4em
-  cursor pointer
-  padding 0.2em 0.4em
-  transition 0.3s ease
-
-  &:focus
-    outline 0
-
-  &:disabled
-    cursor default
-    background-color #999 !important
-
-active-bg-color(color)
-  background-color color
-
-  &:hover
-    background-color lighten(color, 30%)
-
-  &:active
-    background-color darken(color, 30%)
-
-.opt-btn
-  active-bg-color($accentColor)
-
-.back-btn
-  active-bg-color(#f33)
+  button
+    display block
+    width 100%
 
 </style>
