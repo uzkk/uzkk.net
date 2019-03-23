@@ -250,7 +250,7 @@ td
 
   &:disabled
     cursor default
-    background-color #777 !important
+    background-color #999 !important
 
 active-bg-color(color)
   background-color color
