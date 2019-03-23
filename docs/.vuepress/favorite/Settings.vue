@@ -21,14 +21,14 @@
     <div class="option-container">
       <div class="choice-container tac">
         选择排名数：
-        <span class="choice-item" v-for="(num, index) in ranks" :key="index">
+        <span class="choice-item opt-item" v-for="(num, index) in ranks" :key="index">
           <input type="radio" :value="num" v-model="ranknum">
           <label>{{ num }}</label>
         </span>
       </div>
       <div class="choice-container tac">
         选择立绘表情：
-        <span class="choice-item" v-for="(key, value) in faces">
+        <span class="choice-item opt-item" v-for="(key, value) in faces">
           <input type="radio" :value="value" v-model="face">
           <label>{{ key }}</label>
         </span>
@@ -167,10 +167,15 @@ export default {
   width: 10em;
 }
 
+.opt-item {
+  display: inline-block;
+  width: 4em;
+}
+
 .start-btn-container {
   margin-top: 1.3em;
   margin-bottom: 2em;
-  width: 15%;
+  width: 180px;
   margin-left: auto;
   margin-right: auto;
 }
