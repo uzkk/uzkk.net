@@ -68,7 +68,7 @@ export default {
 
 <style lang="stylus">
 
-.favorite footer
+.favorite
   margin 0 2em
 
 </style>

@@ -1,29 +1,39 @@
 <template>
   <div>
     <div class="choice-container option-container">
-      <div>
-        <span class="choice-item game-item">
-          <Checkbox
-            v-model="allSelected"
-            label="所有作品全选"
-          />
-        </span>
-        <span class="choice-item game-item">
-          <Checkbox
-            v-model="allStgSelected"
-            label="正作 STG 全选"
-          />
-        </span>
-      </div>
-      <div>
-        <span class="choice-item game-item" v-for="(game, index) in games" :key="index">
-          <Checkbox
-            :value="gamelist.includes(game.tag)"
-            :label="game.name"
-            @update="toggleGame(game.tag)"
-          />
-        </span>
-      </div>
+      <p class="title">
+        <Checkbox v-model="allSelected" label="所有作品全选"/>
+      </p>
+      <ul>
+        <li>
+          <p>
+            <Checkbox v-model="allStgSelected" label="正作 STG 全选"/>
+          </p>
+          <ul>
+            <li class="game-item" v-for="(game, index) in games.integer" :key="index">
+              <Checkbox
+                :value="gamelist.includes(game.tag)"
+                :label="game.name"
+                @update="toggleGame(game.tag)"
+              />
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <Checkbox v-model="otherSelected" label="外传 / 旧作全选"/>
+          </p>
+          <ul>
+            <li class="game-item" v-for="(game, index) in games.others" :key="index">
+              <Checkbox
+                :value="gamelist.includes(game.tag)"
+                :label="game.name"
+                @update="toggleGame(game.tag)"
+              />
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
     <div class="option-container">
       <div class="choice-container tac">
@@ -81,12 +91,6 @@ export default {
     this.games = games
   },
 
-  watch: {
-    gamelist(value) {
-      console.log(value)
-    }
-  },
-
   computed: {
     allSelected: {
       get () {
@@ -101,8 +105,17 @@ export default {
         return this.gamelist.endsWith('abcdefghijk')
       },
       set (value) {
-        const noSTG = this.gamelist.match(/[A-Z]*/)[0]
+        const noSTG = this.gamelist.match(/^[A-Z]*/)[0]
         this.gamelist = noSTG + (value ? 'abcdefghijk' : '')
+      },
+    },
+    otherSelected: {
+      get () {
+        return this.gamelist.startsWith('ABCDEF')
+      },
+      set (value) {
+        const STG = this.gamelist.match(/[a-z]*$/)[0]
+        this.gamelist = (value ? 'ABCDEF' : '') + STG
       },
     },
   },
@@ -124,50 +137,54 @@ export default {
 
 </script>
 
-<style scoped>
-.tac {
-  text-align: center;
-}
+<style lang="stylus" scoped>
 
-.option-container {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.5em;
-  margin-left: 5em;
-  margin-right: 5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding-left: 4em;
-  padding-right: 4em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
+.tac
+  text-align center
 
-.choice-item {
-  margin-left: 0.5em;
-  margin-right: 0.8em;
-}
+.option-container
+  margin 1em auto
+  padding 2em
+  border-radius .5em
+  background-color #fff
+  max-width 800px
 
-.game-item {
-  display: inline-block;
-  width: 10em;
-}
+  > :first-child
+    margin-top 0
 
-.opt-item {
-  display: inline-block;
-  width: 4em;
-}
+  > :last-child
+    margin-bottom 0
 
-.start-btn-container {
-  margin-top: 1.3em;
-  margin-bottom: 2em;
-  width: 180px;
-  margin-left: auto;
-  margin-right: auto;
-}
+p, ul
+  margin 0.6em 0
 
-.start-btn {
-  width: 100%;
-  display: block;
-}
+p.title
+  font-weight bold
+
+ul
+  line-height 1.6
+  padding-inline-start 1.6em
+
+li
+  list-style-type none
+
+li.game-item
+  display inline-block
+  width 9em
+
+.opt-item
+  display inline-block
+  width 4em
+
+.start-btn-container
+  margin-top 1.3em
+  margin-bottom 2em
+  width 180px
+  margin-left auto
+  margin-right auto
+
+.start-btn
+  width 100%
+  display block
+
 </style>
