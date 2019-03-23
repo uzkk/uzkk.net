@@ -1,5 +1,5 @@
 import SortObject from './SortObject'
-import characters from '../data/characters'
+import characters from '@dynamic/characters'
 
 export default class IDSortTree {
   constructor () {

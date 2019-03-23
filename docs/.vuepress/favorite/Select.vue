@@ -67,7 +67,7 @@
 
 import SortObject from '../utils/SortObject'
 import IDSortTree from '../utils/IDSortTree'
-import characters from '../data/characters'
+import characters from '@dynamic/characters'
 import Character from './Character'
 import Button from './Button'
 
@@ -89,7 +89,7 @@ export default {
   created () {
     this.rtNode = new SortObject(["!root", , , , ])
     for (const char of characters) {
-      for (const tag of char[4]) {
+      for (const tag of char[3]) {
         if (this.gamelist.includes(tag)) {
           this.rtNode.add(new SortObject(char), false)
           break

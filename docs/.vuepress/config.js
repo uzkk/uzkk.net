@@ -1,4 +1,6 @@
 const { resolve } = require('path')
+const { readFileSync } = require('fs')
+const { safeLoad } = require('js-yaml')
 
 module.exports = (context) => ({
   title: '二色幽紫蝶',
@@ -65,6 +67,14 @@ module.exports = (context) => ({
         footer: false,
       },
     })
+  },
+
+  clientDynamicModules () {
+    return {
+      name: 'characters.js',
+      content: 'export default ' +
+        JSON.stringify(safeLoad(readFileSync(resolve(__dirname, 'data/characters.yaml'), 'utf8'))),
+    }
   },
 
   evergreen: !context.isProd,

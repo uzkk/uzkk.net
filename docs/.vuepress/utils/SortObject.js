@@ -3,8 +3,7 @@ export default class SortObject {
     this.id = data[0]
     this.name = data[1]
     this.nick = data[2]
-    // 为了方便文件名排序(?)
-    this.img = 'c' + (this.id)
+    this.img = 'c' + String(this.id).padStart(3, '0')
     this.ext = '.png'
 
     // 上/下位关系（父子结点？）
