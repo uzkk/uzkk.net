@@ -73,6 +73,8 @@ export default {
     this.faces = faces
     this.ranks = ranks
     this.games = games
+    this.selectAllStg()
+    this.allStg = true
   },
   methods: {
     selectAll () {
