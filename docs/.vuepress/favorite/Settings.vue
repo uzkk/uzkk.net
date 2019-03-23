@@ -147,7 +147,7 @@ export default {
   padding 2em
   border-radius .5em
   background-color #fff
-  max-width 800px
+  max-width 1080px
 
   > :first-child
     margin-top 0

@@ -68,8 +68,5 @@ export default {
 
 <style lang="stylus">
 
-.favorite
-  margin 0 2em
-
 </style>
 
