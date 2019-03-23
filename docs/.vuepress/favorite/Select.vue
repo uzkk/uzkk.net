@@ -46,6 +46,7 @@
             class="btn opt-btn"
             title="重新作答上一题"
             @click="previous"
+            :disabled="questionCount === 1 || isPrevious"
           >
             等下，选错了……
           </button>
@@ -85,6 +86,7 @@ export default {
     bkpPair: [],
     questionCount: 1,
     currentRank: 0,
+    isPrevious: false
   }),
 
   created () {
@@ -174,6 +176,7 @@ export default {
     selectChar (index) {
       this.backup()
       this.pair[index].add(this.pair[1 - index], false)
+      this.isPrevious = false
       this.moveOn(false)
     },
     getImage (char) {
@@ -189,6 +192,7 @@ export default {
     previous () {
       this.restore()
       this.questionCount -= 2
+      this.isPrevious = true
       this.moveOn(true)
     }
   },
@@ -238,8 +242,14 @@ td
   &:focus
     outline 0
 
+  &:disabled
+    cursor default
+
 active-bg-color(color)
   background-color color
+
+  &:disabled
+    background-color lighten(color, 40%)
 
   &:hover
     background-color lighten(color, 30%)
