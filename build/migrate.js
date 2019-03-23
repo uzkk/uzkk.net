@@ -2,17 +2,17 @@ module.exports = {
   targetDir: '_posts',
   sitemap: 'http://uzkk.net/sitemap.xml',
   maxConcurrentTasks: 10,
-  getFileName(url) {
+  getFileName (url) {
     if (!/\?p=(\d+)/.test(url)) return false
     return RegExp.$1
   },
   renderRules: {
-    a(el, inner) {
+    a (el, inner) {
       const href = el.attribs.href
       return `[${inner().trim()}](${href})`
     },
   },
-  parseHTML($, render) {
+  parseHTML ($, render) {
     const article = $('article')
     const thumbnail = article.find('.post-thumbnail img').attr('src')
     let title = article.find('header h1').text()
@@ -49,5 +49,5 @@ module.exports = {
       filename: title.replace(/\\|\//g, ' ').replace(/!/g, '！'),
       content: `${content}`,
     }
-  }
+  },
 }

@@ -1,9 +1,9 @@
-module.exports = ({ isProd }) => ({
+const { resolve } = require('path')
+
+module.exports = (context) => ({
   title: '二色幽紫蝶',
 
   description: '东方 Project - 从入坑到入坟',
-
-  theme: 'uzkk',
 
   head: [
     ['link', { rel: 'icon', href: `/assets/logo/512x512.png` }],
@@ -11,20 +11,28 @@ module.exports = ({ isProd }) => ({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'msapplication-TileImage', content: '/assets/logo/144x144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ],
 
+  theme: 'uzkk',
+
   plugins: [
-    'dehydrate',
+    ['dehydrate'],
+    ['@uzkk/assets'],
     ['migrate', require('../../build/migrate')],
+    ['@vuepress/register-components', {
+      components: [
+        { name: 'Favorite', path: resolve(__dirname, 'favorite') },
+      ],
+    }],
   ],
 
   themeConfig: {
-    lang: Object.assign(require('vuepress-theme-uzkk/lib/langs/zh-CN'), {
+    lang: {
       home: '东方 Project - 从入坑到入坟',
       posts: 'My Posts',
-    }),
-    
+    },
+
     personalInfo: {
       nickname: 'shigma',
       description: '北冥有鱼，其名为咸',
@@ -41,10 +49,23 @@ module.exports = ({ isProd }) => ({
     },
 
     nav: [
-      { text: 'Home', link: '/', exact: true },
-      { text: 'Posts', link: '/posts/', exact: false  },
+      { text: '主页', link: '/', exact: true },
+      { text: '文章', link: '/posts/', exact: false },
+      { text: '本命测试', link: '/favorite/', exact: false },
     ],
   },
-  
-  evergreen: !isProd,
+
+  async ready () {
+    context.addPage({
+      title: '本命测试',
+      path: '/favorite/',
+      permalink: '/favorite/',
+      frontmatter: {
+        layout: 'Favorite',
+        footer: false,
+      },
+    })
+  },
+
+  evergreen: !context.isProd,
 })
