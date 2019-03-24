@@ -10,6 +10,19 @@
         返回主界面
       </Button>
     </div>
+    <div class="preference tac">
+      <h3>偏好分数</h3>
+      <table>
+        <tr>
+          <th>萝莉</th>
+          <th>BBA</th>
+        </tr>
+        <tr>
+          <td>{{ preference.loli }}</td>
+          <td>{{ preference.bba }}</td>
+        </tr>
+      </table>
+    </div>
     <div class="tac">
       <h2>您的前 {{ ranking.length }} 位本命角色排行：</h2>
     </div>
@@ -92,6 +105,7 @@
 <script>
 import ResultChar from './ResultChar'
 import Button from './Button'
+import characters from '@dynamic/characters'
 
 export default {
   name: 'Result',
@@ -101,13 +115,31 @@ export default {
   },
   props: ['ranking', 'face'],
   data () {
-    return {}
+    return {
+      preference: {
+        loli: 0,
+        bba: 0
+      }
+    }
   },
   methods: {
     backToSettings () {
       this.$emit('next', 'Settings')
     }
   },
+  created () {
+    let weightnum = Math.min(10, this.ranking.length)
+    let chars = this.ranking.slice(0, weightnum)
+    let weights = chars.map((char, index) => {
+      return 1 / ((index + 4) * (1 + 1.1 ** (index + 1 - char.meta.rank_cn7)))
+    })
+
+    for (let tag in this.preference) {
+      this.preference[tag] = weights.filter((w, index) => {
+        return chars[index].tags.includes(tag)
+      }).reduce((sum, w) => sum + w, 0)
+    }
+  }
 }
 </script>
 
