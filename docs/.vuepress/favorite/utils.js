@@ -1,5 +1,5 @@
 export function getCharImage (id, face) {
-  const TH_CHAR_PATH = 'https://vp.uzkk.net/assets/th-char'
+  // const TH_CHAR_PATH = 'https://vp.uzkk.net/assets/th-char'
   return `${TH_CHAR_PATH}/${face}/c${String(id).padStart(3, '0')}.png`
 }
 
