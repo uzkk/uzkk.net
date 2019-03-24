@@ -7,9 +7,12 @@
       ref="img"
       :src="src"
       :alt="node.name"
+      v-show="!loading"
       @load="check($event.target)"
     />
-    <i class="icon-spinner" v-show="loading"/>
+    <div class="mask" v-show="loading">
+      <i class="icon-spinner"/>
+    </div>
     <div class="info">
       <div class="name">{{ node.name }}</div>
       <div class="nick">{{ node.nick }}</div>
@@ -73,12 +76,10 @@ $bgColor = #0008
     width 100%
     display block
 
-  &.loading
+  .mask
+    width 100%
     padding-top 150%
     background #fff
-
-    img
-      display none
 
   i.icon-spinner
     color $accentColor
