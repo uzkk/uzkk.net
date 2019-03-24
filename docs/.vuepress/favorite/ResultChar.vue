@@ -10,12 +10,14 @@
 
 <script>
 
+import { getCharImage } from './utils'
+
 export default {
   props: ['node', 'face', 'size'],
 
   computed: {
     src () {
-      return `${TH_CHAR_PATH}/${this.face}/${this.node.img}.png`
+      return getCharImage(this.node.id, this.face)
     },
   },
 }

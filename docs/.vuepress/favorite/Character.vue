@@ -1,6 +1,15 @@
 <template>
-  <div class="char-view" @click.stop="$emit('click')">
-    <img :src="src" :alt="node.name">
+  <div
+    :class="['char-view', { loading }]"
+    @click.stop="$emit('click')"
+  >
+    <img
+      ref="img"
+      :src="src"
+      :alt="node.name"
+      @load="check($event.target)"
+    />
+    <i class="icon-spinner" v-show="loading"/>
     <div class="info">
       <div class="name">{{ node.name }}</div>
       <div class="nick">{{ node.nick }}</div>
@@ -10,12 +19,31 @@
 
 <script>
 
+import '../styles/icons.css'
+import { getCharImage } from './utils'
+
 export default {
   props: ['node', 'face'],
 
+  data: () => ({
+    loading: true,
+  }),
+
+  watch: {
+    src (value) {
+      this.check(this.$refs.img)
+    },
+  },
+
   computed: {
     src () {
-      return `${TH_CHAR_PATH}/${this.face}/${this.node.img}.png`
+      return getCharImage(this.node.id, this.face)
+    },
+  },
+
+  methods: {
+    check (img) {
+      this.loading = !img.src.endsWith(this.src)
     },
   },
 }
@@ -24,25 +52,50 @@ export default {
 
 <style lang="stylus" scoped>
 
+$bgColor = #0008
+
+@keyframes rotating
+  0%
+    transform rotateZ(0)
+  100%
+    transform:rotateZ(360deg)
+
 .char-view
-  width 100%
-  max-width 200px
+  width 200px
+  max-width 100%
   user-select none
   position relative
   border 1px solid black
   cursor pointer
-  box-shadow 0 0 2px 1px #0008
+  box-shadow 0 0 2px 1px $bgColor
 
   img
     width 100%
     display block
+
+  &.loading
+    padding-top 150%
+    background #fff
+
+    img
+      display none
+
+  i.icon-spinner
+    color $accentColor
+    font-size 3em
+    top 50%
+    left 0
+    width 100%
+    position absolute
+    margin-top -1em
+    animation rotating 1s linear infinite
 
   .info
     opacity 0
     position absolute
     width 100%
     transition 0.3s ease
-    background #0008
+    background $bgColor
     color #fffc
     bottom 0
     line-height 1.6
@@ -51,7 +104,7 @@ export default {
     .name
       font-size 1.2em
 
-  &:hover
+  &:hover, &.loading
     .info
       opacity 1
 
