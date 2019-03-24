@@ -118,7 +118,9 @@ export default {
     return {
       preference: {
         loli: 0,
-        bba: 0
+        bba: 0,
+        yousei: 0,
+        beast: 0
       }
     }
   },
