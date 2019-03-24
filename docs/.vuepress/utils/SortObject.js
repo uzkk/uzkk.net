@@ -10,6 +10,8 @@ export default class SortObject {
     this.parent = null
     this.isEven = false // 上位平局了？
     this.children = []
+    this.meta = data[4]
+    this.tags = data[5]
   }
 
   /**
