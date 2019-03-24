@@ -68,13 +68,9 @@
 import games from '../data/games'
 import Button from './Button'
 import Checkbox from './Checkbox'
+import { faces } from './utils'
 
 const ranks = [1, 5, 7, 10, 20]
-
-const faces = {
-  default: '正常',
-  smiling: '笑脸',
-}
 
 export default {
   components: { Button, Checkbox },

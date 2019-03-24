@@ -3,8 +3,6 @@ export default class SortObject {
     this.id = data[0]
     this.name = data[1]
     this.nick = data[2]
-    this.img = 'c' + String(this.id).padStart(3, '0')
-    this.ext = '.png'
 
     // 上/下位关系（父子结点？）
     this.parent = null
@@ -12,23 +10,6 @@ export default class SortObject {
     this.children = []
     this.meta = data[4]
     this.tags = data[5]
-  }
-
-  /**
-  * 获得图片路径（。。。路径跟跳过日语居然一样）
-  */
-  getImagePath () {
-    var strImageSrc = './char/'
-    // 没默认值时找文件夹(?)
-    if (FacePattern != 0 && FacePattern != FacePatternDefault) {
-      strImageSrc += 'f' + FacePattern + '/'
-    }
-    strImageSrc += this.img + this.ext
-    // 没图片时的特殊设定
-    if (FacePattern == noFacePatternNo) {
-      strImageSrc = './char/noImage.png'
-    }
-    return strImageSrc
   }
 
   /**
@@ -74,35 +55,6 @@ export default class SortObject {
     this.children.push(child)
     child.parent = this
   }
-
-  /**
-  * 提取子结点
-  */
-  /* ask (showRank) {
-    // 若指定了两边的角色，则搜索这俩
-    // 这俩角色都存在，则返回这俩角色
-    // 有不存在者，则按照后面的方式随机获取
-    // var isForceRandom = (arguments[0] == 'PASS')
-    if (this.children.length == 0) {
-      return false
-    }
-    if (this.children.length == 1) {
-      // 不存在相同排名的角色了 = 下一名确定
-      // var currentResultRank = this.level() + 1
-      // showRank(currentResultRank)
-      return this.children[0].ask()
-    }
-    var both = [0, 0]
-    while (true) {
-      if (both[0] != both[1]) {
-        break
-      }
-      for (var i in [0, 1]) {
-        both[i] = Math.floor(Math.random() * this.children.length)
-      }
-    }
-    return [this.children[both[0]], this.children[both[1]]]
-  } */
 
   /**
   * 删除
