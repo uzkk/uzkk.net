@@ -79,5 +79,5 @@ module.exports = (context) => ({
     }
   },
 
-  evergreen: !context.isProd,
+  evergreen: () => !context.isProd,
 })
