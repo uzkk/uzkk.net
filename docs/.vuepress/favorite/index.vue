@@ -1,5 +1,8 @@
 <template>
   <div class="favorite">
+    <header>
+      <h1>本命测试</h1>
+    </header>
     <FadeSlideTransition>
       <component :is="phase" :key="phase" @next="updatePhase" v-bind="state"/>
     </FadeSlideTransition>
@@ -39,6 +42,8 @@
 import Result from './Result'
 import Select from './Select'
 import Settings from './Settings'
+import { getCharImage, faces } from './utils'
+import characters from '@dynamic/characters'
 import FadeSlideTransition from '@theme-uzkk/transitions/FadeSlide'
 
 export default {
@@ -56,6 +61,16 @@ export default {
     state: {},
   }),
 
+  mounted () {
+    characters.forEach(([id]) => {
+      for (const face in faces) {
+        const link = document.head.appendChild(document.createElement('link'))
+        link.rel = 'prefetch'
+        link.href = getCharImage(id, face)
+      }
+    })
+  },
+
   methods: {
     updatePhase (nextPhase, state) {
       Object.assign(this.state, state)
@@ -66,7 +81,12 @@ export default {
 
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
+
+header
+  text-align center
+
+  h1
+    margin 3rem 0
 
 </style>
-

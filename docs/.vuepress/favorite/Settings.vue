@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="choice-container option-container">
+    <div class="option-container">
       <p class="title">
         <Checkbox v-model="allSelected" label="所有作品全选"/>
       </p>
@@ -21,7 +21,7 @@
         </li>
         <li>
           <p>
-            <Checkbox v-model="otherSelected" label="外传 / 旧作全选"/>
+            <Checkbox v-model="otherSelected" label="外传作品全选"/>
           </p>
           <ul>
             <li class="game-item" v-for="(game, index) in games.others" :key="index">
@@ -33,19 +33,33 @@
             </li>
           </ul>
         </li>
+        <li>
+          <p>
+            <Checkbox v-model="oldSelected" label="旧作全选"/>
+          </p>
+          <ul>
+            <li class="game-item" v-for="(game, index) in games.old" :key="index">
+              <Checkbox
+                :value="gamelist.includes(game.tag)"
+                :label="game.name"
+                @update="toggleGame(game.tag)"
+              />
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
     <div class="option-container">
-      <div class="choice-container tac">
+      <div class="tac">
         选择排名数：
         <span class="choice-item opt-item" v-for="(num, index) in ranks" :key="index">
           <input type="radio" :value="num" v-model="ranknum">
           <label>{{ num }}</label>
         </span>
       </div>
-      <div class="choice-container tac">
+      <div class="tac">
         选择立绘表情：
-        <span class="choice-item opt-item" v-for="(key, value) in faces">
+        <span class="choice-item opt-item" v-for="(key, value) in faces" :key="value">
           <input type="radio" :value="value" v-model="face">
           <label>{{ key }}</label>
         </span>
@@ -68,13 +82,9 @@
 import games from '../data/games'
 import Button from './Button'
 import Checkbox from './Checkbox'
+import { faces } from './utils'
 
 const ranks = [1, 5, 7, 10, 20]
-
-const faces = {
-  default: '正常',
-  smiling: '笑脸',
-}
 
 export default {
   components: { Button, Checkbox },
@@ -89,33 +99,62 @@ export default {
     this.faces = faces
     this.ranks = ranks
     this.games = games
+    this.stg = 'abcdefghijk'
+    this.other = 'ABCDE'
+    this.old = 'FGHIJ'
+    this.all = this.other + this.old + this.stg
   },
 
   computed: {
     allSelected: {
       get () {
-        return this.gamelist.length === 'ABCDEFabcdefghijk'.length
+        return this.gamelist.length === this.all.length
       },
       set (value) {
-        this.gamelist = value ? 'ABCDEFabcdefghijk' : ''
+        this.gamelist = value ? this.all : ''
       },
     },
     allStgSelected: {
       get () {
-        return this.gamelist.endsWith('abcdefghijk')
+        for (let game of this.stg) {
+          if (!this.gamelist.includes(game)) {
+            return false
+          }
+        }
+        return true
       },
       set (value) {
         const noSTG = this.gamelist.match(/^[A-Z]*/)[0]
-        this.gamelist = noSTG + (value ? 'abcdefghijk' : '')
+        this.gamelist = noSTG + (value ? this.stg : '')
       },
     },
     otherSelected: {
       get () {
-        return this.gamelist.startsWith('ABCDEF')
+        for (let game of this.other) {
+          if (!this.gamelist.includes(game)) {
+            return false
+          }
+        }
+        return true
+      },
+      set (value) {
+        const STG = this.gamelist.match(/[F-Za-z]*$/)[0]
+        this.gamelist = (value ? this.other : '') + STG
+      },
+    },
+    oldSelected: {
+      get () {
+        for (let game of this.old) {
+          if (!this.gamelist.includes(game)) {
+            return false
+          }
+        }
+        return true
       },
       set (value) {
         const STG = this.gamelist.match(/[a-z]*$/)[0]
-        this.gamelist = (value ? 'ABCDEF' : '') + STG
+        const other = this.gamelist.match(/^[A-E]*/)[0]
+        this.gamelist = other + (value ? this.old : '') + STG
       },
     },
   },
@@ -132,7 +171,7 @@ export default {
         this.gamelist = chars.sort().join('')
       }
     },
-  }
+  },
 }
 
 </script>
@@ -177,11 +216,8 @@ li.game-item
   width 4em
 
 .start-btn-container
-  margin-top 1.3em
-  margin-bottom 2em
-  width 180px
-  margin-left auto
-  margin-right auto
+  margin 2em auto
+  width 30%
 
 .start-btn
   width 100%

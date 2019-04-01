@@ -70,6 +70,7 @@ import IDSortTree from '../utils/IDSortTree'
 import characters from '@dynamic/characters'
 import Character from './Character'
 import Button from './Button'
+import Vue from 'vue'
 
 export default {
   name: 'Select',
@@ -87,11 +88,11 @@ export default {
   }),
 
   created () {
-    this.rtNode = new SortObject(["!root", , , , ])
+    this.rtNode = new SortObject('!root')
     for (const char of characters) {
       for (const tag of char[3]) {
         if (this.gamelist.includes(tag)) {
-          this.rtNode.add(new SortObject(char), false)
+          this.rtNode.add(new SortObject(...char), false)
           break
         }
       }
@@ -125,16 +126,16 @@ export default {
           return [left, right]
         }
       }
-      if (node.children.length == 0) {
+      if (node.children.length === 0) {
         return false
       }
-      if (node.children.length == 1) {
+      if (node.children.length === 1) {
         this.currentRank = node.level() + 1
         return this.ask(node.children[0])
       }
       const both = [0, 0]
       while (true) {
-        if (both[0] != both[1]) {
+        if (both[0] !== both[1]) {
           break
         }
         for (const i of [0, 1]) {
@@ -188,7 +189,7 @@ export default {
       this.questionCount -= 2
       this.isPrevious = true
       this.moveOn(true)
-    }
+    },
   },
 }
 

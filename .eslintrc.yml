@@ -11,9 +11,11 @@ rules:
   indent:
     - error
     - 2
-    - MemberExpression: off
+    - SwitchCase: 1
+      MemberExpression: off
   no-undef: error
   no-unused-vars: off
+  no-return-assign: off
   operator-linebreak:
     - error
     - before

@@ -15,7 +15,7 @@ export default class IDSortTree {
    * public void
    */
   setupCTree () {
-    this.cTree = new SortObject(['!root', , , , ])
+    this.cTree = new SortObject('!root')
     this.nodes = []
   }
 
@@ -48,8 +48,8 @@ export default class IDSortTree {
       var isEven = idTree.nodes[i].isEven
       var cItem = null
       for (var j = 0; j < characters.length; j++) {
-        if (nodeId == characters[j][0]) {
-          cItem = new SortObject(characters[j])
+        if (nodeId === characters[j][0]) {
+          cItem = new SortObject(...characters[j])
           cItem.isEven = isEven
           break
         }

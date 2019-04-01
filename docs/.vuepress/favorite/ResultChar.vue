@@ -1,5 +1,6 @@
 <template>
   <div class="char-view" :class="size">
+    <div class="rank">第 {{ rank }} 位</div>
     <img :src="src" :alt="node.name">
     <div class="info">
       <div class="name">{{ node.name }}</div>
@@ -10,12 +11,14 @@
 
 <script>
 
+import { getCharImage } from './utils'
+
 export default {
-  props: ['node', 'face', 'size'],
+  props: ['node', 'face', 'size', 'rank'],
 
   computed: {
     src () {
-      return `${TH_CHAR_PATH}/${this.face}/${this.node.img}.png`
+      return getCharImage(this.node.id, this.face)
     },
   },
 }
@@ -25,8 +28,14 @@ export default {
 <style lang="stylus" scoped>
 
 .char-view
+  display inline-block
   position relative
-  max-width 100%
+  margin 0 1.5em
+
+  .rank
+    color $textColor
+    line-height 1.6
+    padding 0.2em 0
 
   img
     width 100%
@@ -36,7 +45,6 @@ export default {
     box-shadow 0 0 2px 1px #0008
 
   .info
-    width 100%
     color $textColor
     line-height 1.6
     padding 0.2em 0
@@ -48,20 +56,17 @@ export default {
     .name
       font-size 1.2em
 
-  &.lg
+  &.lg, &.md, &.sm
     width 180px
     font-size 1.1rem
 
-  &.md
-    width 150px
-    font-size 1rem
+  @media (min-width 500px)
+    &.md
+      width 150px
+      font-size 1rem
 
-  &.sm
-    width 126px
-    font-size 0.9rem
-
-  &.xs
-    width 100px
-    font-size 0.8rem
+    &.sm
+      width 126px
+      font-size 0.9rem
 
 </style>

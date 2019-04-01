@@ -58,7 +58,7 @@ label
     line-height 1em
 
     > span
-      vertical-align bottom 
+      vertical-align bottom
       position relative
       display inline-block
       box-sizing border-box
@@ -104,7 +104,7 @@ label
 
     &::after
       transform rotate(45deg) scaleY(1)
-  
+
   &.checked
     color #409EFF
 
