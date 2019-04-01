@@ -14,12 +14,10 @@
       <h3>偏好分数</h3>
       <table>
         <tr>
-          <th>萝莉</th>
-          <th>BBA</th>
+          <th v-for="(item, tag) in preference" :key="tag">{{ item.name }}</th>
         </tr>
         <tr>
-          <td>{{ preference.loli }}</td>
-          <td>{{ preference.bba }}</td>
+          <td v-for="(item, tag) in preference" :key="tag">{{ item.value }}</td>
         </tr>
       </table>
     </div>
@@ -117,11 +115,27 @@ export default {
   data () {
     return {
       preference: {
-        loli: 0,
-        bba: 0,
-        yousei: 0,
-        beast: 0
-      }
+        loli: {
+          name: '萝莉',
+          value: 0
+        },
+        bba: {
+          name: 'BBA',
+          value: 0
+        },
+        yousei: {
+          name: '妖精',
+          value: 0
+        },
+        beast: {
+          name: '兽娘',
+          value: 0
+        },
+        old: {
+          name: '旧作',
+          value: 0
+        }
+      },
     }
   },
   methods: {

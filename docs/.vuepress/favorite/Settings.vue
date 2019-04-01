@@ -21,10 +21,24 @@
         </li>
         <li>
           <p>
-            <Checkbox v-model="otherSelected" label="外传 / 旧作全选"/>
+            <Checkbox v-model="otherSelected" label="外传作品全选"/>
           </p>
           <ul>
             <li class="game-item" v-for="(game, index) in games.others" :key="index">
+              <Checkbox
+                :value="gamelist.includes(game.tag)"
+                :label="game.name"
+                @update="toggleGame(game.tag)"
+              />
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <Checkbox v-model="oldSelected" label="旧作全选"/>
+          </p>
+          <ul>
+            <li class="game-item" v-for="(game, index) in games.old" :key="index">
               <Checkbox
                 :value="gamelist.includes(game.tag)"
                 :label="game.name"
@@ -85,20 +99,30 @@ export default {
     this.faces = faces
     this.ranks = ranks
     this.games = games
+    this.stg = 'abcdefghijk'
+    this.other = 'ABCDE'
+    this.old = 'FGHIJ'
+    this.all = this.stg + this.other + this.old
   },
 
   computed: {
     allSelected: {
       get () {
-        return this.gamelist.length === 'ABCDEFabcdefghijk'.length
+        return this.gamelist.length === this.all.length
       },
       set (value) {
-        this.gamelist = value ? 'ABCDEFabcdefghijk' : ''
+        this.gamelist = value ? this.all : ''
       },
     },
     allStgSelected: {
       get () {
-        return this.gamelist.endsWith('abcdefghijk')
+        for (let game of this.stg) {
+          if (!this.gamelist.includes(game)) {
+            return false
+          }
+        }
+        return true
+        // return this.gamelist.endsWith('abcdefghijk')
       },
       set (value) {
         const noSTG = this.gamelist.match(/^[A-Z]*/)[0]
@@ -107,11 +131,32 @@ export default {
     },
     otherSelected: {
       get () {
-        return this.gamelist.startsWith('ABCDEF')
+        for (let game of this.other) {
+          if (!this.gamelist.includes(game)) {
+            return false
+          }
+        }
+        return true
+        // return this.gamelist.startsWith('ABCDE')
       },
       set (value) {
-        const STG = this.gamelist.match(/[a-z]*$/)[0]
-        this.gamelist = (value ? 'ABCDEF' : '') + STG
+        const STG = this.gamelist.match(/[a-zF-Z]*$/)[0]
+        this.gamelist = (value ? this.other : '') + STG
+      },
+    },
+    oldSelected: {
+      get () {
+        for (let game of this.old) {
+          if (!this.gamelist.includes(game)) {
+            return false
+          }
+        }
+        return true
+        // return this.gamelist.startsWith('FGHIJ')
+      },
+      set (value) {
+        const winGames = this.gamelist.match(/[a-zA-E]*$/)[0]
+        this.gamelist = (value ? this.old : '') + winGames
       },
     },
   },
