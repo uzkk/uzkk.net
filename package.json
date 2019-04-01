@@ -22,7 +22,7 @@
     "eslint-plugin-vue": "^5.2.2",
     "vuepress": "^1.0.0-alpha.46",
     "vuepress-plugin-migrate": "^1.0.3",
-    "vuepress-theme-uzkk": "^1.0.0-alpha.8"
+    "vuepress-theme-uzkk": "^1.0.0-alpha.10"
   },
   "dependencies": {
     "vue-js-modal": "^1.3.28"

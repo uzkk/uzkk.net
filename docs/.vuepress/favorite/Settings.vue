@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="choice-container option-container">
+    <div class="option-container">
       <p class="title">
         <Checkbox v-model="allSelected" label="所有作品全选"/>
       </p>
@@ -50,14 +50,14 @@
       </ul>
     </div>
     <div class="option-container">
-      <div class="choice-container tac">
+      <div class="tac">
         选择排名数：
         <span class="choice-item opt-item" v-for="(num, index) in ranks" :key="index">
           <input type="radio" :value="num" v-model="ranknum">
           <label>{{ num }}</label>
         </span>
       </div>
-      <div class="choice-container tac">
+      <div class="tac">
         选择立绘表情：
         <span class="choice-item opt-item" v-for="(key, value) in faces" :key="value">
           <input type="radio" :value="value" v-model="face">
@@ -150,7 +150,6 @@ export default {
           }
         }
         return true
-        // return this.gamelist.startsWith('FGHIJ')
       },
       set (value) {
         const winGames = this.gamelist.match(/[a-zA-E]*$/)[0]
@@ -216,11 +215,8 @@ li.game-item
   width 4em
 
 .start-btn-container
-  margin-top 1.3em
-  margin-bottom 2em
-  width 180px
-  margin-left auto
-  margin-right auto
+  margin 2em auto
+  width 30%
 
 .start-btn
   width 100%

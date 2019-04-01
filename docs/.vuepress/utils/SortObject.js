@@ -1,5 +1,5 @@
 export default class SortObject {
-  constructor (data) {
+  constructor (...data) {
     this.id = data[0]
     this.name = data[1]
     this.nick = data[2]

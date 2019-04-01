@@ -15,6 +15,7 @@ rules:
       MemberExpression: off
   no-undef: error
   no-unused-vars: off
+  no-return-assign: off
   operator-linebreak:
     - error
     - before

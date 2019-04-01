@@ -15,8 +15,23 @@
         :size="size"
       />
     </div>
-    <div class="preference container">
-      <h3>偏好分数 (开发中)</h3>
+    <collapse-view initial="open" class="result container">
+      <h3 slot="header">投票结果</h3>
+      <table>
+        <tr>
+          <th>排名</th>
+          <th>姓名</th>
+          <th>称号</th>
+        </tr>
+        <tr v-for="({ name, nick }, index) in ranking" :key="index">
+          <td>{{ index + 1 }}</td>
+          <td>{{ name }}</td>
+          <td>{{ nick }}</td>
+        </tr>
+      </table>
+    </collapse-view>
+    <collapse-view initial="open" class="preference container">
+      <h3 slot="header">偏好分数 (开发中)</h3>
       <table>
         <tr>
           <th>属性名</th>
@@ -24,10 +39,10 @@
         </tr>
         <tr v-for="({ name, value }, tag) in preference" :key="tag">
           <td>{{ name }}</td>
-          <td>{{ value }}</td>
+          <td>{{ value ? value : '--' }}</td>
         </tr>
       </table>
-    </div>
+    </collapse-view>
     <div class="back-btn-container tac">
       <Button
         class="res-page-back-btn"
@@ -47,6 +62,7 @@ import ResultChar from './ResultChar'
 import Button from './Button'
 import tags from '../data/tags'
 import characters from '@dynamic/characters'
+import CollapseView from './CollapseView'
 
 function group (length, groupLength, startIndex) {
   const groups = new Array(Math.ceil(length / groupLength)).fill()
@@ -65,6 +81,7 @@ export default {
   name: 'Result',
 
   components: {
+    CollapseView,
     ResultChar,
     Button,
   },
@@ -126,29 +143,11 @@ export default {
 
 .back-btn-container
   width 30%
-  margin-left auto
-  margin-right auto
-  padding-top 1.7em
-  padding-bottom 1.7em
+  margin 1.7em auto
 
 .res-page-back-btn
   width 100%
   display block
-
-table
-  max-width 100%
-  border-collapse collapse
-  margin 1.5rem auto 0.7rem
-  text-align center
-
-tr
-  border-top 1px solid #dfe2e5
-  &:nth-child(2n)
-    background-color #f6f8fa
-
-th, td
-  border 1px solid #dfe2e5
-  padding .6em 1em
 
 .container
   margin 1em auto
@@ -162,5 +161,23 @@ th, td
 
   > :last-child
     margin-bottom 0
+
+  h3
+    margin 0
+
+  table
+    max-width 100%
+    border-collapse collapse
+    margin 1.5rem auto 0
+    text-align center
+
+  tr
+    border-top 1px solid #dfe2e5
+    &:nth-child(2n)
+      background-color #f6f8fa
+
+  th, td
+    border 1px solid #dfe2e5
+    padding .6em 1em
 
 </style>

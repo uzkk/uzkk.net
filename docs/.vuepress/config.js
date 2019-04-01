@@ -64,6 +64,9 @@ module.exports = (context) => ({
       frontmatter: {
         layout: 'Favorite',
         footer: false,
+        header: {
+          banner: false,
+        },
       },
     })
   },
