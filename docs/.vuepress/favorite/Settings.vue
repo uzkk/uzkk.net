@@ -59,7 +59,7 @@
       </div>
       <div class="choice-container tac">
         选择立绘表情：
-        <span class="choice-item opt-item" v-for="(key, value) in faces">
+        <span class="choice-item opt-item" v-for="(key, value) in faces" :key="value">
           <input type="radio" :value="value" v-model="face">
           <label>{{ key }}</label>
         </span>
@@ -122,7 +122,6 @@ export default {
           }
         }
         return true
-        // return this.gamelist.endsWith('abcdefghijk')
       },
       set (value) {
         const noSTG = this.gamelist.match(/^[A-Z]*/)[0]
@@ -137,7 +136,6 @@ export default {
           }
         }
         return true
-        // return this.gamelist.startsWith('ABCDE')
       },
       set (value) {
         const STG = this.gamelist.match(/[F-Za-z]*$/)[0]
@@ -174,7 +172,7 @@ export default {
         this.gamelist = chars.sort().join('')
       }
     },
-  }
+  },
 }
 
 </script>

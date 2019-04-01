@@ -3,7 +3,7 @@
     <h2 class="tac">您的前 {{ ranking.length }} 位本命角色排行：</h2>
     <div
       v-for="[size, start, end] in rankingGroups"
-      :class="['tac', size]"
+      class="tac row"
       :key="start"
     >
       <ResultChar
@@ -15,8 +15,8 @@
         :size="size"
       />
     </div>
-    <div class="preference tac">
-      <h3>偏好分数</h3>
+    <div class="preference container">
+      <h3>偏好分数 (开发中)</h3>
       <table>
         <tr>
           <th>属性名</th>
@@ -45,6 +45,7 @@
 
 import ResultChar from './ResultChar'
 import Button from './Button'
+import tags from '../data/tags'
 import characters from '@dynamic/characters'
 
 function group (length, groupLength, startIndex) {
@@ -70,32 +71,9 @@ export default {
 
   props: ['ranking', 'face'],
 
-  data () {
-    return {
-      preference: {
-        loli: {
-          name: '萝莉',
-          value: 0,
-        },
-        bba: {
-          name: 'BBA',
-          value: 0,
-        },
-        yousei: {
-          name: '妖精',
-          value: 0,
-        },
-        beast: {
-          name: '兽娘',
-          value: 0,
-        },
-        old: {
-          name: '旧作',
-          value: 0,
-        },
-      },
-    }
-  },
+  data: () => ({
+    preference: {},
+  }),
 
   computed: {
     rankingGroups () {
@@ -119,10 +97,13 @@ export default {
       return 1 / ((index + 4) * (1 + 1.1 ** (index + 1 - char.meta.rank_cn7)))
     })
 
-    for (const tag in this.preference) {
-      this.preference[tag] = weights.filter((w, index) => {
-        return chars[index].tags.includes(tag)
-      }).reduce((sum, w) => sum + w, 0)
+    for (const tag in tags) {
+      this.preference[tag] = {
+        name: tags[tag],
+        value: weights.filter((w, index) => {
+          return chars[index].tags.includes(tag)
+        }).reduce((sum, w) => sum + w, 0),
+      }
     }
   },
 
@@ -135,59 +116,51 @@ export default {
 
 </script>
 
-<style scoped>
+<style lang="stylus" scoped>
 
-.tac {
-  text-align: center !important;
-}
+.tac
+  text-align center
 
-.back-btn-container {
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 1.7em;
-  padding-bottom: 1.7em;
-}
+.row
+  margin 1rem 0
 
-.res-page-back-btn {
-  width: 100%;
-  display: block;
-}
+.back-btn-container
+  width 30%
+  margin-left auto
+  margin-right auto
+  padding-top 1.7em
+  padding-bottom 1.7em
 
-table {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1.5em;
-  margin-bottom: 0.7em;
-  text-align: center !important;
-}
+.res-page-back-btn
+  width 100%
+  display block
 
-td {
-  padding-bottom: 0.3em;
-}
+table
+  max-width 100%
+  border-collapse collapse
+  margin 1.5rem auto 0.7rem
+  text-align center
 
-td.lg {
-  padding-left: 2em;
-  padding-right: 2em;
-}
+tr
+  border-top 1px solid #dfe2e5
+  &:nth-child(2n)
+    background-color #f6f8fa
 
-td.md {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-}
+th, td
+  border 1px solid #dfe2e5
+  padding .6em 1em
 
-td.sm {
-  padding-left: 1.2em;
-  padding-right: 1.2em;
-}
+.container
+  margin 1em auto
+  padding 2em
+  border-radius .5em
+  background-color #fff
+  max-width 1080px
 
-td.xs {
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-}
+  > :first-child
+    margin-top 0
 
-tr.character {
-  padding-bottom: 0.8em
-}
+  > :last-child
+    margin-bottom 0
 
 </style>
