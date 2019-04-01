@@ -102,7 +102,7 @@ export default {
     this.stg = 'abcdefghijk'
     this.other = 'ABCDE'
     this.old = 'FGHIJ'
-    this.all = this.stg + this.other + this.old
+    this.all = this.other + this.old + this.stg
   },
 
   computed: {
@@ -126,7 +126,7 @@ export default {
       },
       set (value) {
         const noSTG = this.gamelist.match(/^[A-Z]*/)[0]
-        this.gamelist = noSTG + (value ? 'abcdefghijk' : '')
+        this.gamelist = noSTG + (value ? this.stg : '')
       },
     },
     otherSelected: {
@@ -140,7 +140,7 @@ export default {
         // return this.gamelist.startsWith('ABCDE')
       },
       set (value) {
-        const STG = this.gamelist.match(/[a-zF-Z]*$/)[0]
+        const STG = this.gamelist.match(/[F-Za-z]*$/)[0]
         this.gamelist = (value ? this.other : '') + STG
       },
     },
@@ -155,8 +155,9 @@ export default {
         // return this.gamelist.startsWith('FGHIJ')
       },
       set (value) {
-        const winGames = this.gamelist.match(/[a-zA-E]*$/)[0]
-        this.gamelist = (value ? this.old : '') + winGames
+        const STG = this.gamelist.match(/[a-z]*$/)[0]
+        const other = this.gamelist.match(/^[A-E]*/)[0]
+        this.gamelist = other + (value ? this.old : '') + STG
       },
     },
   },
