@@ -19,7 +19,6 @@ module.exports = (context) => ({
   theme: 'uzkk',
 
   plugins: [
-    ['dehydrate'],
     ['@uzkk/assets'],
     ['migrate', require('../../build/migrate')],
     ['@vuepress/register-components', {
@@ -72,8 +71,8 @@ module.exports = (context) => ({
   clientDynamicModules () {
     return {
       name: 'characters.js',
-      content: 'export default ' +
-        JSON.stringify(safeLoad(readFileSync(resolve(__dirname, 'data/characters.yaml'), 'utf8'))),
+      content: 'export default '
+        + JSON.stringify(safeLoad(readFileSync(resolve(__dirname, 'data/characters.yaml'), 'utf8'))),
     }
   },
 

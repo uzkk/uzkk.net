@@ -20,7 +20,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
-    "vuepress": "^1.0.0-alpha.44",
+    "vuepress": "^1.0.0-alpha.46",
     "vuepress-plugin-migrate": "^1.0.3",
     "vuepress-theme-uzkk": "^1.0.0-alpha.8"
   }
