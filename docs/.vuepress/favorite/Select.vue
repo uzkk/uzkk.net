@@ -70,6 +70,7 @@ import IDSortTree from '../utils/IDSortTree'
 import characters from '@dynamic/characters'
 import Character from './Character'
 import Button from './Button'
+import Vue from 'vue'
 
 export default {
   name: 'Select',
