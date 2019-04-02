@@ -1,7 +1,3 @@
-const { resolve } = require('path')
-const { readFileSync } = require('fs')
-const { safeLoad } = require('js-yaml')
-
 module.exports = (context) => ({
   title: '二色幽紫蝶',
 
@@ -19,13 +15,8 @@ module.exports = (context) => ({
   theme: 'uzkk',
 
   plugins: [
-    ['@uzkk/assets'],
+    [require('@uzkk/favorite')],
     ['migrate', require('../../build/migrate')],
-    ['@vuepress/register-components', {
-      components: [
-        { name: 'Favorite', path: resolve(__dirname, 'favorite') },
-      ],
-    }],
   ],
 
   themeConfig: {
@@ -54,29 +45,6 @@ module.exports = (context) => ({
       { text: '文章', link: '/posts/', exact: false },
       { text: '本命测试', link: '/favorite/', exact: false },
     ],
-  },
-
-  async ready () {
-    context.addPage({
-      title: '本命测试',
-      path: '/favorite/',
-      permalink: '/favorite/',
-      frontmatter: {
-        layout: 'Favorite',
-        footer: false,
-        header: {
-          banner: false,
-        },
-      },
-    })
-  },
-
-  clientDynamicModules () {
-    return {
-      name: 'characters.js',
-      content: 'export default '
-        + JSON.stringify(safeLoad(readFileSync(resolve(__dirname, 'data/characters.yaml'), 'utf8'))),
-    }
   },
 
   evergreen: () => !context.isProd,
