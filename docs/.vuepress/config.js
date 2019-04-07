@@ -8,6 +8,7 @@ module.exports = (context) => ({
   plugins: [
     [require('@uzkk/shared-assets')],
     [require('@uzkk/favorite')],
+    [require('@uzkk/quiz')],
     ['public-files', '.vuepress/public'],
     ['migrate', require('../../build/migrate')],
   ],

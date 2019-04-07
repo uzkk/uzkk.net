@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@uzkk/favorite": "^1.2.3",
+    "@uzkk/quiz": "^0.1.1",
     "@uzkk/shared-assets": "^0.0.3",
     "eslint": "^5.15.1",
     "eslint-config-standard": "^12.0.0",
